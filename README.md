@@ -281,4 +281,4 @@ This is a demonstration POC by **Paddy Iyer**. All code samples are for educatio
 
 ---
 
-**Built with Claude Opus 4.6 | Anthropic | AWS | Simultaneous | February 2026**
+**Built with Claude Opus 4.6 | Anthropic | AWS  | February 2026**
