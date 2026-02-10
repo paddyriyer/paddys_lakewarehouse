@@ -1,0 +1,451 @@
+alert_id,detected_date,detected_timestamp,customer_uid,related_order_id,fraud_type,severity,risk_score,flagged_amount,status,is_confirmed_fraud,is_false_positive,detection_method,investigating_team,resolution_hours,financial_impact,source_system
+FRD-00001,2025-04-02,2025-04-02T22:25:00,CUST-0c7c3a56-96f,ORD-001367,Geo Mismatch,Low,24.3,1406.13,False Positive,False,True,Pattern Matching,Data Quality,205.6,0.0,E-Commerce
+FRD-00002,2024-11-26,2024-11-26T07:39:00,CUST-6aa5e838-44d,ORD-001758,Round Amount,Medium,17.1,102981.05,Confirmed Fraud,True,False,Claude AI Analysis,Fraud Ops,95.3,7176.97,Salesforce
+FRD-00003,2025-03-05,2025-03-05T17:36:00,CUST-fa2f5d93-a21,ORD-001570,Phantom Vendor,Low,28.5,377436.74,Resolved,False,False,Rule-Based,Fraud Ops,68.1,0.0,SAP
+FRD-00004,2025-01-21,2025-01-21T21:22:00,CUST-e7676df9-da9,,Phantom Vendor,Low,34.7,473565.23,Resolved,False,False,ML Anomaly Model,Finance,201.7,0.0,SAP
+FRD-00005,2025-06-25,2025-06-25T19:03:00,CUST-a7e77c0b-c43,,Amount Spike,Low,22.9,162904.79,Investigating,False,False,Claude AI Analysis,Fraud Ops,,0.0,SAP
+FRD-00006,2024-06-17,2024-06-17T20:08:00,CUST-b3d15d6d-9a9,ORD-002553,Round Amount,Medium,58.7,48396.87,Open,False,False,Pattern Matching,Fraud Ops,,0.0,Payment Gateway
+FRD-00007,2025-09-15,2025-09-15T12:15:00,CUST-473fc6c7-b66,ORD-002685,Sequential IDs,Low,32.5,6913.14,Open,False,False,Manual Review,Security,,0.0,Oracle
+FRD-00008,2024-06-08,2024-06-08T04:11:00,CUST-7cce3624-d1d,ORD-000124,Round Amount,Medium,64.6,154793.23,Investigating,False,False,ML Anomaly Model,Data Quality,,0.0,SAP
+FRD-00009,2025-11-18,2025-11-18T04:16:00,CUST-caa194d8-a82,,PO Mismatch,Medium,50.6,59272.71,False Positive,False,True,ML Anomaly Model,Finance,219.6,0.0,Oracle
+FRD-00010,2025-11-21,2025-11-21T23:16:00,CUST-9a7c4e3c-070,ORD-000942,Velocity Anomaly,Critical,91.1,22562.34,False Positive,False,True,Rule-Based,Security,65.2,0.0,E-Commerce
+FRD-00011,2025-10-31,2025-10-31T01:01:00,CUST-14bc98e9-464,ORD-000657,Unusual Pattern,Low,17.4,1215.87,Resolved,False,False,Manual Review,Compliance,78.6,0.0,E-Commerce
+FRD-00012,2025-04-27,2025-04-27T14:15:00,CUST-0a02b342-2e5,,Round Amount,Medium,34.6,4886.89,Resolved,False,False,Rule-Based,Compliance,137.4,0.0,Payment Gateway
+FRD-00013,2024-07-09,2024-07-09T12:46:00,CUST-4f511782-bb3,ORD-000279,Duplicate Invoice,Low,30.0,13848.37,False Positive,False,True,Claude AI Analysis,Fraud Ops,115.5,0.0,E-Commerce
+FRD-00014,2025-04-26,2025-04-26T09:59:00,CUST-186a8ac0-f92,ORD-003315,Round Amount,Low,28.9,22719.35,False Positive,False,True,Rule-Based,Data Quality,23.4,0.0,Salesforce
+FRD-00015,2024-09-04,2024-09-04T02:36:00,CUST-7cd830a1-d9e,ORD-001165,After-Hours Access,Low,24.9,13133.16,Investigating,False,False,Claude AI Analysis,Compliance,,0.0,E-Commerce
+FRD-00016,2025-07-04,2025-07-04T22:20:00,CUST-61ec52ae-e77,ORD-001612,Sequential IDs,Low,7.7,28160.88,Investigating,False,False,Rule-Based,Compliance,,0.0,E-Commerce
+FRD-00017,2024-06-24,2024-06-24T10:05:00,CUST-4ce2a2d3-510,ORD-000389,Phantom Vendor,Low,21.2,228414.21,Investigating,False,False,Claude AI Analysis,Data Quality,,0.0,Payment Gateway
+FRD-00018,2025-10-23,2025-10-23T11:33:00,CUST-a0d27acf-3a0,ORD-002684,Phantom Vendor,Low,18.8,107560.72,False Positive,False,True,Pattern Matching,Data Quality,27.0,0.0,SAP
+FRD-00019,2025-03-21,2025-03-21T18:23:00,CUST-f25c12c9-8d9,,PO Mismatch,Low,16.4,8347.22,Confirmed Fraud,True,False,Manual Review,Compliance,175.9,2493.73,SAP
+FRD-00020,2025-09-26,2025-09-26T00:37:00,CUST-ea42bae6-aa1,ORD-000164,Amount Spike,Medium,57.8,10485.61,False Positive,False,True,ML Anomaly Model,Finance,44.6,0.0,Salesforce
+FRD-00021,2025-12-12,2025-12-12T01:26:00,CUST-0fbf53d7-14e,ORD-000057,After-Hours Access,Medium,21.4,20851.62,Resolved,False,False,ML Anomaly Model,Data Quality,34.2,0.0,SAP
+FRD-00022,2024-07-03,2024-07-03T02:22:00,CUST-b37b3a69-216,,Unusual Pattern,Medium,31.7,18706.77,Resolved,False,False,ML Anomaly Model,Compliance,109.9,0.0,SAP
+FRD-00023,2024-12-02,2024-12-02T10:28:00,CUST-1c6317a2-73f,,Geo Mismatch,Medium,24.3,33958.65,Resolved,False,False,Pattern Matching,Fraud Ops,186.2,0.0,Payment Gateway
+FRD-00024,2025-07-10,2025-07-10T08:37:00,CUST-caacfc5e-9aa,ORD-000449,Phantom Vendor,High,74.6,173206.57,False Positive,False,True,Claude AI Analysis,Security,81.6,0.0,SAP
+FRD-00025,2025-03-11,2025-03-11T05:09:00,CUST-d7053f8f-df8,ORD-002253,Split Transaction,High,61.9,21346.42,False Positive,False,True,Rule-Based,Compliance,233.2,0.0,Payment Gateway
+FRD-00026,2025-01-29,2025-01-29T14:20:00,CUST-d0ed37d5-850,ORD-001273,Round Amount,Medium,28.7,55821.69,False Positive,False,True,Claude AI Analysis,Security,66.6,0.0,E-Commerce
+FRD-00027,2025-11-03,2025-11-03T12:59:00,CUST-a0d27acf-3a0,ORD-000955,Identity Mismatch,Low,26.5,14004.22,Investigating,False,False,Rule-Based,Security,,0.0,E-Commerce
+FRD-00028,2025-09-11,2025-09-11T03:48:00,CUST-d123cb23-2d1,ORD-003498,After-Hours Access,Low,31.9,23626.57,Resolved,False,False,Claude AI Analysis,Data Quality,201.3,0.0,SAP
+FRD-00029,2026-01-04,2026-01-04T21:10:00,CUST-8bab851b-eb7,,Identity Mismatch,Low,27.6,6313.84,Confirmed Fraud,True,False,ML Anomaly Model,Security,37.3,186.54,Oracle
+FRD-00030,2025-12-20,2025-12-20T14:37:00,CUST-ef53c09d-517,,Duplicate Invoice,High,67.8,23464.55,Investigating,False,False,Rule-Based,Fraud Ops,,0.0,SAP
+FRD-00031,2025-11-14,2025-11-14T09:09:00,CUST-71bfa6f3-6fb,ORD-001501,PO Mismatch,Low,23.5,65180.03,Confirmed Fraud,True,False,ML Anomaly Model,Security,81.5,10750.15,E-Commerce
+FRD-00032,2025-10-05,2025-10-05T01:28:00,CUST-8d186e37-72a,,Amount Spike,Low,28.0,26700.1,Investigating,False,False,Manual Review,Fraud Ops,,0.0,Payment Gateway
+FRD-00033,2025-04-18,2025-04-18T10:09:00,CUST-5f28f039-dfd,ORD-002067,Unusual Pattern,Low,22.9,10095.3,Resolved,False,False,Manual Review,Compliance,113.5,0.0,Payment Gateway
+FRD-00034,2024-10-08,2024-10-08T08:09:00,CUST-ef92d2b6-1b3,ORD-001670,Amount Spike,Critical,96.9,5196.03,Investigating,False,False,Claude AI Analysis,Finance,,0.0,E-Commerce
+FRD-00035,2024-08-04,2024-08-04T15:16:00,CUST-4c34a1bc-07c,ORD-001045,Velocity Anomaly,Medium,46.7,39612.68,Resolved,False,False,ML Anomaly Model,Compliance,140.7,0.0,Payment Gateway
+FRD-00036,2025-04-30,2025-04-30T18:16:00,CUST-42bf8ae9-0a8,ORD-000672,Duplicate Invoice,Low,11.7,53850.5,Resolved,False,False,Pattern Matching,Finance,35.4,0.0,SAP
+FRD-00037,2024-08-30,2024-08-30T18:26:00,CUST-9c9abb14-e51,,Round Amount,Critical,85.6,150052.4,Open,False,False,Rule-Based,Finance,,0.0,SAP
+FRD-00038,2024-09-11,2024-09-11T09:25:00,CUST-3a279168-4a1,,Velocity Anomaly,Medium,51.4,19803.15,False Positive,False,True,Manual Review,Finance,92.8,0.0,Oracle
+FRD-00039,2026-01-01,2026-01-01T07:39:00,CUST-e4319f5f-158,ORD-000684,Velocity Anomaly,Medium,50.0,22575.59,Open,False,False,ML Anomaly Model,Fraud Ops,,0.0,Salesforce
+FRD-00040,2024-11-08,2024-11-08T04:59:00,CUST-16c2e879-5e9,ORD-002252,After-Hours Access,Low,32.8,13359.42,Investigating,False,False,Claude AI Analysis,Security,,0.0,Salesforce
+FRD-00041,2025-01-01,2025-01-01T05:40:00,CUST-c251573f-bce,ORD-002159,Velocity Anomaly,High,53.4,13398.52,Investigating,False,False,Rule-Based,Data Quality,,0.0,E-Commerce
+FRD-00042,2025-09-24,2025-09-24T01:30:00,CUST-b3d15d6d-9a9,,After-Hours Access,Medium,59.1,191697.74,Investigating,False,False,ML Anomaly Model,Fraud Ops,,0.0,Salesforce
+FRD-00043,2025-09-01,2025-09-01T17:27:00,CUST-c251573f-bce,ORD-000605,Amount Spike,Medium,64.5,1792.1,Confirmed Fraud,True,False,Rule-Based,Compliance,181.4,221.56,SAP
+FRD-00044,2024-12-31,2024-12-31T14:30:00,CUST-a167e706-e06,ORD-001810,Round Amount,Medium,31.5,27221.64,Investigating,False,False,Manual Review,Data Quality,,0.0,Salesforce
+FRD-00045,2025-05-13,2025-05-13T12:07:00,CUST-1c3ee2c1-a40,ORD-002129,PO Mismatch,High,65.0,16445.33,False Positive,False,True,Manual Review,Compliance,231.5,0.0,Oracle
+FRD-00046,2025-11-10,2025-11-10T15:11:00,CUST-97a39358-eac,,Unusual Pattern,Low,33.8,1535.87,False Positive,False,True,Manual Review,Finance,157.3,0.0,Oracle
+FRD-00047,2025-12-08,2025-12-08T02:14:00,CUST-a1d2fddc-227,ORD-001206,Split Transaction,Medium,59.2,47665.07,False Positive,False,True,Claude AI Analysis,Finance,148.1,0.0,Oracle
+FRD-00048,2024-11-05,2024-11-05T15:36:00,CUST-d3ebb857-e9c,,After-Hours Access,Medium,64.0,11094.87,Resolved,False,False,Pattern Matching,Finance,133.1,0.0,Payment Gateway
+FRD-00049,2026-01-12,2026-01-12T09:49:00,CUST-05c8ffd9-f86,ORD-002228,Round Amount,Medium,41.0,8296.56,False Positive,False,True,Pattern Matching,Finance,32.8,0.0,Payment Gateway
+FRD-00050,2025-03-09,2025-03-09T19:17:00,CUST-dbdbd1bc-994,ORD-001490,Split Transaction,High,64.5,7343.62,Open,False,False,ML Anomaly Model,Data Quality,,0.0,SAP
+FRD-00051,2025-09-23,2025-09-23T19:56:00,CUST-f62ee966-748,ORD-001167,PO Mismatch,Medium,46.1,9131.58,Confirmed Fraud,True,False,Claude AI Analysis,Compliance,223.0,2064.29,SAP
+FRD-00052,2025-03-12,2025-03-12T21:23:00,CUST-3ae8992a-62e,ORD-000046,Geo Mismatch,High,67.8,2094.92,Resolved,False,False,Claude AI Analysis,Data Quality,7.8,0.0,SAP
+FRD-00053,2024-08-25,2024-08-25T22:25:00,CUST-71bfa6f3-6fb,ORD-001149,Split Transaction,Medium,55.7,4238.32,Open,False,False,Manual Review,Data Quality,,0.0,SAP
+FRD-00054,2024-11-25,2024-11-25T11:08:00,CUST-c3bd156d-c50,ORD-000555,Sequential IDs,Low,13.9,676657.14,Investigating,False,False,Rule-Based,Fraud Ops,,0.0,E-Commerce
+FRD-00055,2024-12-07,2024-12-07T18:03:00,CUST-b3d15d6d-9a9,ORD-000047,Split Transaction,Low,30.6,7791.55,Resolved,False,False,Manual Review,Fraud Ops,47.8,0.0,E-Commerce
+FRD-00056,2025-12-25,2025-12-25T04:55:00,CUST-189062a7-4e5,ORD-002512,Split Transaction,Low,20.3,84045.95,False Positive,False,True,Manual Review,Finance,105.3,0.0,Payment Gateway
+FRD-00057,2025-05-02,2025-05-02T14:11:00,CUST-6adb28f2-10d,ORD-001791,Unusual Pattern,Medium,38.8,50111.42,Investigating,False,False,Rule-Based,Finance,,0.0,SAP
+FRD-00058,2026-01-03,2026-01-03T04:26:00,CUST-7250eea4-ac6,,After-Hours Access,Low,18.9,20436.47,Investigating,False,False,Manual Review,Finance,,0.0,Oracle
+FRD-00059,2025-02-23,2025-02-23T08:02:00,CUST-a03c0b4f-910,ORD-003397,PO Mismatch,Medium,32.8,22087.19,Resolved,False,False,ML Anomaly Model,Data Quality,26.9,0.0,SAP
+FRD-00060,2024-11-27,2024-11-27T03:10:00,CUST-578240f4-dfa,ORD-000648,After-Hours Access,Low,17.7,109807.84,False Positive,False,True,Manual Review,Security,11.3,0.0,Payment Gateway
+FRD-00061,2025-12-12,2025-12-12T17:00:00,CUST-3f719dcd-6fb,ORD-001353,Sequential IDs,Low,10.4,5088.4,False Positive,False,True,Claude AI Analysis,Security,191.0,0.0,SAP
+FRD-00062,2025-06-04,2025-06-04T23:03:00,CUST-ceec68ae-e8e,ORD-000250,Velocity Anomaly,Low,19.9,3665.37,False Positive,False,True,Pattern Matching,Data Quality,172.6,0.0,SAP
+FRD-00063,2025-07-29,2025-07-29T19:15:00,CUST-fcd4c8fe-d9a,ORD-001634,Duplicate Invoice,Low,16.8,50453.86,Resolved,False,False,ML Anomaly Model,Data Quality,19.2,0.0,Oracle
+FRD-00064,2025-01-17,2025-01-17T06:07:00,CUST-6f4d2791-0ce,ORD-000522,Unusual Pattern,Medium,45.9,26244.3,Resolved,False,False,Rule-Based,Data Quality,234.8,0.0,SAP
+FRD-00065,2025-11-08,2025-11-08T06:00:00,CUST-e6972ab5-a4f,ORD-001897,Round Amount,High,82.8,9090.73,Investigating,False,False,Claude AI Analysis,Fraud Ops,,0.0,Payment Gateway
+FRD-00066,2025-09-19,2025-09-19T21:42:00,CUST-f791c635-b67,ORD-001750,PO Mismatch,Low,22.9,71376.54,Investigating,False,False,Pattern Matching,Finance,,0.0,SAP
+FRD-00067,2024-12-08,2024-12-08T06:06:00,CUST-05c8ffd9-f86,ORD-000790,Sequential IDs,Low,12.7,23520.55,Open,False,False,Claude AI Analysis,Compliance,,0.0,E-Commerce
+FRD-00068,2024-11-30,2024-11-30T18:43:00,CUST-5404d270-36e,,Phantom Vendor,Low,24.4,467303.31,False Positive,False,True,Manual Review,Security,232.3,0.0,Salesforce
+FRD-00069,2024-11-02,2024-11-02T20:19:00,CUST-fcd4c8fe-d9a,,Identity Mismatch,Low,25.8,15601.67,False Positive,False,True,Claude AI Analysis,Finance,89.4,0.0,Salesforce
+FRD-00070,2024-12-05,2024-12-05T23:29:00,CUST-59a52c4d-18b,ORD-002158,Amount Spike,High,59.6,9396.18,Investigating,False,False,Claude AI Analysis,Data Quality,,0.0,Salesforce
+FRD-00071,2024-06-23,2024-06-23T05:01:00,CUST-5588d725-2c1,ORD-000076,Identity Mismatch,Medium,56.1,117759.06,False Positive,False,True,Manual Review,Data Quality,213.4,0.0,E-Commerce
+FRD-00072,2025-12-02,2025-12-02T16:43:00,CUST-fe6c7ec9-d4e,,Velocity Anomaly,Medium,55.3,9646.2,Resolved,False,False,Rule-Based,Fraud Ops,154.7,0.0,E-Commerce
+FRD-00073,2024-07-19,2024-07-19T14:42:00,CUST-573c8857-a33,,Geo Mismatch,Low,9.9,5874.6,Resolved,False,False,Pattern Matching,Security,58.8,0.0,Payment Gateway
+FRD-00074,2025-12-15,2025-12-15T16:43:00,CUST-f2b46941-722,ORD-003291,Identity Mismatch,Medium,25.2,18200.36,Investigating,False,False,Claude AI Analysis,Finance,,0.0,E-Commerce
+FRD-00075,2025-01-04,2025-01-04T10:25:00,CUST-0bb4ee19-718,ORD-003313,Geo Mismatch,High,56.9,83485.29,Investigating,False,False,Claude AI Analysis,Security,,0.0,Payment Gateway
+FRD-00076,2025-04-29,2025-04-29T13:53:00,CUST-cbd38259-4bf,ORD-002380,Unusual Pattern,Medium,53.8,79215.44,Resolved,False,False,ML Anomaly Model,Security,126.8,0.0,Oracle
+FRD-00077,2025-10-29,2025-10-29T17:49:00,CUST-4952acb8-e5b,ORD-000082,Split Transaction,High,77.1,81334.26,Investigating,False,False,Rule-Based,Fraud Ops,,0.0,Payment Gateway
+FRD-00078,2024-07-07,2024-07-07T10:48:00,CUST-800538a4-8cc,,PO Mismatch,Medium,46.2,14730.56,False Positive,False,True,ML Anomaly Model,Fraud Ops,225.2,0.0,Salesforce
+FRD-00079,2024-06-13,2024-06-13T22:07:00,CUST-ea42bae6-aa1,ORD-002332,Velocity Anomaly,Low,15.7,4364.49,False Positive,False,True,Rule-Based,Data Quality,66.3,0.0,Payment Gateway
+FRD-00080,2025-08-23,2025-08-23T13:09:00,CUST-cf18da3a-313,ORD-000951,Geo Mismatch,Low,22.2,59488.82,Resolved,False,False,Rule-Based,Finance,90.4,0.0,Payment Gateway
+FRD-00081,2025-05-05,2025-05-05T12:15:00,CUST-bd84a0b7-212,ORD-003089,Phantom Vendor,Low,17.1,413815.56,Resolved,False,False,Pattern Matching,Fraud Ops,64.7,0.0,Salesforce
+FRD-00082,2025-11-15,2025-11-15T14:24:00,CUST-dbdbd1bc-994,ORD-001130,Phantom Vendor,Low,11.3,373319.58,Investigating,False,False,ML Anomaly Model,Fraud Ops,,0.0,Salesforce
+FRD-00083,2025-07-31,2025-07-31T18:30:00,CUST-efe586c5-a06,ORD-002451,Split Transaction,Low,24.1,65527.3,Open,False,False,Pattern Matching,Compliance,,0.0,Oracle
+FRD-00084,2025-11-16,2025-11-16T14:45:00,CUST-c251573f-bce,ORD-000085,PO Mismatch,Critical,95.7,14689.65,Resolved,False,False,Manual Review,Fraud Ops,92.1,0.0,Oracle
+FRD-00085,2025-11-12,2025-11-12T09:42:00,CUST-e5311600-445,ORD-001719,Velocity Anomaly,Low,13.8,3623.2,Open,False,False,Manual Review,Compliance,,0.0,E-Commerce
+FRD-00086,2024-11-24,2024-11-24T22:46:00,CUST-4d27bd11-4cb,ORD-002398,Sequential IDs,Medium,49.4,22656.04,Resolved,False,False,ML Anomaly Model,Finance,82.9,0.0,Payment Gateway
+FRD-00087,2025-04-07,2025-04-07T17:07:00,CUST-6fe23896-d10,ORD-001599,Round Amount,Low,11.9,6708.42,Resolved,False,False,Manual Review,Finance,53.9,0.0,E-Commerce
+FRD-00088,2026-01-17,2026-01-17T09:11:00,CUST-9ad890f0-444,ORD-002269,After-Hours Access,Low,17.0,8004.78,Investigating,False,False,ML Anomaly Model,Compliance,,0.0,Payment Gateway
+FRD-00089,2025-03-19,2025-03-19T15:20:00,CUST-9c8a0fcb-b82,ORD-001970,Round Amount,Low,29.5,9408.52,False Positive,False,True,Manual Review,Compliance,234.5,0.0,Salesforce
+FRD-00090,2025-11-20,2025-11-20T15:00:00,CUST-d82eb551-86e,,Duplicate Invoice,High,67.5,249586.62,Resolved,False,False,Manual Review,Compliance,125.0,0.0,Salesforce
+FRD-00091,2024-08-23,2024-08-23T18:49:00,CUST-7753bde9-830,ORD-002298,After-Hours Access,Low,13.8,277416.79,Open,False,False,Manual Review,Security,,0.0,SAP
+FRD-00092,2025-12-26,2025-12-26T12:34:00,CUST-d0ed37d5-850,ORD-002780,PO Mismatch,Critical,91.0,27466.85,Confirmed Fraud,True,False,Pattern Matching,Data Quality,194.4,6351.48,Salesforce
+FRD-00093,2024-08-29,2024-08-29T08:56:00,CUST-ec41e7c9-3e1,ORD-002539,Phantom Vendor,Low,20.8,114650.16,False Positive,False,True,Pattern Matching,Security,94.7,0.0,E-Commerce
+FRD-00094,2024-10-08,2024-10-08T02:00:00,CUST-4df3a7c1-edf,ORD-002216,PO Mismatch,Medium,28.0,3295.81,Resolved,False,False,Claude AI Analysis,Data Quality,14.3,0.0,E-Commerce
+FRD-00095,2025-10-24,2025-10-24T00:44:00,CUST-eaec91df-c17,,Phantom Vendor,Low,18.7,403338.31,Resolved,False,False,ML Anomaly Model,Compliance,48.7,0.0,Payment Gateway
+FRD-00096,2024-12-15,2024-12-15T09:04:00,CUST-665df26d-e2c,,Velocity Anomaly,High,82.7,28801.42,Resolved,False,False,Pattern Matching,Fraud Ops,3.6,0.0,E-Commerce
+FRD-00097,2025-12-18,2025-12-18T14:30:00,CUST-42b302a7-adc,,Identity Mismatch,Medium,42.2,3605.25,Open,False,False,Rule-Based,Fraud Ops,,0.0,Payment Gateway
+FRD-00098,2024-09-24,2024-09-24T01:49:00,CUST-fa2f5d93-a21,ORD-002833,Velocity Anomaly,Low,21.1,9173.5,False Positive,False,True,Pattern Matching,Data Quality,150.7,0.0,Oracle
+FRD-00099,2024-07-29,2024-07-29T15:44:00,CUST-a353f075-89c,ORD-003451,Duplicate Invoice,Low,24.9,14113.62,Resolved,False,False,ML Anomaly Model,Fraud Ops,165.8,0.0,Salesforce
+FRD-00100,2025-03-13,2025-03-13T10:20:00,CUST-ba8d7fd7-cbb,ORD-002407,PO Mismatch,Low,15.5,260922.24,False Positive,False,True,Claude AI Analysis,Fraud Ops,79.2,0.0,E-Commerce
+FRD-00101,2025-12-25,2025-12-25T08:05:00,CUST-90655b74-c33,ORD-000605,After-Hours Access,Low,30.6,30853.12,Confirmed Fraud,True,False,Rule-Based,Compliance,26.0,8371.02,Salesforce
+FRD-00102,2025-12-21,2025-12-21T14:52:00,CUST-62590212-825,ORD-001547,Duplicate Invoice,Low,23.4,147637.87,False Positive,False,True,ML Anomaly Model,Security,79.4,0.0,Oracle
+FRD-00103,2025-05-19,2025-05-19T23:12:00,CUST-4df3a7c1-edf,ORD-001600,Unusual Pattern,Low,30.7,49967.85,False Positive,False,True,ML Anomaly Model,Compliance,52.5,0.0,Oracle
+FRD-00104,2025-01-20,2025-01-20T01:24:00,CUST-c251573f-bce,ORD-003217,Geo Mismatch,Medium,29.1,15240.69,False Positive,False,True,ML Anomaly Model,Compliance,152.9,0.0,Oracle
+FRD-00105,2024-09-13,2024-09-13T14:19:00,CUST-69809480-26e,,PO Mismatch,Medium,40.2,238911.1,Open,False,False,Manual Review,Fraud Ops,,0.0,Oracle
+FRD-00106,2025-11-21,2025-11-21T13:51:00,CUST-ed1bb99c-47d,ORD-002121,Amount Spike,Medium,33.7,155181.89,Confirmed Fraud,True,False,Manual Review,Security,148.9,39015.76,Payment Gateway
+FRD-00107,2025-03-21,2025-03-21T19:50:00,CUST-1c76bc59-2d9,ORD-003073,Round Amount,Low,31.1,1076966.33,Resolved,False,False,Manual Review,Finance,112.9,0.0,E-Commerce
+FRD-00108,2025-11-06,2025-11-06T12:36:00,CUST-ee331fcd-d36,ORD-003356,Unusual Pattern,Medium,53.0,21747.89,Resolved,False,False,ML Anomaly Model,Fraud Ops,208.6,0.0,E-Commerce
+FRD-00109,2024-10-28,2024-10-28T20:47:00,CUST-4d6a9866-d93,ORD-000307,After-Hours Access,Low,3.9,4064.31,Investigating,False,False,Claude AI Analysis,Finance,,0.0,Salesforce
+FRD-00110,2025-12-18,2025-12-18T16:27:00,CUST-b8f416fa-17c,,Velocity Anomaly,Low,19.3,39380.08,Confirmed Fraud,True,False,Claude AI Analysis,Compliance,147.4,3881.86,SAP
+FRD-00111,2024-10-11,2024-10-11T04:04:00,CUST-cc0fe717-8fc,ORD-003471,Velocity Anomaly,Low,21.6,29370.45,Investigating,False,False,Manual Review,Fraud Ops,,0.0,SAP
+FRD-00112,2025-06-13,2025-06-13T06:32:00,CUST-09cc650b-19e,ORD-002860,Velocity Anomaly,Low,12.4,1230.1,Resolved,False,False,Manual Review,Data Quality,78.7,0.0,Payment Gateway
+FRD-00113,2025-09-23,2025-09-23T23:41:00,CUST-9b4bd5cb-c15,ORD-003342,After-Hours Access,Medium,64.2,182127.44,False Positive,False,True,Claude AI Analysis,Data Quality,13.0,0.0,Payment Gateway
+FRD-00114,2026-01-25,2026-01-25T19:16:00,CUST-ef92d2b6-1b3,ORD-003421,Round Amount,Low,24.5,11916.6,Open,False,False,Pattern Matching,Data Quality,,0.0,Salesforce
+FRD-00115,2024-09-06,2024-09-06T00:14:00,CUST-da6a3aaa-568,ORD-001860,Geo Mismatch,Low,19.6,13442.35,Open,False,False,ML Anomaly Model,Compliance,,0.0,Salesforce
+FRD-00116,2025-02-21,2025-02-21T05:31:00,CUST-0b9e8c23-fc9,ORD-000918,Phantom Vendor,Medium,57.9,497470.24,Resolved,False,False,Claude AI Analysis,Data Quality,151.3,0.0,Oracle
+FRD-00117,2024-11-23,2024-11-23T17:54:00,CUST-1c030213-4e9,ORD-001644,Split Transaction,High,84.5,1092.08,Resolved,False,False,Pattern Matching,Finance,99.8,0.0,Salesforce
+FRD-00118,2025-02-01,2025-02-01T20:16:00,CUST-562fb84b-e07,ORD-002250,Round Amount,High,78.9,25267.44,Open,False,False,Claude AI Analysis,Security,,0.0,SAP
+FRD-00119,2025-05-04,2025-05-04T14:53:00,CUST-d33c78a8-ae0,,After-Hours Access,Low,31.1,8460.22,False Positive,False,True,Manual Review,Data Quality,87.2,0.0,SAP
+FRD-00120,2024-11-02,2024-11-02T09:57:00,CUST-b6d34722-2d2,,Identity Mismatch,Low,35.1,1508.07,Resolved,False,False,Pattern Matching,Fraud Ops,78.0,0.0,Salesforce
+FRD-00121,2024-12-24,2024-12-24T15:01:00,CUST-3dfae9e6-911,,Unusual Pattern,Low,21.7,25750.68,Open,False,False,Pattern Matching,Security,,0.0,Salesforce
+FRD-00122,2024-06-08,2024-06-08T06:08:00,CUST-50e3c112-6e8,ORD-002835,Round Amount,Medium,48.0,40161.77,Confirmed Fraud,True,False,Pattern Matching,Data Quality,20.0,2212.58,SAP
+FRD-00123,2025-01-17,2025-01-17T21:28:00,CUST-09a51ccf-570,ORD-000516,Phantom Vendor,High,53.2,303086.97,Open,False,False,Manual Review,Security,,0.0,Salesforce
+FRD-00124,2024-11-07,2024-11-07T16:02:00,CUST-c3bd10b6-037,ORD-002562,Split Transaction,Medium,34.8,46158.28,False Positive,False,True,Manual Review,Compliance,188.5,0.0,Payment Gateway
+FRD-00125,2024-06-29,2024-06-29T02:37:00,CUST-2dea9de5-bae,ORD-000297,Identity Mismatch,Medium,40.0,12237.6,False Positive,False,True,ML Anomaly Model,Fraud Ops,46.7,0.0,E-Commerce
+FRD-00126,2024-06-24,2024-06-24T23:50:00,CUST-85fa53cb-fe2,ORD-002632,Sequential IDs,Low,17.9,11070.45,False Positive,False,True,ML Anomaly Model,Security,109.5,0.0,Payment Gateway
+FRD-00127,2025-02-28,2025-02-28T18:44:00,CUST-ebf180d5-5cf,ORD-003399,Identity Mismatch,Low,13.4,2785.19,False Positive,False,True,Rule-Based,Security,214.1,0.0,Oracle
+FRD-00128,2025-01-18,2025-01-18T02:34:00,CUST-915c6a9c-9e7,,Duplicate Invoice,High,72.7,1271.14,Confirmed Fraud,True,False,Pattern Matching,Security,89.5,88.76,Oracle
+FRD-00129,2024-11-18,2024-11-18T03:16:00,CUST-360a8d5c-e1f,,After-Hours Access,Medium,41.8,6801.78,Resolved,False,False,Rule-Based,Finance,114.7,0.0,Salesforce
+FRD-00130,2026-01-24,2026-01-24T08:08:00,CUST-da6a3aaa-568,ORD-001901,PO Mismatch,High,83.9,41743.93,Investigating,False,False,Claude AI Analysis,Security,,0.0,Payment Gateway
+FRD-00131,2024-08-17,2024-08-17T20:15:00,CUST-c37571f3-bc7,ORD-002286,Velocity Anomaly,High,63.7,156644.34,Investigating,False,False,Manual Review,Security,,0.0,Oracle
+FRD-00132,2025-03-29,2025-03-29T21:19:00,CUST-40b0aeed-879,ORD-002173,PO Mismatch,Low,16.6,100323.14,False Positive,False,True,ML Anomaly Model,Finance,60.8,0.0,SAP
+FRD-00133,2025-02-05,2025-02-05T00:03:00,CUST-7a47be44-1f1,ORD-001404,Phantom Vendor,Low,25.8,201573.94,False Positive,False,True,ML Anomaly Model,Data Quality,170.0,0.0,E-Commerce
+FRD-00134,2025-02-27,2025-02-27T13:23:00,CUST-4de273be-049,ORD-002330,Round Amount,High,64.6,8503.46,Resolved,False,False,ML Anomaly Model,Fraud Ops,151.1,0.0,SAP
+FRD-00135,2026-01-30,2026-01-30T17:39:00,CUST-f5226893-88d,ORD-003135,After-Hours Access,Medium,49.1,29715.1,False Positive,False,True,Manual Review,Compliance,156.0,0.0,E-Commerce
+FRD-00136,2025-12-05,2025-12-05T03:40:00,CUST-3d578b45-e00,ORD-003380,Velocity Anomaly,Medium,57.4,57299.84,Open,False,False,Manual Review,Finance,,0.0,Payment Gateway
+FRD-00137,2025-09-13,2025-09-13T12:44:00,CUST-bfd48af8-2b5,ORD-000549,Amount Spike,Medium,34.4,5350.46,False Positive,False,True,ML Anomaly Model,Finance,207.5,0.0,E-Commerce
+FRD-00138,2025-10-29,2025-10-29T01:57:00,CUST-b1d4f983-28b,ORD-003125,Geo Mismatch,Low,31.0,416498.0,Open,False,False,Pattern Matching,Compliance,,0.0,Oracle
+FRD-00139,2024-12-11,2024-12-11T02:07:00,CUST-d66baa2b-e5a,ORD-002494,Round Amount,Medium,47.4,1328.31,Resolved,False,False,ML Anomaly Model,Security,51.3,0.0,Payment Gateway
+FRD-00140,2025-05-20,2025-05-20T11:48:00,CUST-d182e8dd-d53,ORD-000588,PO Mismatch,High,75.4,50650.21,Investigating,False,False,Rule-Based,Fraud Ops,,0.0,SAP
+FRD-00141,2025-11-28,2025-11-28T21:00:00,CUST-363bac99-c50,ORD-000722,After-Hours Access,Low,23.0,17563.77,False Positive,False,True,ML Anomaly Model,Security,151.6,0.0,Salesforce
+FRD-00142,2025-10-21,2025-10-21T11:37:00,CUST-a9ca2aea-b76,ORD-000202,Round Amount,Medium,63.0,206759.84,Resolved,False,False,Rule-Based,Data Quality,2.9,0.0,Oracle
+FRD-00143,2025-02-08,2025-02-08T04:16:00,CUST-6a3d0d58-c4d,ORD-000076,PO Mismatch,High,60.8,3052.02,Investigating,False,False,Pattern Matching,Security,,0.0,E-Commerce
+FRD-00144,2025-08-03,2025-08-03T20:36:00,CUST-7250eea4-ac6,ORD-003226,Unusual Pattern,Medium,35.5,10456.17,Investigating,False,False,Manual Review,Finance,,0.0,SAP
+FRD-00145,2026-01-07,2026-01-07T08:41:00,CUST-bb5d248d-6b3,ORD-002104,PO Mismatch,Low,12.2,31492.6,False Positive,False,True,ML Anomaly Model,Finance,101.8,0.0,Payment Gateway
+FRD-00146,2025-05-01,2025-05-01T05:28:00,CUST-a0ba2600-aa6,ORD-000687,Identity Mismatch,Low,8.4,39127.42,Open,False,False,Claude AI Analysis,Finance,,0.0,Oracle
+FRD-00147,2024-06-28,2024-06-28T13:43:00,CUST-8227b815-fe6,ORD-000067,Identity Mismatch,Low,2.3,9228.39,False Positive,False,True,Manual Review,Finance,147.7,0.0,Salesforce
+FRD-00148,2026-01-01,2026-01-01T14:05:00,CUST-f673977c-ead,ORD-000598,Identity Mismatch,Low,14.9,22963.05,Resolved,False,False,Pattern Matching,Data Quality,53.2,0.0,E-Commerce
+FRD-00149,2024-09-05,2024-09-05T05:35:00,CUST-402fdf75-7d2,ORD-002072,Split Transaction,High,57.3,2130.88,Investigating,False,False,ML Anomaly Model,Security,,0.0,Salesforce
+FRD-00150,2025-03-27,2025-03-27T06:26:00,CUST-96b5edc3-0e2,ORD-000031,Split Transaction,Medium,58.7,15266.11,Open,False,False,ML Anomaly Model,Compliance,,0.0,Oracle
+FRD-00151,2025-04-01,2025-04-01T02:23:00,CUST-4127b57d-f71,,PO Mismatch,Medium,48.6,22481.9,Open,False,False,ML Anomaly Model,Compliance,,0.0,Oracle
+FRD-00152,2024-10-28,2024-10-28T15:09:00,CUST-4fb61a56-1f4,ORD-002215,Round Amount,Medium,51.4,9684.18,Resolved,False,False,ML Anomaly Model,Compliance,216.1,0.0,E-Commerce
+FRD-00153,2025-12-01,2025-12-01T00:16:00,CUST-4de54c0b-ff6,,PO Mismatch,Medium,28.7,11955.94,Investigating,False,False,Claude AI Analysis,Data Quality,,0.0,SAP
+FRD-00154,2025-07-14,2025-07-14T01:35:00,CUST-19ae1001-e25,,Velocity Anomaly,Medium,54.8,15398.01,Resolved,False,False,Manual Review,Finance,44.6,0.0,Oracle
+FRD-00155,2025-09-14,2025-09-14T02:29:00,CUST-7675f8f1-a4b,,After-Hours Access,Low,18.8,18263.09,Resolved,False,False,Rule-Based,Security,208.7,0.0,Payment Gateway
+FRD-00156,2025-01-16,2025-01-16T20:13:00,CUST-0dfeb2cf-4a6,ORD-001158,Amount Spike,Medium,47.3,20185.19,Confirmed Fraud,True,False,Claude AI Analysis,Fraud Ops,174.7,2669.46,Salesforce
+FRD-00157,2025-05-01,2025-05-01T05:12:00,CUST-f164e563-4e1,ORD-000746,Round Amount,Low,10.7,54910.84,Confirmed Fraud,True,False,Claude AI Analysis,Compliance,120.8,8535.33,Salesforce
+FRD-00158,2025-09-09,2025-09-09T14:30:00,CUST-0d3632ae-f9b,ORD-002632,After-Hours Access,Low,15.8,110693.45,Investigating,False,False,Pattern Matching,Data Quality,,0.0,Oracle
+FRD-00159,2025-08-30,2025-08-30T07:31:00,CUST-9469be45-540,ORD-000339,Split Transaction,High,73.3,9937.89,Open,False,False,Rule-Based,Compliance,,0.0,E-Commerce
+FRD-00160,2025-12-19,2025-12-19T18:14:00,CUST-313b9f47-376,ORD-000127,Unusual Pattern,Low,12.5,34130.83,False Positive,False,True,Rule-Based,Compliance,39.6,0.0,Oracle
+FRD-00161,2025-05-16,2025-05-16T21:26:00,CUST-ebe541ed-b72,ORD-001060,Phantom Vendor,Medium,46.3,426263.3,Resolved,False,False,Pattern Matching,Data Quality,73.9,0.0,Oracle
+FRD-00162,2025-06-16,2025-06-16T21:03:00,CUST-114b61d6-25c,ORD-002681,PO Mismatch,Low,13.9,22744.93,Investigating,False,False,Rule-Based,Finance,,0.0,Payment Gateway
+FRD-00163,2025-12-24,2025-12-24T05:50:00,CUST-06bc49bc-f2a,ORD-003365,Phantom Vendor,Medium,47.8,134455.33,Confirmed Fraud,True,False,ML Anomaly Model,Security,44.3,10306.03,Salesforce
+FRD-00164,2025-05-23,2025-05-23T08:07:00,CUST-fa2f5d93-a21,,Amount Spike,Low,18.9,77864.76,Resolved,False,False,ML Anomaly Model,Security,136.7,0.0,Oracle
+FRD-00165,2026-01-15,2026-01-15T10:03:00,CUST-7a0fa067-748,,Duplicate Invoice,Medium,58.6,1752.26,Resolved,False,False,Claude AI Analysis,Fraud Ops,238.8,0.0,E-Commerce
+FRD-00166,2024-10-01,2024-10-01T08:42:00,CUST-de9a1b7c-f3d,ORD-002109,Sequential IDs,Low,15.5,47717.94,Resolved,False,False,Manual Review,Data Quality,149.5,0.0,Payment Gateway
+FRD-00167,2024-11-05,2024-11-05T02:05:00,CUST-96d6e802-c4f,ORD-001498,After-Hours Access,Medium,42.7,411994.57,False Positive,False,True,Claude AI Analysis,Data Quality,179.8,0.0,Salesforce
+FRD-00168,2025-11-15,2025-11-15T15:02:00,CUST-3cfe95bd-4d9,ORD-002797,PO Mismatch,Medium,40.1,2813.07,False Positive,False,True,Manual Review,Finance,87.8,0.0,E-Commerce
+FRD-00169,2025-01-27,2025-01-27T00:09:00,CUST-c7162a09-6ff,ORD-000087,Sequential IDs,Medium,51.5,14434.83,Resolved,False,False,Rule-Based,Fraud Ops,220.8,0.0,E-Commerce
+FRD-00170,2024-08-30,2024-08-30T11:30:00,CUST-92398674-025,ORD-003420,Sequential IDs,Medium,59.6,15999.16,False Positive,False,True,Manual Review,Fraud Ops,178.5,0.0,SAP
+FRD-00171,2025-03-13,2025-03-13T15:36:00,CUST-bf9d7887-bbe,ORD-003469,After-Hours Access,Medium,59.9,90726.73,Confirmed Fraud,True,False,Rule-Based,Fraud Ops,188.0,26468.86,Oracle
+FRD-00172,2025-02-07,2025-02-07T08:05:00,CUST-e7e6619f-22a,ORD-000331,Phantom Vendor,High,60.6,433433.11,Resolved,False,False,ML Anomaly Model,Fraud Ops,139.6,0.0,SAP
+FRD-00173,2024-07-26,2024-07-26T09:28:00,CUST-f5226893-88d,ORD-002797,Geo Mismatch,High,76.4,78910.98,Confirmed Fraud,True,False,Claude AI Analysis,Security,194.6,255.63,SAP
+FRD-00174,2025-08-04,2025-08-04T06:08:00,CUST-915c6a9c-9e7,ORD-001699,Split Transaction,Low,23.1,8918.65,False Positive,False,True,Manual Review,Finance,223.5,0.0,SAP
+FRD-00175,2025-06-17,2025-06-17T04:13:00,CUST-fe116d18-a52,ORD-000305,After-Hours Access,Medium,40.1,12425.21,Investigating,False,False,Manual Review,Fraud Ops,,0.0,SAP
+FRD-00176,2025-10-23,2025-10-23T16:33:00,CUST-25053634-a20,ORD-001309,Velocity Anomaly,Medium,49.7,826.71,False Positive,False,True,Rule-Based,Compliance,21.0,0.0,Salesforce
+FRD-00177,2026-01-25,2026-01-25T17:16:00,CUST-ac9b9ea1-495,ORD-001440,Phantom Vendor,Medium,35.1,465408.93,False Positive,False,True,Pattern Matching,Finance,156.9,0.0,E-Commerce
+FRD-00178,2025-11-24,2025-11-24T02:31:00,CUST-bfa30759-a46,,Split Transaction,Medium,27.0,2860.06,False Positive,False,True,ML Anomaly Model,Compliance,37.2,0.0,SAP
+FRD-00179,2024-08-16,2024-08-16T03:10:00,CUST-05bde016-c93,ORD-001690,Amount Spike,Critical,95.4,12653.23,Investigating,False,False,Pattern Matching,Finance,,0.0,SAP
+FRD-00180,2025-09-21,2025-09-21T13:57:00,CUST-90655b74-c33,,Split Transaction,Medium,45.6,20287.66,False Positive,False,True,ML Anomaly Model,Finance,197.4,0.0,Payment Gateway
+FRD-00181,2024-08-30,2024-08-30T19:48:00,CUST-bdb8084f-c35,ORD-001978,Duplicate Invoice,Medium,52.3,2255.29,False Positive,False,True,Claude AI Analysis,Compliance,110.5,0.0,Payment Gateway
+FRD-00182,2024-10-23,2024-10-23T18:21:00,CUST-fb129323-cd6,ORD-002001,After-Hours Access,Critical,82.6,150783.42,Open,False,False,Rule-Based,Fraud Ops,,0.0,Salesforce
+FRD-00183,2025-05-21,2025-05-21T01:10:00,CUST-caa194d8-a82,ORD-000573,After-Hours Access,Low,32.0,1052.89,Investigating,False,False,Manual Review,Compliance,,0.0,SAP
+FRD-00184,2025-11-09,2025-11-09T00:11:00,CUST-09cc650b-19e,ORD-001618,Identity Mismatch,Medium,53.5,1134.19,Investigating,False,False,Pattern Matching,Finance,,0.0,E-Commerce
+FRD-00185,2025-11-29,2025-11-29T12:28:00,CUST-a28074bb-b58,ORD-003379,After-Hours Access,High,74.8,7539.44,Open,False,False,Claude AI Analysis,Data Quality,,0.0,E-Commerce
+FRD-00186,2024-10-25,2024-10-25T09:00:00,CUST-259c8fd1-21d,ORD-000804,Phantom Vendor,Medium,40.8,194189.45,Resolved,False,False,Pattern Matching,Data Quality,84.7,0.0,E-Commerce
+FRD-00187,2025-02-18,2025-02-18T18:21:00,CUST-eaec91df-c17,ORD-002533,Duplicate Invoice,High,68.4,4323.64,Open,False,False,ML Anomaly Model,Compliance,,0.0,Oracle
+FRD-00188,2024-06-28,2024-06-28T03:44:00,CUST-29f8bf15-7d6,ORD-000315,After-Hours Access,High,66.6,29033.77,Investigating,False,False,Manual Review,Fraud Ops,,0.0,SAP
+FRD-00189,2025-12-09,2025-12-09T07:56:00,CUST-2e0aaf5c-297,ORD-000512,PO Mismatch,High,76.6,11554.1,False Positive,False,True,Manual Review,Data Quality,154.6,0.0,Salesforce
+FRD-00190,2024-12-26,2024-12-26T20:54:00,CUST-0a868d2a-e40,ORD-000838,Sequential IDs,Low,25.0,64725.34,False Positive,False,True,Claude AI Analysis,Fraud Ops,153.0,0.0,Oracle
+FRD-00191,2025-05-06,2025-05-06T13:57:00,CUST-1908dd2b-785,ORD-002300,Unusual Pattern,Medium,55.8,2412.04,False Positive,False,True,ML Anomaly Model,Data Quality,100.5,0.0,SAP
+FRD-00192,2025-10-30,2025-10-30T01:09:00,CUST-8865256c-3eb,ORD-002577,Phantom Vendor,Low,22.9,255793.96,False Positive,False,True,ML Anomaly Model,Fraud Ops,30.5,0.0,SAP
+FRD-00193,2024-12-21,2024-12-21T19:32:00,CUST-114b61d6-25c,ORD-001695,Duplicate Invoice,Low,16.5,39530.18,Resolved,False,False,Pattern Matching,Finance,201.8,0.0,Payment Gateway
+FRD-00194,2025-05-10,2025-05-10T00:24:00,CUST-731897f5-b44,ORD-000407,Round Amount,Medium,60.2,16203.0,False Positive,False,True,Rule-Based,Data Quality,91.0,0.0,Salesforce
+FRD-00195,2024-06-07,2024-06-07T12:07:00,CUST-d0ed37d5-850,ORD-003000,After-Hours Access,Low,3.5,152899.99,Resolved,False,False,Pattern Matching,Data Quality,183.1,0.0,E-Commerce
+FRD-00196,2024-11-04,2024-11-04T02:44:00,CUST-86c72cc8-760,ORD-000618,After-Hours Access,High,68.1,177509.96,False Positive,False,True,Rule-Based,Data Quality,194.2,0.0,E-Commerce
+FRD-00197,2025-01-14,2025-01-14T04:01:00,CUST-6394cbe2-6bb,ORD-000446,Sequential IDs,Medium,43.2,4706.3,Resolved,False,False,ML Anomaly Model,Compliance,64.1,0.0,Payment Gateway
+FRD-00198,2025-11-23,2025-11-23T12:28:00,CUST-7cce3624-d1d,,Identity Mismatch,Low,18.8,33386.88,Resolved,False,False,ML Anomaly Model,Fraud Ops,84.9,0.0,Payment Gateway
+FRD-00199,2025-09-21,2025-09-21T06:17:00,CUST-c5519d10-f21,ORD-000255,Duplicate Invoice,High,75.7,6109.11,False Positive,False,True,Manual Review,Fraud Ops,4.6,0.0,SAP
+FRD-00200,2025-02-08,2025-02-08T22:27:00,CUST-a9b7852b-4bc,,Round Amount,Medium,47.1,15423.01,Investigating,False,False,Rule-Based,Security,,0.0,Oracle
+FRD-00201,2025-06-16,2025-06-16T01:43:00,CUST-1338f3a3-8d1,ORD-002002,Geo Mismatch,Medium,56.3,10947.87,Resolved,False,False,ML Anomaly Model,Security,142.7,0.0,E-Commerce
+FRD-00202,2024-11-24,2024-11-24T11:16:00,CUST-247cbfb3-bd1,ORD-002780,PO Mismatch,Critical,94.2,2269.73,Resolved,False,False,Rule-Based,Finance,5.7,0.0,Salesforce
+FRD-00203,2025-01-11,2025-01-11T04:29:00,CUST-605656b8-4c3,ORD-002570,Identity Mismatch,Low,25.7,48844.49,Confirmed Fraud,True,False,ML Anomaly Model,Security,179.5,4442.76,Oracle
+FRD-00204,2025-11-29,2025-11-29T20:40:00,CUST-0d3632ae-f9b,ORD-002327,Round Amount,High,53.4,22504.3,Resolved,False,False,Rule-Based,Security,175.8,0.0,E-Commerce
+FRD-00205,2024-10-31,2024-10-31T12:36:00,CUST-ebe541ed-b72,ORD-003070,Phantom Vendor,Medium,53.9,236616.5,False Positive,False,True,Rule-Based,Finance,170.2,0.0,E-Commerce
+FRD-00206,2025-12-07,2025-12-07T13:11:00,CUST-f0d68f15-33d,,Duplicate Invoice,Medium,57.7,35518.12,False Positive,False,True,Rule-Based,Fraud Ops,162.1,0.0,Salesforce
+FRD-00207,2025-12-10,2025-12-10T03:47:00,CUST-4c34a1bc-07c,ORD-000596,Unusual Pattern,Medium,45.0,5377.67,Resolved,False,False,Rule-Based,Data Quality,59.3,0.0,E-Commerce
+FRD-00208,2024-12-28,2024-12-28T17:56:00,CUST-56b8cf3c-01f,,Unusual Pattern,Low,22.5,16836.64,False Positive,False,True,ML Anomaly Model,Fraud Ops,222.7,0.0,Oracle
+FRD-00209,2025-09-13,2025-09-13T13:00:00,CUST-de9a1b7c-f3d,ORD-001851,PO Mismatch,Medium,66.0,14477.45,False Positive,False,True,Claude AI Analysis,Data Quality,13.3,0.0,E-Commerce
+FRD-00210,2024-06-19,2024-06-19T06:46:00,CUST-691ce7aa-a1a,ORD-002043,Phantom Vendor,Low,39.2,484774.72,Resolved,False,False,Pattern Matching,Fraud Ops,16.7,0.0,E-Commerce
+FRD-00211,2024-09-08,2024-09-08T22:22:00,CUST-7ac01d59-b94,ORD-002696,Phantom Vendor,Medium,48.4,183311.23,Resolved,False,False,Rule-Based,Finance,3.2,0.0,SAP
+FRD-00212,2024-08-30,2024-08-30T19:14:00,CUST-ed1bb99c-47d,ORD-000387,Duplicate Invoice,Low,22.6,4583.76,False Positive,False,True,Manual Review,Fraud Ops,148.0,0.0,SAP
+FRD-00213,2024-10-15,2024-10-15T05:01:00,CUST-70e56663-50c,ORD-001452,Identity Mismatch,Low,22.7,2844.77,Resolved,False,False,Claude AI Analysis,Data Quality,226.5,0.0,SAP
+FRD-00214,2025-10-29,2025-10-29T06:42:00,CUST-82f17a5b-25a,ORD-000701,PO Mismatch,Low,19.9,11612.56,Confirmed Fraud,True,False,Rule-Based,Data Quality,42.2,1216.58,E-Commerce
+FRD-00215,2025-12-01,2025-12-01T13:19:00,CUST-768c568c-8e1,ORD-001401,Duplicate Invoice,Low,28.5,30483.18,False Positive,False,True,Claude AI Analysis,Compliance,24.7,0.0,Salesforce
+FRD-00216,2025-02-06,2025-02-06T13:53:00,CUST-1cc3db9a-0db,,Unusual Pattern,Medium,42.8,61753.37,False Positive,False,True,Manual Review,Fraud Ops,52.8,0.0,Payment Gateway
+FRD-00217,2026-01-14,2026-01-14T01:29:00,CUST-574a0e04-2da,ORD-000905,Unusual Pattern,Low,22.2,28510.65,False Positive,False,True,ML Anomaly Model,Finance,223.5,0.0,E-Commerce
+FRD-00218,2025-06-26,2025-06-26T18:35:00,CUST-186a8ac0-f92,ORD-001740,Velocity Anomaly,Medium,51.2,40672.83,Confirmed Fraud,True,False,Pattern Matching,Fraud Ops,171.4,4909.1,E-Commerce
+FRD-00219,2024-10-05,2024-10-05T19:32:00,CUST-06bc49bc-f2a,,Phantom Vendor,High,40.4,348196.27,Resolved,False,False,Pattern Matching,Data Quality,128.0,0.0,Oracle
+FRD-00220,2025-04-15,2025-04-15T16:29:00,CUST-c747ac4b-365,ORD-002064,Phantom Vendor,Medium,9.5,400493.82,Investigating,False,False,Manual Review,Fraud Ops,,0.0,Payment Gateway
+FRD-00221,2024-09-04,2024-09-04T20:04:00,CUST-7a47be44-1f1,ORD-003150,Round Amount,Medium,50.2,386836.86,Confirmed Fraud,True,False,ML Anomaly Model,Compliance,96.7,102592.0,Salesforce
+FRD-00222,2024-10-25,2024-10-25T20:52:00,CUST-a03c0b4f-910,ORD-002618,Phantom Vendor,Medium,50.4,107387.66,False Positive,False,True,Pattern Matching,Data Quality,59.0,0.0,SAP
+FRD-00223,2025-12-01,2025-12-01T02:19:00,CUST-7ac01d59-b94,ORD-002692,Amount Spike,Medium,53.4,9081.43,Resolved,False,False,Claude AI Analysis,Compliance,206.2,0.0,Oracle
+FRD-00224,2024-11-01,2024-11-01T06:14:00,CUST-908293f4-be0,ORD-000540,Duplicate Invoice,Medium,63.4,16471.93,Confirmed Fraud,True,False,Pattern Matching,Security,105.0,4139.46,Payment Gateway
+FRD-00225,2025-03-05,2025-03-05T20:29:00,CUST-692f940d-f4a,ORD-002429,Duplicate Invoice,Low,24.8,6576.51,Resolved,False,False,ML Anomaly Model,Security,227.9,0.0,Payment Gateway
+FRD-00226,2025-05-27,2025-05-27T11:50:00,CUST-a07df6ad-a49,ORD-001307,After-Hours Access,Medium,4.4,21139.22,False Positive,False,True,Manual Review,Compliance,29.6,0.0,E-Commerce
+FRD-00227,2025-11-09,2025-11-09T15:36:00,CUST-40b0aeed-879,ORD-001392,Geo Mismatch,Low,21.6,220045.78,Open,False,False,Pattern Matching,Data Quality,,0.0,SAP
+FRD-00228,2024-12-12,2024-12-12T11:39:00,CUST-446c4188-541,ORD-001985,Velocity Anomaly,Low,19.1,58033.21,False Positive,False,True,Manual Review,Security,235.6,0.0,Salesforce
+FRD-00229,2024-12-25,2024-12-25T22:10:00,CUST-a083e7a6-001,ORD-001089,PO Mismatch,Low,16.8,144738.82,Investigating,False,False,ML Anomaly Model,Security,,0.0,E-Commerce
+FRD-00230,2025-07-21,2025-07-21T22:43:00,CUST-26902db8-7ab,ORD-001751,After-Hours Access,High,80.8,209418.97,Investigating,False,False,Rule-Based,Fraud Ops,,0.0,Payment Gateway
+FRD-00231,2026-01-01,2026-01-01T14:28:00,CUST-400a2b02-ba1,,Identity Mismatch,Low,25.2,43814.71,Open,False,False,Claude AI Analysis,Compliance,,0.0,Salesforce
+FRD-00232,2024-12-29,2024-12-29T06:48:00,CUST-189062a7-4e5,ORD-000599,Phantom Vendor,Low,7.2,298392.81,False Positive,False,True,Manual Review,Data Quality,137.5,0.0,Payment Gateway
+FRD-00233,2026-01-24,2026-01-24T05:05:00,CUST-2d36aa86-764,ORD-001370,Split Transaction,Low,22.4,141172.35,Resolved,False,False,Pattern Matching,Compliance,232.2,0.0,SAP
+FRD-00234,2025-10-17,2025-10-17T09:29:00,CUST-17773487-94a,ORD-000706,Round Amount,Medium,44.7,91180.27,Investigating,False,False,Manual Review,Data Quality,,0.0,E-Commerce
+FRD-00235,2025-05-24,2025-05-24T03:24:00,CUST-a21f5ee4-b49,ORD-001497,Round Amount,Low,31.9,22866.92,Investigating,False,False,Claude AI Analysis,Compliance,,0.0,SAP
+FRD-00236,2025-05-30,2025-05-30T22:14:00,CUST-5d5175f4-340,,Unusual Pattern,High,61.8,14325.09,False Positive,False,True,Claude AI Analysis,Finance,225.5,0.0,Oracle
+FRD-00237,2025-08-06,2025-08-06T21:20:00,CUST-9b51c8d0-d71,ORD-000075,Amount Spike,Low,18.9,17646.84,False Positive,False,True,ML Anomaly Model,Compliance,199.7,0.0,Payment Gateway
+FRD-00238,2025-09-30,2025-09-30T16:28:00,CUST-5c3c92e1-890,ORD-002088,Duplicate Invoice,Low,28.8,44150.65,Investigating,False,False,ML Anomaly Model,Finance,,0.0,Salesforce
+FRD-00239,2024-10-19,2024-10-19T05:50:00,CUST-a0a32e91-6a8,ORD-000632,Sequential IDs,Medium,44.8,5144.23,False Positive,False,True,Pattern Matching,Finance,227.3,0.0,SAP
+FRD-00240,2025-07-05,2025-07-05T07:42:00,CUST-b7138a02-577,ORD-001126,Amount Spike,Low,21.5,58131.96,False Positive,False,True,ML Anomaly Model,Security,208.4,0.0,E-Commerce
+FRD-00241,2025-10-28,2025-10-28T03:07:00,CUST-c83f8fcd-502,,Round Amount,High,71.1,23868.1,Investigating,False,False,Claude AI Analysis,Security,,0.0,Oracle
+FRD-00242,2025-05-12,2025-05-12T12:01:00,CUST-564f70ee-6c1,ORD-002753,Phantom Vendor,Medium,63.1,467233.29,Open,False,False,Claude AI Analysis,Finance,,0.0,SAP
+FRD-00243,2025-11-03,2025-11-03T16:38:00,CUST-ca1419ee-885,,Velocity Anomaly,Low,18.9,4294.11,Confirmed Fraud,True,False,Manual Review,Fraud Ops,202.2,1185.29,Salesforce
+FRD-00244,2024-07-02,2024-07-02T13:35:00,CUST-da8f3c3c-31c,,Phantom Vendor,High,49.5,112800.43,Resolved,False,False,Claude AI Analysis,Security,22.8,0.0,Payment Gateway
+FRD-00245,2025-01-11,2025-01-11T15:38:00,CUST-2166b30a-9dd,ORD-002172,After-Hours Access,Low,1.0,6465.36,False Positive,False,True,Pattern Matching,Compliance,89.2,0.0,Oracle
+FRD-00246,2024-12-24,2024-12-24T06:00:00,CUST-b6d22172-c33,ORD-000469,Duplicate Invoice,Medium,46.6,8515.62,Investigating,False,False,Manual Review,Data Quality,,0.0,SAP
+FRD-00247,2025-06-09,2025-06-09T12:14:00,CUST-5f0d53b2-d24,,After-Hours Access,Medium,60.4,82177.03,False Positive,False,True,Pattern Matching,Compliance,41.7,0.0,Oracle
+FRD-00248,2025-09-24,2025-09-24T19:47:00,CUST-aa93cc98-e0d,ORD-001935,Amount Spike,Low,4.8,5874.07,Open,False,False,Manual Review,Finance,,0.0,Oracle
+FRD-00249,2025-02-28,2025-02-28T11:13:00,CUST-196ea758-17f,ORD-001018,Phantom Vendor,Low,31.0,58320.57,False Positive,False,True,ML Anomaly Model,Fraud Ops,223.6,0.0,E-Commerce
+FRD-00250,2025-04-26,2025-04-26T02:59:00,CUST-efe586c5-a06,ORD-002064,Duplicate Invoice,Low,21.0,4107.22,Open,False,False,ML Anomaly Model,Finance,,0.0,Oracle
+FRD-00251,2025-07-31,2025-07-31T21:15:00,CUST-7e696f2a-389,ORD-000136,Sequential IDs,Low,31.3,131792.91,Investigating,False,False,Pattern Matching,Fraud Ops,,0.0,Payment Gateway
+FRD-00252,2025-04-11,2025-04-11T19:51:00,CUST-d3ebb857-e9c,ORD-000527,Amount Spike,Low,24.9,3971.8,Resolved,False,False,Manual Review,Security,64.1,0.0,Payment Gateway
+FRD-00253,2025-01-10,2025-01-10T22:58:00,CUST-efe586c5-a06,ORD-000960,Split Transaction,High,60.5,13904.14,Resolved,False,False,Pattern Matching,Data Quality,194.1,0.0,Oracle
+FRD-00254,2025-10-02,2025-10-02T18:07:00,CUST-4ce2a2d3-510,ORD-003233,Split Transaction,Low,24.4,4930.21,False Positive,False,True,Pattern Matching,Compliance,119.3,0.0,Payment Gateway
+FRD-00255,2025-05-07,2025-05-07T09:48:00,CUST-4de54c0b-ff6,ORD-001046,Identity Mismatch,Low,20.9,24224.41,Resolved,False,False,Claude AI Analysis,Security,44.8,0.0,Salesforce
+FRD-00256,2025-01-03,2025-01-03T08:48:00,CUST-ea44bec5-c1a,ORD-002384,Identity Mismatch,Low,23.7,3545.73,False Positive,False,True,Claude AI Analysis,Finance,131.7,0.0,Oracle
+FRD-00257,2025-02-24,2025-02-24T09:49:00,CUST-ac577f63-f5d,ORD-001206,Unusual Pattern,Critical,87.3,30183.88,Resolved,False,False,Claude AI Analysis,Security,15.5,0.0,Salesforce
+FRD-00258,2024-07-26,2024-07-26T13:10:00,CUST-6c02e793-3cd,ORD-002232,PO Mismatch,High,75.5,131038.13,Resolved,False,False,Rule-Based,Data Quality,201.9,0.0,Oracle
+FRD-00259,2025-04-29,2025-04-29T00:07:00,CUST-9a7c4e3c-070,ORD-002295,Round Amount,Low,23.2,287825.06,Investigating,False,False,Claude AI Analysis,Data Quality,,0.0,Oracle
+FRD-00260,2025-03-26,2025-03-26T10:39:00,CUST-da6a3aaa-568,ORD-000574,Round Amount,Low,19.2,14608.05,False Positive,False,True,Manual Review,Finance,131.6,0.0,SAP
+FRD-00261,2025-03-28,2025-03-28T10:27:00,CUST-4d27bd11-4cb,ORD-003288,PO Mismatch,Medium,57.1,307375.27,False Positive,False,True,ML Anomaly Model,Finance,90.3,0.0,SAP
+FRD-00262,2025-12-20,2025-12-20T10:41:00,CUST-f673977c-ead,ORD-001727,Geo Mismatch,Medium,50.2,4253.23,Investigating,False,False,Manual Review,Security,,0.0,Payment Gateway
+FRD-00263,2024-11-12,2024-11-12T22:09:00,CUST-245c07cb-43a,,Duplicate Invoice,Critical,84.8,7226.56,Open,False,False,ML Anomaly Model,Compliance,,0.0,SAP
+FRD-00264,2025-04-23,2025-04-23T14:58:00,CUST-0d60e632-1a6,ORD-002887,Round Amount,Medium,42.2,1708.31,Resolved,False,False,Rule-Based,Security,217.8,0.0,Oracle
+FRD-00265,2025-04-09,2025-04-09T21:45:00,CUST-cf18da3a-313,ORD-000122,Geo Mismatch,Medium,25.7,63607.81,Confirmed Fraud,True,False,Manual Review,Fraud Ops,113.4,17236.16,SAP
+FRD-00266,2024-12-06,2024-12-06T21:55:00,CUST-2da4339f-752,ORD-001725,Geo Mismatch,Medium,41.9,24342.36,Resolved,False,False,ML Anomaly Model,Data Quality,131.1,0.0,SAP
+FRD-00267,2025-11-02,2025-11-02T01:32:00,CUST-f2ccec53-7a0,ORD-002243,PO Mismatch,High,73.8,95721.88,Resolved,False,False,ML Anomaly Model,Data Quality,167.9,0.0,Payment Gateway
+FRD-00268,2025-03-23,2025-03-23T13:36:00,CUST-b4daf0b0-1b0,,Phantom Vendor,Medium,49.7,497200.39,Resolved,False,False,Claude AI Analysis,Compliance,121.6,0.0,Payment Gateway
+FRD-00269,2025-10-19,2025-10-19T13:27:00,CUST-24ccc710-f8f,ORD-000427,Duplicate Invoice,High,66.6,13185.65,Investigating,False,False,Rule-Based,Security,,0.0,E-Commerce
+FRD-00270,2025-10-28,2025-10-28T22:29:00,CUST-c9885b12-c05,ORD-002495,Velocity Anomaly,Medium,45.2,13406.11,Resolved,False,False,Rule-Based,Fraud Ops,121.4,0.0,Salesforce
+FRD-00271,2025-04-27,2025-04-27T22:37:00,CUST-2c1cf43e-4f8,ORD-003027,Round Amount,Low,39.2,21663.08,False Positive,False,True,Manual Review,Finance,149.7,0.0,SAP
+FRD-00272,2025-11-27,2025-11-27T04:38:00,CUST-c9885b12-c05,ORD-002433,Amount Spike,High,75.2,3647.53,Confirmed Fraud,True,False,Manual Review,Finance,37.5,717.91,SAP
+FRD-00273,2024-09-28,2024-09-28T05:19:00,CUST-61ba41f9-4f4,ORD-002081,Velocity Anomaly,High,52.9,5111.9,Resolved,False,False,Manual Review,Data Quality,59.6,0.0,Salesforce
+FRD-00274,2025-10-12,2025-10-12T09:38:00,CUST-faa048b5-492,ORD-000206,After-Hours Access,Medium,37.2,99333.32,Confirmed Fraud,True,False,ML Anomaly Model,Fraud Ops,78.3,4496.55,Payment Gateway
+FRD-00275,2025-08-04,2025-08-04T06:40:00,CUST-82f17a5b-25a,ORD-001858,Geo Mismatch,Medium,52.3,6060.67,Open,False,False,Claude AI Analysis,Security,,0.0,Salesforce
+FRD-00276,2025-04-13,2025-04-13T10:37:00,CUST-92538f6b-6d1,ORD-002062,Geo Mismatch,Low,20.5,25374.47,Investigating,False,False,Pattern Matching,Data Quality,,0.0,Oracle
+FRD-00277,2024-07-24,2024-07-24T20:01:00,CUST-c251573f-bce,ORD-001284,Phantom Vendor,Low,26.0,246706.69,False Positive,False,True,ML Anomaly Model,Compliance,13.5,0.0,SAP
+FRD-00278,2024-10-24,2024-10-24T12:43:00,CUST-ea42bae6-aa1,ORD-000860,Velocity Anomaly,Critical,91.7,9964.87,Confirmed Fraud,True,False,ML Anomaly Model,Compliance,113.6,1217.5,Payment Gateway
+FRD-00279,2025-02-14,2025-02-14T00:38:00,CUST-ef6224ef-c65,,Phantom Vendor,Low,21.0,324359.7,Investigating,False,False,Claude AI Analysis,Compliance,,0.0,SAP
+FRD-00280,2025-03-08,2025-03-08T13:06:00,CUST-c83f8fcd-502,ORD-000241,Sequential IDs,Medium,44.9,157959.65,Resolved,False,False,ML Anomaly Model,Data Quality,90.1,0.0,Salesforce
+FRD-00281,2024-08-21,2024-08-21T20:28:00,CUST-318f99d2-fd7,ORD-000301,Unusual Pattern,High,72.6,82726.25,Investigating,False,False,ML Anomaly Model,Fraud Ops,,0.0,Salesforce
+FRD-00282,2025-11-20,2025-11-20T06:16:00,CUST-21c270b5-930,ORD-002735,PO Mismatch,Low,21.9,59479.69,Confirmed Fraud,True,False,Rule-Based,Compliance,151.1,9631.98,Payment Gateway
+FRD-00283,2024-12-03,2024-12-03T13:45:00,CUST-691ce7aa-a1a,ORD-000197,Amount Spike,Low,27.2,17945.19,False Positive,False,True,Pattern Matching,Security,224.8,0.0,Payment Gateway
+FRD-00284,2025-10-18,2025-10-18T07:15:00,CUST-b15336a7-6a6,ORD-003478,Phantom Vendor,Low,24.2,91013.48,Resolved,False,False,Manual Review,Security,175.8,0.0,Payment Gateway
+FRD-00285,2025-07-19,2025-07-19T17:23:00,CUST-86c72cc8-760,ORD-000401,After-Hours Access,Low,34.2,34692.9,Investigating,False,False,Claude AI Analysis,Fraud Ops,,0.0,E-Commerce
+FRD-00286,2025-08-25,2025-08-25T06:10:00,CUST-e64f9164-c70,,Duplicate Invoice,Medium,53.1,11685.18,False Positive,False,True,Rule-Based,Finance,142.1,0.0,SAP
+FRD-00287,2026-01-16,2026-01-16T12:05:00,CUST-99437142-1f0,ORD-001811,Phantom Vendor,High,68.9,147434.97,Resolved,False,False,Pattern Matching,Finance,89.7,0.0,E-Commerce
+FRD-00288,2024-09-11,2024-09-11T18:49:00,CUST-1ff4beb5-49d,,Amount Spike,Low,24.2,859.75,False Positive,False,True,Claude AI Analysis,Compliance,128.7,0.0,Salesforce
+FRD-00289,2024-10-26,2024-10-26T07:45:00,CUST-402fdf75-7d2,ORD-002117,Sequential IDs,Low,23.9,4890.72,False Positive,False,True,ML Anomaly Model,Finance,166.9,0.0,Salesforce
+FRD-00290,2025-03-31,2025-03-31T01:39:00,CUST-bfb09225-df5,ORD-003160,Amount Spike,Low,18.4,109611.37,Investigating,False,False,Rule-Based,Finance,,0.0,Salesforce
+FRD-00291,2024-12-07,2024-12-07T15:04:00,CUST-e54fcbf1-9b6,,Unusual Pattern,Critical,94.1,28928.44,Resolved,False,False,Claude AI Analysis,Finance,182.3,0.0,E-Commerce
+FRD-00292,2025-10-20,2025-10-20T20:14:00,CUST-9f441677-ee0,ORD-001036,Round Amount,Low,19.2,37804.76,Resolved,False,False,Pattern Matching,Fraud Ops,9.2,0.0,Salesforce
+FRD-00293,2024-06-17,2024-06-17T09:08:00,CUST-0610f1aa-6e8,ORD-003027,Geo Mismatch,Medium,52.2,647924.74,Confirmed Fraud,True,False,Pattern Matching,Finance,237.2,167611.63,Salesforce
+FRD-00294,2025-12-08,2025-12-08T03:06:00,CUST-0228a715-182,,Geo Mismatch,Low,32.1,9223.55,False Positive,False,True,Rule-Based,Finance,86.1,0.0,Oracle
+FRD-00295,2025-01-21,2025-01-21T18:53:00,CUST-f0b06466-3ec,ORD-001738,Velocity Anomaly,Low,29.3,2132.63,False Positive,False,True,ML Anomaly Model,Security,107.0,0.0,Salesforce
+FRD-00296,2024-09-15,2024-09-15T05:07:00,CUST-8d78e48c-a16,ORD-003386,Split Transaction,Low,22.5,47765.98,Open,False,False,Pattern Matching,Security,,0.0,Payment Gateway
+FRD-00297,2025-10-15,2025-10-15T13:37:00,CUST-ba8d7fd7-cbb,ORD-000098,Split Transaction,Low,17.8,1070561.28,Resolved,False,False,Manual Review,Security,13.7,0.0,SAP
+FRD-00298,2025-02-18,2025-02-18T03:12:00,CUST-ae2bd571-856,,Geo Mismatch,Medium,38.6,19301.6,Open,False,False,ML Anomaly Model,Compliance,,0.0,Salesforce
+FRD-00299,2025-09-16,2025-09-16T15:05:00,CUST-b3d15d6d-9a9,ORD-002682,Sequential IDs,Low,19.3,6070.77,Resolved,False,False,Rule-Based,Data Quality,77.5,0.0,E-Commerce
+FRD-00300,2025-10-14,2025-10-14T21:26:00,CUST-7675f8f1-a4b,ORD-001950,PO Mismatch,Low,26.1,3752.23,Resolved,False,False,Pattern Matching,Security,124.0,0.0,SAP
+FRD-00301,2025-09-05,2025-09-05T08:22:00,CUST-4d27bd11-4cb,ORD-003296,Geo Mismatch,Medium,48.7,54578.62,Open,False,False,Claude AI Analysis,Compliance,,0.0,E-Commerce
+FRD-00302,2024-11-24,2024-11-24T00:31:00,CUST-573c8857-a33,ORD-002098,Unusual Pattern,High,69.4,7759.49,Investigating,False,False,Rule-Based,Security,,0.0,E-Commerce
+FRD-00303,2025-11-10,2025-11-10T20:46:00,CUST-ca310596-b83,ORD-003224,Unusual Pattern,Low,30.0,174966.1,False Positive,False,True,Claude AI Analysis,Fraud Ops,226.5,0.0,Salesforce
+FRD-00304,2025-10-09,2025-10-09T16:43:00,CUST-7ac01d59-b94,ORD-003466,PO Mismatch,Low,30.3,37857.07,Investigating,False,False,Pattern Matching,Data Quality,,0.0,Payment Gateway
+FRD-00305,2025-08-29,2025-08-29T11:27:00,CUST-871e72d1-22c,ORD-002661,Split Transaction,Low,22.5,75102.17,Resolved,False,False,Pattern Matching,Data Quality,43.3,0.0,Salesforce
+FRD-00306,2025-10-31,2025-10-31T14:49:00,CUST-23444603-428,ORD-003378,Split Transaction,Critical,87.2,3919.35,Resolved,False,False,Claude AI Analysis,Data Quality,228.9,0.0,Salesforce
+FRD-00307,2024-09-25,2024-09-25T02:20:00,CUST-562fb84b-e07,,Sequential IDs,Low,15.6,170947.05,Resolved,False,False,Pattern Matching,Finance,139.5,0.0,E-Commerce
+FRD-00308,2025-09-15,2025-09-15T01:26:00,CUST-6a3d0d58-c4d,ORD-002034,Identity Mismatch,Low,17.6,41878.21,Confirmed Fraud,True,False,ML Anomaly Model,Security,17.2,8459.73,Oracle
+FRD-00309,2024-12-12,2024-12-12T12:27:00,CUST-70806ef4-69e,ORD-003279,Round Amount,Low,29.8,53058.39,False Positive,False,True,Rule-Based,Compliance,187.4,0.0,Salesforce
+FRD-00310,2025-09-11,2025-09-11T07:55:00,CUST-8d186e37-72a,ORD-000654,Phantom Vendor,Low,16.3,393289.35,Open,False,False,Pattern Matching,Finance,,0.0,Payment Gateway
+FRD-00311,2025-09-15,2025-09-15T10:34:00,CUST-d1e9985c-ec9,ORD-002035,Amount Spike,Medium,54.0,89799.72,Resolved,False,False,Claude AI Analysis,Finance,14.1,0.0,Payment Gateway
+FRD-00312,2025-02-03,2025-02-03T08:50:00,CUST-56b8cf3c-01f,ORD-000686,Round Amount,High,79.5,73680.82,Resolved,False,False,Pattern Matching,Data Quality,202.4,0.0,Payment Gateway
+FRD-00313,2025-04-21,2025-04-21T03:13:00,CUST-0b742c96-f56,ORD-002010,After-Hours Access,Low,15.7,5970.7,Resolved,False,False,Manual Review,Fraud Ops,93.8,0.0,E-Commerce
+FRD-00314,2025-04-21,2025-04-21T05:02:00,CUST-2ed4968a-cfe,ORD-000028,Round Amount,High,73.3,77488.87,Confirmed Fraud,True,False,Claude AI Analysis,Data Quality,161.9,1294.06,Payment Gateway
+FRD-00315,2025-06-30,2025-06-30T01:44:00,CUST-daa2c9ed-41a,ORD-003003,Duplicate Invoice,High,66.7,10785.46,Open,False,False,Claude AI Analysis,Finance,,0.0,SAP
+FRD-00316,2025-10-28,2025-10-28T09:21:00,CUST-1567b895-2af,ORD-000467,Amount Spike,Medium,25.1,62966.62,False Positive,False,True,Rule-Based,Data Quality,87.9,0.0,Salesforce
+FRD-00317,2024-12-21,2024-12-21T21:28:00,CUST-d9fb38b6-235,,PO Mismatch,Medium,25.9,35193.62,Resolved,False,False,Pattern Matching,Security,141.2,0.0,Payment Gateway
+FRD-00318,2025-10-13,2025-10-13T06:31:00,CUST-ea42bae6-aa1,ORD-000930,Split Transaction,Medium,39.8,9788.08,Investigating,False,False,Pattern Matching,Data Quality,,0.0,Oracle
+FRD-00319,2025-05-03,2025-05-03T16:08:00,CUST-6c100c7f-f75,ORD-000769,PO Mismatch,Low,30.1,36972.42,Resolved,False,False,Pattern Matching,Data Quality,20.9,0.0,Salesforce
+FRD-00320,2025-12-13,2025-12-13T14:02:00,CUST-d5af6023-79e,ORD-003228,Identity Mismatch,High,80.1,7913.9,Resolved,False,False,Pattern Matching,Fraud Ops,164.7,0.0,Oracle
+FRD-00321,2025-06-04,2025-06-04T04:51:00,CUST-8d38a16d-bfa,ORD-000707,After-Hours Access,Low,20.5,17066.36,Resolved,False,False,Pattern Matching,Compliance,199.6,0.0,Payment Gateway
+FRD-00322,2024-09-28,2024-09-28T19:27:00,CUST-446319b4-0e4,,Amount Spike,Low,9.8,12563.61,Confirmed Fraud,True,False,Claude AI Analysis,Fraud Ops,231.8,3575.39,E-Commerce
+FRD-00323,2025-05-24,2025-05-24T19:18:00,CUST-186a8ac0-f92,ORD-001220,Geo Mismatch,Medium,26.0,2226.62,False Positive,False,True,Rule-Based,Fraud Ops,226.6,0.0,Salesforce
+FRD-00324,2024-06-23,2024-06-23T21:32:00,CUST-d82eb551-86e,ORD-000634,Unusual Pattern,High,88.6,90698.35,False Positive,False,True,Rule-Based,Finance,225.2,0.0,Salesforce
+FRD-00325,2025-12-18,2025-12-18T20:38:00,CUST-e5311600-445,ORD-001422,Velocity Anomaly,Medium,66.2,300630.5,False Positive,False,True,ML Anomaly Model,Fraud Ops,174.8,0.0,E-Commerce
+FRD-00326,2024-07-22,2024-07-22T23:43:00,CUST-b99d0711-3a1,ORD-001921,PO Mismatch,High,67.1,12050.38,False Positive,False,True,Rule-Based,Security,67.0,0.0,Oracle
+FRD-00327,2025-10-01,2025-10-01T21:07:00,CUST-40617c13-895,ORD-003297,PO Mismatch,Low,25.0,676789.01,False Positive,False,True,Rule-Based,Compliance,126.5,0.0,Payment Gateway
+FRD-00328,2025-03-16,2025-03-16T18:01:00,CUST-77d4dd95-2c4,ORD-000697,Phantom Vendor,High,82.4,176242.43,Confirmed Fraud,True,False,Claude AI Analysis,Fraud Ops,85.2,11190.73,E-Commerce
+FRD-00329,2025-06-13,2025-06-13T10:44:00,CUST-47e97e68-aef,ORD-002904,Duplicate Invoice,High,69.6,279596.88,Resolved,False,False,Pattern Matching,Compliance,6.2,0.0,SAP
+FRD-00330,2024-09-15,2024-09-15T04:30:00,CUST-1c3ee2c1-a40,ORD-002545,Identity Mismatch,Low,29.4,53689.89,Resolved,False,False,Claude AI Analysis,Fraud Ops,134.0,0.0,E-Commerce
+FRD-00331,2025-01-21,2025-01-21T14:26:00,CUST-a07df6ad-a49,ORD-000813,Geo Mismatch,Medium,59.9,111651.17,Investigating,False,False,Manual Review,Data Quality,,0.0,E-Commerce
+FRD-00332,2025-12-12,2025-12-12T01:25:00,CUST-7cc0374b-ad0,ORD-000725,Duplicate Invoice,High,79.2,765.77,Investigating,False,False,Pattern Matching,Security,,0.0,Payment Gateway
+FRD-00333,2025-07-22,2025-07-22T09:39:00,CUST-8604bf54-2b4,ORD-000763,Round Amount,Low,28.2,19627.14,False Positive,False,True,Manual Review,Finance,156.4,0.0,SAP
+FRD-00334,2026-01-27,2026-01-27T11:05:00,CUST-70e56663-50c,ORD-002827,Geo Mismatch,Medium,39.9,3027.35,Resolved,False,False,Claude AI Analysis,Compliance,225.9,0.0,Payment Gateway
+FRD-00335,2025-04-30,2025-04-30T19:23:00,CUST-11dfc352-a9f,ORD-003242,Identity Mismatch,Medium,45.1,26313.72,False Positive,False,True,Manual Review,Finance,135.3,0.0,Salesforce
+FRD-00336,2025-09-03,2025-09-03T07:24:00,CUST-186a8ac0-f92,ORD-002897,Duplicate Invoice,Medium,37.2,46518.59,False Positive,False,True,Manual Review,Compliance,47.2,0.0,Payment Gateway
+FRD-00337,2025-01-14,2025-01-14T16:44:00,CUST-37857b84-914,ORD-000559,Phantom Vendor,Low,14.7,468367.18,False Positive,False,True,ML Anomaly Model,Data Quality,28.8,0.0,Salesforce
+FRD-00338,2024-11-15,2024-11-15T11:13:00,CUST-a8d949d1-7b5,ORD-001599,Geo Mismatch,High,55.1,1031.12,Open,False,False,Rule-Based,Data Quality,,0.0,E-Commerce
+FRD-00339,2024-11-25,2024-11-25T14:34:00,CUST-2da4339f-752,ORD-003367,PO Mismatch,Medium,45.5,78208.41,Investigating,False,False,Manual Review,Compliance,,0.0,Salesforce
+FRD-00340,2025-03-06,2025-03-06T00:29:00,CUST-1ab06b55-b28,ORD-000436,Amount Spike,High,80.7,19536.16,False Positive,False,True,Claude AI Analysis,Security,75.6,0.0,E-Commerce
+FRD-00341,2025-01-06,2025-01-06T13:28:00,CUST-ed1bb99c-47d,,Duplicate Invoice,Low,23.0,36886.02,Open,False,False,Manual Review,Fraud Ops,,0.0,SAP
+FRD-00342,2025-05-02,2025-05-02T08:18:00,CUST-fbc02cd9-033,ORD-002737,Round Amount,High,80.9,11798.84,Investigating,False,False,Manual Review,Security,,0.0,Payment Gateway
+FRD-00343,2024-08-26,2024-08-26T18:52:00,CUST-6a3d0d58-c4d,,Unusual Pattern,High,77.6,3823.22,Investigating,False,False,Pattern Matching,Fraud Ops,,0.0,Payment Gateway
+FRD-00344,2025-03-29,2025-03-29T18:07:00,CUST-7a0fa067-748,ORD-002470,Identity Mismatch,Low,15.2,6882.15,False Positive,False,True,ML Anomaly Model,Security,223.2,0.0,E-Commerce
+FRD-00345,2024-11-18,2024-11-18T04:12:00,CUST-6fe23896-d10,ORD-000362,After-Hours Access,Medium,43.5,18147.92,Resolved,False,False,Rule-Based,Fraud Ops,86.3,0.0,Payment Gateway
+FRD-00346,2025-04-28,2025-04-28T12:27:00,CUST-331e37f3-c99,ORD-001380,After-Hours Access,Low,11.5,4468.61,Open,False,False,Manual Review,Finance,,0.0,Oracle
+FRD-00347,2024-07-29,2024-07-29T06:15:00,CUST-313b9f47-376,ORD-001658,Sequential IDs,Medium,25.9,12840.2,Confirmed Fraud,True,False,Pattern Matching,Data Quality,100.5,2023.03,Payment Gateway
+FRD-00348,2025-11-13,2025-11-13T04:44:00,CUST-70e56663-50c,ORD-001840,Split Transaction,Critical,94.8,919.64,Investigating,False,False,Claude AI Analysis,Finance,,0.0,E-Commerce
+FRD-00349,2024-08-24,2024-08-24T15:10:00,CUST-1ff4beb5-49d,ORD-003145,Split Transaction,Medium,33.2,89200.38,False Positive,False,True,Manual Review,Finance,201.5,0.0,E-Commerce
+FRD-00350,2024-12-16,2024-12-16T06:33:00,CUST-731897f5-b44,,After-Hours Access,Medium,59.5,71228.01,False Positive,False,True,Rule-Based,Fraud Ops,214.8,0.0,SAP
+FRD-00351,2025-05-11,2025-05-11T13:03:00,CUST-9a7c4e3c-070,ORD-002719,Sequential IDs,Low,25.1,91004.75,False Positive,False,True,Pattern Matching,Data Quality,33.0,0.0,SAP
+FRD-00352,2025-04-08,2025-04-08T01:02:00,CUST-2da4339f-752,,Velocity Anomaly,Medium,27.6,182413.2,False Positive,False,True,Pattern Matching,Fraud Ops,119.9,0.0,Payment Gateway
+FRD-00353,2025-03-31,2025-03-31T17:12:00,CUST-3cfe95bd-4d9,ORD-002142,Round Amount,Low,27.4,1702.36,Resolved,False,False,ML Anomaly Model,Data Quality,109.6,0.0,Payment Gateway
+FRD-00354,2024-10-21,2024-10-21T08:48:00,CUST-a9ca2aea-b76,ORD-000500,Identity Mismatch,Low,9.8,633.0,Resolved,False,False,Pattern Matching,Data Quality,114.5,0.0,E-Commerce
+FRD-00355,2025-03-08,2025-03-08T14:18:00,CUST-21d27249-010,ORD-001611,Split Transaction,Low,29.0,6054.13,Investigating,False,False,Rule-Based,Compliance,,0.0,E-Commerce
+FRD-00356,2024-11-02,2024-11-02T00:32:00,CUST-2d36aa86-764,ORD-002496,Identity Mismatch,High,66.4,25405.77,False Positive,False,True,Manual Review,Security,127.3,0.0,Oracle
+FRD-00357,2025-03-07,2025-03-07T21:41:00,CUST-03ded41e-009,ORD-000662,Round Amount,Medium,38.1,57358.24,False Positive,False,True,Rule-Based,Data Quality,106.8,0.0,Salesforce
+FRD-00358,2025-06-19,2025-06-19T21:04:00,CUST-2562baf2-e43,ORD-000294,Geo Mismatch,Medium,44.9,29842.25,Resolved,False,False,Manual Review,Data Quality,140.3,0.0,Salesforce
+FRD-00359,2024-06-06,2024-06-06T06:45:00,CUST-900e6221-204,,Phantom Vendor,Low,14.9,290214.43,False Positive,False,True,ML Anomaly Model,Finance,169.8,0.0,Payment Gateway
+FRD-00360,2025-02-08,2025-02-08T12:25:00,CUST-ca310596-b83,ORD-002636,Phantom Vendor,Low,8.0,370383.78,Investigating,False,False,Claude AI Analysis,Security,,0.0,E-Commerce
+FRD-00361,2025-06-01,2025-06-01T17:48:00,CUST-fbda80fd-b7d,ORD-000916,Split Transaction,Low,17.8,13028.19,False Positive,False,True,Manual Review,Compliance,52.6,0.0,Oracle
+FRD-00362,2025-09-07,2025-09-07T09:48:00,CUST-4fb61a56-1f4,ORD-001912,Identity Mismatch,High,58.4,15015.03,Confirmed Fraud,True,False,Pattern Matching,Compliance,200.2,639.09,E-Commerce
+FRD-00363,2024-12-25,2024-12-25T21:43:00,CUST-768c568c-8e1,ORD-000811,After-Hours Access,Low,20.2,13947.96,Confirmed Fraud,True,False,Rule-Based,Finance,149.7,3503.48,Oracle
+FRD-00364,2025-09-05,2025-09-05T21:37:00,CUST-74e2cae1-48e,ORD-002793,Identity Mismatch,Low,23.6,20781.85,Investigating,False,False,Rule-Based,Data Quality,,0.0,E-Commerce
+FRD-00365,2025-06-29,2025-06-29T10:17:00,CUST-9e49cc63-000,ORD-002237,PO Mismatch,Medium,23.3,41104.97,Resolved,False,False,ML Anomaly Model,Data Quality,212.5,0.0,Salesforce
+FRD-00366,2024-11-30,2024-11-30T01:31:00,CUST-55fc7f57-59e,,Sequential IDs,High,78.3,22093.24,False Positive,False,True,Pattern Matching,Data Quality,138.9,0.0,Salesforce
+FRD-00367,2025-03-01,2025-03-01T14:05:00,CUST-ba8d7fd7-cbb,ORD-001523,Sequential IDs,Medium,47.4,342485.94,Resolved,False,False,Claude AI Analysis,Security,73.9,0.0,Salesforce
+FRD-00368,2024-10-02,2024-10-02T00:02:00,CUST-589a1870-d43,ORD-001601,Sequential IDs,Low,27.6,5053.65,Open,False,False,Claude AI Analysis,Finance,,0.0,SAP
+FRD-00369,2024-07-15,2024-07-15T11:48:00,CUST-a07df6ad-a49,ORD-000630,Amount Spike,Critical,93.8,43486.71,False Positive,False,True,Manual Review,Compliance,158.2,0.0,Salesforce
+FRD-00370,2024-06-12,2024-06-12T10:28:00,CUST-a167e706-e06,ORD-001972,Duplicate Invoice,Low,16.5,3466.56,False Positive,False,True,Claude AI Analysis,Fraud Ops,46.1,0.0,SAP
+FRD-00371,2025-09-21,2025-09-21T13:50:00,CUST-0c7c3a56-96f,ORD-003176,Split Transaction,Low,20.5,22830.32,False Positive,False,True,Manual Review,Compliance,128.4,0.0,Oracle
+FRD-00372,2025-12-17,2025-12-17T19:13:00,CUST-21d27249-010,,Duplicate Invoice,Low,24.1,32514.48,Resolved,False,False,Pattern Matching,Data Quality,29.2,0.0,SAP
+FRD-00373,2024-07-07,2024-07-07T15:55:00,CUST-a9b7852b-4bc,,Unusual Pattern,Low,6.4,193292.07,False Positive,False,True,ML Anomaly Model,Finance,47.1,0.0,Salesforce
+FRD-00374,2025-05-11,2025-05-11T19:36:00,CUST-06edfd88-722,ORD-001128,Phantom Vendor,Low,4.0,116272.99,False Positive,False,True,Manual Review,Security,20.4,0.0,Salesforce
+FRD-00375,2024-06-24,2024-06-24T12:18:00,CUST-3d578b45-e00,ORD-001473,Geo Mismatch,Medium,33.3,5121.66,False Positive,False,True,Pattern Matching,Security,124.0,0.0,Salesforce
+FRD-00376,2025-07-22,2025-07-22T23:21:00,CUST-2aeb699d-f4b,,Round Amount,Medium,40.5,39696.15,False Positive,False,True,Claude AI Analysis,Security,74.4,0.0,Salesforce
+FRD-00377,2024-06-18,2024-06-18T05:43:00,CUST-09120f89-904,,Identity Mismatch,Medium,36.9,20622.77,Resolved,False,False,Pattern Matching,Fraud Ops,36.3,0.0,Payment Gateway
+FRD-00378,2025-10-21,2025-10-21T03:31:00,CUST-c3bd156d-c50,ORD-000180,Amount Spike,Low,21.6,12794.22,False Positive,False,True,ML Anomaly Model,Compliance,56.7,0.0,Oracle
+FRD-00379,2025-06-01,2025-06-01T09:52:00,CUST-98bf01c5-9b8,ORD-000995,Sequential IDs,Medium,30.9,156033.6,False Positive,False,True,Pattern Matching,Security,153.1,0.0,Oracle
+FRD-00380,2024-11-26,2024-11-26T20:14:00,CUST-dbf007a6-50d,ORD-002987,Geo Mismatch,High,56.3,26900.96,Resolved,False,False,Rule-Based,Fraud Ops,210.0,0.0,Salesforce
+FRD-00381,2025-01-28,2025-01-28T04:30:00,CUST-09120f89-904,ORD-001342,Round Amount,Critical,89.9,47561.61,Open,False,False,Manual Review,Compliance,,0.0,SAP
+FRD-00382,2024-11-19,2024-11-19T22:14:00,CUST-1c030213-4e9,ORD-002231,Phantom Vendor,Low,25.2,403929.71,False Positive,False,True,Pattern Matching,Fraud Ops,221.2,0.0,SAP
+FRD-00383,2025-07-28,2025-07-28T20:20:00,CUST-a9edc757-6af,ORD-000525,PO Mismatch,Medium,62.2,31087.21,False Positive,False,True,Pattern Matching,Compliance,78.0,0.0,Salesforce
+FRD-00384,2025-10-29,2025-10-29T02:59:00,CUST-915c6a9c-9e7,,Round Amount,Low,22.6,124002.24,Investigating,False,False,ML Anomaly Model,Finance,,0.0,E-Commerce
+FRD-00385,2025-07-31,2025-07-31T02:01:00,CUST-c83f8fcd-502,,Split Transaction,Medium,38.0,27389.15,False Positive,False,True,Manual Review,Compliance,180.1,0.0,Oracle
+FRD-00386,2025-08-24,2025-08-24T18:49:00,CUST-a9fb6d69-7fe,,Geo Mismatch,Low,16.3,7581.04,Open,False,False,Manual Review,Compliance,,0.0,Payment Gateway
+FRD-00387,2025-01-29,2025-01-29T16:51:00,CUST-90655b74-c33,ORD-000548,After-Hours Access,Medium,31.8,42797.78,Investigating,False,False,Claude AI Analysis,Data Quality,,0.0,Oracle
+FRD-00388,2025-07-28,2025-07-28T16:02:00,CUST-6f4d2791-0ce,,Duplicate Invoice,Low,22.3,1231.98,Investigating,False,False,Manual Review,Security,,0.0,E-Commerce
+FRD-00389,2025-08-21,2025-08-21T19:50:00,CUST-a12bdda6-f79,ORD-000752,Geo Mismatch,Low,4.6,3646.65,Open,False,False,Rule-Based,Finance,,0.0,Salesforce
+FRD-00390,2024-07-20,2024-07-20T16:09:00,CUST-578240f4-dfa,ORD-000134,PO Mismatch,High,74.3,1460203.4,False Positive,False,True,Rule-Based,Data Quality,186.3,0.0,E-Commerce
+FRD-00391,2024-09-08,2024-09-08T15:37:00,CUST-446c4188-541,ORD-002129,Round Amount,Medium,50.4,14621.68,False Positive,False,True,ML Anomaly Model,Data Quality,216.5,0.0,Salesforce
+FRD-00392,2024-08-28,2024-08-28T03:24:00,CUST-5b008db6-3a5,ORD-002264,Geo Mismatch,Low,15.4,230833.89,Open,False,False,Claude AI Analysis,Finance,,0.0,SAP
+FRD-00393,2025-02-14,2025-02-14T01:33:00,CUST-f177a1e5-1bc,ORD-001310,Identity Mismatch,Medium,72.0,21464.85,Resolved,False,False,Pattern Matching,Fraud Ops,232.5,0.0,SAP
+FRD-00394,2025-12-21,2025-12-21T13:51:00,CUST-d0405bf6-977,,Velocity Anomaly,High,59.5,24884.99,Confirmed Fraud,True,False,ML Anomaly Model,Finance,227.9,1012.62,E-Commerce
+FRD-00395,2025-03-12,2025-03-12T11:12:00,CUST-acdfc16c-9dd,ORD-001648,Split Transaction,High,77.6,50872.39,False Positive,False,True,Manual Review,Compliance,113.2,0.0,Salesforce
+FRD-00396,2024-10-06,2024-10-06T04:52:00,CUST-562fb84b-e07,ORD-000658,Phantom Vendor,Medium,42.8,65079.08,Open,False,False,Manual Review,Compliance,,0.0,E-Commerce
+FRD-00397,2026-01-23,2026-01-23T14:28:00,CUST-8ae7d29c-798,,After-Hours Access,High,80.8,6926.47,Investigating,False,False,Rule-Based,Data Quality,,0.0,SAP
+FRD-00398,2025-02-03,2025-02-03T04:00:00,CUST-0b1142fb-45d,ORD-001988,Split Transaction,Low,18.5,6145.31,Resolved,False,False,Rule-Based,Fraud Ops,12.1,0.0,Payment Gateway
+FRD-00399,2024-08-18,2024-08-18T20:06:00,CUST-e64f9164-c70,ORD-001912,Duplicate Invoice,Low,28.6,99808.28,False Positive,False,True,Rule-Based,Compliance,222.9,0.0,E-Commerce
+FRD-00400,2024-12-20,2024-12-20T05:39:00,CUST-a9edc757-6af,ORD-001668,PO Mismatch,Medium,61.0,7234.18,Resolved,False,False,ML Anomaly Model,Compliance,65.3,0.0,SAP
+FRD-00401,2024-07-25,2024-07-25T16:51:00,CUST-628fb745-c4a,ORD-000749,Round Amount,High,80.0,83349.2,Resolved,False,False,Manual Review,Data Quality,233.1,0.0,Oracle
+FRD-00402,2024-07-01,2024-07-01T16:04:00,CUST-ca310596-b83,ORD-002910,PO Mismatch,Medium,47.5,21397.95,Resolved,False,False,ML Anomaly Model,Finance,63.9,0.0,Oracle
+FRD-00403,2025-12-10,2025-12-10T02:39:00,CUST-92398674-025,,Sequential IDs,High,59.2,476.79,Confirmed Fraud,True,False,Claude AI Analysis,Security,201.0,20.33,Oracle
+FRD-00404,2024-11-29,2024-11-29T04:51:00,CUST-3bd2698d-559,,After-Hours Access,Low,18.4,169347.94,False Positive,False,True,Claude AI Analysis,Fraud Ops,165.5,0.0,Oracle
+FRD-00405,2025-09-08,2025-09-08T01:37:00,CUST-ac07d899-50a,,Unusual Pattern,Medium,48.1,47686.31,False Positive,False,True,Manual Review,Fraud Ops,136.6,0.0,Oracle
+FRD-00406,2025-04-03,2025-04-03T17:00:00,CUST-21c270b5-930,ORD-000063,Identity Mismatch,Medium,36.9,23363.54,False Positive,False,True,Manual Review,Security,59.4,0.0,Oracle
+FRD-00407,2025-03-05,2025-03-05T00:29:00,CUST-e5311600-445,ORD-002574,Geo Mismatch,Low,25.5,35646.29,Resolved,False,False,Rule-Based,Security,228.4,0.0,Payment Gateway
+FRD-00408,2024-11-15,2024-11-15T04:11:00,CUST-a7e77c0b-c43,,Split Transaction,Low,23.5,242394.39,False Positive,False,True,Claude AI Analysis,Data Quality,93.5,0.0,Salesforce
+FRD-00409,2025-04-05,2025-04-05T11:43:00,CUST-826833f9-f7d,,Identity Mismatch,High,59.9,41304.79,Investigating,False,False,Rule-Based,Security,,0.0,Oracle
+FRD-00410,2025-09-18,2025-09-18T09:52:00,CUST-dfca49e2-40c,,Geo Mismatch,Critical,88.6,4609.85,Resolved,False,False,Rule-Based,Compliance,126.6,0.0,Salesforce
+FRD-00411,2025-02-26,2025-02-26T15:45:00,CUST-e7e6619f-22a,ORD-000116,Amount Spike,Low,24.2,53976.86,False Positive,False,True,Rule-Based,Security,111.9,0.0,Oracle
+FRD-00412,2025-07-15,2025-07-15T11:24:00,CUST-0fbf53d7-14e,ORD-002079,Sequential IDs,Medium,27.6,235102.89,False Positive,False,True,Pattern Matching,Data Quality,187.8,0.0,Salesforce
+FRD-00413,2024-06-04,2024-06-04T09:59:00,CUST-a0a32e91-6a8,,Split Transaction,Low,1.0,28649.72,Confirmed Fraud,True,False,ML Anomaly Model,Data Quality,101.5,3671.46,Salesforce
+FRD-00414,2025-04-15,2025-04-15T11:09:00,CUST-c9c5a41d-623,ORD-001565,Identity Mismatch,Low,35.4,18295.18,Resolved,False,False,Manual Review,Fraud Ops,198.7,0.0,SAP
+FRD-00415,2025-09-09,2025-09-09T12:20:00,CUST-c3bd156d-c50,ORD-001397,PO Mismatch,Medium,56.0,35935.17,Open,False,False,Manual Review,Compliance,,0.0,E-Commerce
+FRD-00416,2024-06-28,2024-06-28T13:36:00,CUST-03ded41e-009,ORD-001332,Phantom Vendor,Medium,51.7,333240.64,Resolved,False,False,Manual Review,Finance,199.0,0.0,SAP
+FRD-00417,2024-09-12,2024-09-12T15:52:00,CUST-5b008db6-3a5,ORD-002349,Geo Mismatch,Medium,34.6,39053.02,Resolved,False,False,Claude AI Analysis,Compliance,134.3,0.0,Payment Gateway
+FRD-00418,2025-08-02,2025-08-02T02:17:00,CUST-a6d12536-681,,Split Transaction,High,59.4,35238.3,Investigating,False,False,Pattern Matching,Data Quality,,0.0,E-Commerce
+FRD-00419,2024-11-24,2024-11-24T18:09:00,CUST-96d6e802-c4f,ORD-001757,Geo Mismatch,Medium,64.6,674.5,False Positive,False,True,Pattern Matching,Fraud Ops,209.3,0.0,Salesforce
+FRD-00420,2024-08-17,2024-08-17T16:52:00,CUST-259c8fd1-21d,ORD-001702,Geo Mismatch,High,82.1,107664.08,Confirmed Fraud,True,False,Claude AI Analysis,Finance,217.2,2194.37,Payment Gateway
+FRD-00421,2025-11-19,2025-11-19T01:43:00,CUST-41db02bc-bb9,,Split Transaction,High,75.0,2577.93,Resolved,False,False,ML Anomaly Model,Data Quality,181.6,0.0,SAP
+FRD-00422,2024-10-27,2024-10-27T11:18:00,CUST-43b8d38a-396,ORD-000772,Sequential IDs,Low,27.2,29937.03,Confirmed Fraud,True,False,Rule-Based,Compliance,224.1,4869.28,SAP
+FRD-00423,2025-01-10,2025-01-10T00:35:00,CUST-7be31018-d1b,ORD-003312,PO Mismatch,Critical,94.8,2475.38,Investigating,False,False,Manual Review,Fraud Ops,,0.0,Oracle
+FRD-00424,2025-11-28,2025-11-28T01:54:00,CUST-1da583a0-e51,ORD-003254,Identity Mismatch,High,83.7,97255.09,Investigating,False,False,Manual Review,Fraud Ops,,0.0,Payment Gateway
+FRD-00425,2025-09-17,2025-09-17T05:19:00,CUST-186a8ac0-f92,ORD-001716,Unusual Pattern,Low,17.8,141431.2,Resolved,False,False,ML Anomaly Model,Compliance,180.8,0.0,Payment Gateway
+FRD-00426,2025-05-25,2025-05-25T19:38:00,CUST-b1d4f983-28b,ORD-002491,Duplicate Invoice,Low,11.7,9151.24,Open,False,False,Manual Review,Finance,,0.0,SAP
+FRD-00427,2024-08-17,2024-08-17T23:23:00,CUST-a72f2004-490,,Phantom Vendor,Low,20.6,402491.11,Resolved,False,False,Manual Review,Compliance,174.1,0.0,Oracle
+FRD-00428,2025-10-25,2025-10-25T18:46:00,CUST-1634b138-bd6,ORD-002029,Identity Mismatch,Medium,37.5,12419.64,False Positive,False,True,Rule-Based,Compliance,22.2,0.0,E-Commerce
+FRD-00429,2026-01-15,2026-01-15T02:37:00,CUST-a6d12536-681,ORD-001722,PO Mismatch,Low,24.8,23007.46,Resolved,False,False,Manual Review,Security,52.7,0.0,SAP
+FRD-00430,2025-10-19,2025-10-19T14:51:00,CUST-ced85f6d-6aa,ORD-000003,Identity Mismatch,Low,14.5,52443.93,False Positive,False,True,Rule-Based,Data Quality,162.7,0.0,Payment Gateway
+FRD-00431,2025-11-14,2025-11-14T16:24:00,CUST-908293f4-be0,,Identity Mismatch,Low,21.6,31099.75,False Positive,False,True,ML Anomaly Model,Compliance,215.5,0.0,E-Commerce
+FRD-00432,2024-08-09,2024-08-09T18:55:00,CUST-2d36aa86-764,ORD-002540,Velocity Anomaly,High,83.5,18688.56,Investigating,False,False,Manual Review,Security,,0.0,Oracle
+FRD-00433,2024-07-11,2024-07-11T23:12:00,CUST-e0229c94-a4e,ORD-000049,Phantom Vendor,Low,26.2,415121.5,Resolved,False,False,Pattern Matching,Finance,119.7,0.0,Salesforce
+FRD-00434,2025-07-01,2025-07-01T23:31:00,CUST-0b9e8c23-fc9,ORD-002485,Round Amount,Low,14.1,6070.14,False Positive,False,True,Manual Review,Finance,28.5,0.0,Salesforce
+FRD-00435,2025-01-30,2025-01-30T01:13:00,CUST-25053634-a20,ORD-002725,PO Mismatch,High,95.1,12263.39,Resolved,False,False,Pattern Matching,Compliance,37.6,0.0,SAP
+FRD-00436,2025-05-30,2025-05-30T07:30:00,CUST-cc0fe717-8fc,ORD-001071,Velocity Anomaly,Medium,49.1,2897.63,False Positive,False,True,Pattern Matching,Security,124.5,0.0,SAP
+FRD-00437,2025-09-26,2025-09-26T02:37:00,CUST-0ec5fc52-0a2,,Phantom Vendor,Medium,21.3,478274.73,Open,False,False,Manual Review,Data Quality,,0.0,E-Commerce
+FRD-00438,2025-07-09,2025-07-09T14:47:00,CUST-aa075e9f-6ea,ORD-000984,PO Mismatch,Medium,41.3,8858.99,Open,False,False,Pattern Matching,Finance,,0.0,Oracle
+FRD-00439,2024-06-03,2024-06-03T15:47:00,CUST-d2ea54bd-e40,ORD-001119,PO Mismatch,Medium,40.5,567.61,Resolved,False,False,Pattern Matching,Security,86.4,0.0,E-Commerce
+FRD-00440,2025-10-09,2025-10-09T04:52:00,CUST-90655b74-c33,ORD-000201,Phantom Vendor,Critical,91.6,76983.64,Investigating,False,False,ML Anomaly Model,Fraud Ops,,0.0,Oracle
+FRD-00441,2024-11-08,2024-11-08T07:02:00,CUST-493115b8-ee1,,Round Amount,Low,17.7,15202.1,Investigating,False,False,Claude AI Analysis,Security,,0.0,Salesforce
+FRD-00442,2025-05-15,2025-05-15T13:37:00,CUST-247cbfb3-bd1,ORD-000346,After-Hours Access,Medium,42.7,1538.2,Resolved,False,False,Rule-Based,Security,162.5,0.0,Salesforce
+FRD-00443,2024-07-12,2024-07-12T23:01:00,CUST-4fb61a56-1f4,,Velocity Anomaly,Low,14.4,79931.02,False Positive,False,True,Pattern Matching,Data Quality,165.3,0.0,Salesforce
+FRD-00444,2025-01-18,2025-01-18T00:35:00,CUST-247cbfb3-bd1,ORD-001893,Round Amount,Medium,40.2,42182.53,False Positive,False,True,Pattern Matching,Finance,199.5,0.0,SAP
+FRD-00445,2024-06-01,2024-06-01T08:03:00,CUST-4cfbeb7a-669,,Sequential IDs,Low,7.8,16278.39,Resolved,False,False,Pattern Matching,Fraud Ops,101.6,0.0,SAP
+FRD-00446,2025-07-11,2025-07-11T15:18:00,CUST-a3b7a647-86d,ORD-001759,Split Transaction,Low,4.7,13355.6,False Positive,False,True,Rule-Based,Compliance,82.6,0.0,E-Commerce
+FRD-00447,2025-03-13,2025-03-13T13:22:00,CUST-b76b8d11-aba,ORD-000308,Round Amount,Low,22.2,72601.37,Confirmed Fraud,True,False,ML Anomaly Model,Fraud Ops,57.6,7167.75,Payment Gateway
+FRD-00448,2024-11-01,2024-11-01T04:39:00,CUST-d0dd3530-ce2,ORD-000154,Amount Spike,Low,23.6,430236.13,Investigating,False,False,Claude AI Analysis,Security,,0.0,Salesforce
+FRD-00449,2025-04-18,2025-04-18T08:54:00,CUST-05c8ffd9-f86,,Phantom Vendor,Low,17.8,371514.53,False Positive,False,True,Claude AI Analysis,Fraud Ops,118.0,0.0,Payment Gateway
+FRD-00450,2025-07-01,2025-07-01T06:02:00,CUST-40b0aeed-879,,After-Hours Access,High,76.7,147649.0,Confirmed Fraud,True,False,Manual Review,Compliance,102.9,6446.58,E-Commerce

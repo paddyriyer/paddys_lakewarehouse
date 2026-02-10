@@ -1,0 +1,81 @@
+product_id,product_name,category,subcategory,unit_price,cost_price,margin_pct,is_recurring,launch_date,is_active
+PROD-0001,Professional Services Premium v5,Professional Services,Basic,116864.46,26456.17,77.4,False,2021-10-22,True
+PROD-0002,Training Standard v3,Training,Enterprise,217345.21,1251.27,99.4,False,2023-08-19,True
+PROD-0003,Professional Services Standard v2,Professional Services,Basic,228295.8,48979.69,78.5,False,2022-06-18,True
+PROD-0004,Security Suite Premium v4,Security Suite,Pro,148433.92,72176.26,51.4,False,2021-06-01,True
+PROD-0005,Training Standard v2,Training,Basic,120690.62,33920.73,71.9,False,2022-05-12,True
+PROD-0006,Hardware Standard v5,Hardware,Pro,238500.04,66935.21,71.9,False,2025-03-03,True
+PROD-0007,Support & Maintenance Standard v3,Support & Maintenance,Basic,237878.27,94600.05,60.2,True,2020-07-04,True
+PROD-0008,Professional Services Standard v1,Professional Services,Pro,200392.06,64372.85,67.9,False,2021-02-14,True
+PROD-0009,Hardware Premium v4,Hardware,Basic,76950.24,9983.94,87.0,False,2024-01-23,True
+PROD-0010,Training Standard v5,Training,Ultimate,1334.71,190.89,85.7,False,2023-12-02,True
+PROD-0011,Security Suite Premium v1,Security Suite,Ultimate,167142.04,97275.56,41.8,False,2020-09-20,True
+PROD-0012,Professional Services Standard v4,Professional Services,Ultimate,100030.3,22938.41,77.1,False,2022-12-29,False
+PROD-0013,Security Suite Standard v5,Security Suite,Pro,167501.85,113761.7,32.1,False,2024-04-21,True
+PROD-0014,Training Premium v4,Training,Basic,85028.09,49007.69,42.4,False,2023-08-15,True
+PROD-0015,Security Suite Standard v3,Security Suite,Ultimate,47073.03,6999.78,85.1,False,2023-09-01,True
+PROD-0016,Professional Services Premium v1,Professional Services,Enterprise,71311.82,19339.82,72.9,False,2025-05-17,True
+PROD-0017,Professional Services Premium v4,Professional Services,Basic,40968.53,19584.0,52.2,False,2021-12-10,True
+PROD-0018,Cloud Platform Premium v2,Cloud Platform,Enterprise,164001.22,46463.69,71.7,True,2020-09-20,True
+PROD-0019,Data Analytics Premium v4,Data Analytics,Ultimate,171605.72,1441.5,99.2,False,2024-04-28,False
+PROD-0020,Data Analytics Premium v4,Data Analytics,Enterprise,64735.66,28753.29,55.6,False,2024-05-18,True
+PROD-0021,Training Standard v2,Training,Ultimate,211057.53,143571.01,32.0,False,2022-12-24,True
+PROD-0022,Cloud Platform Premium v5,Cloud Platform,Enterprise,37680.92,8925.12,76.3,True,2021-02-08,True
+PROD-0023,Security Suite Standard v4,Security Suite,Ultimate,108777.96,35415.95,67.4,False,2022-01-21,False
+PROD-0024,Training Standard v1,Training,Enterprise,63155.72,14951.97,76.3,False,2021-01-01,True
+PROD-0025,Data Analytics Premium v5,Data Analytics,Basic,4477.01,1051.14,76.5,False,2022-01-01,True
+PROD-0026,Data Analytics Standard v2,Data Analytics,Ultimate,62231.07,3707.03,94.0,False,2022-06-01,True
+PROD-0027,Training Standard v5,Training,Ultimate,242965.98,117196.68,51.8,False,2020-03-24,False
+PROD-0028,Training Premium v1,Training,Ultimate,9667.05,4142.99,57.1,False,2022-11-15,True
+PROD-0029,Cloud Platform Standard v4,Cloud Platform,Basic,84508.75,37685.3,55.4,True,2021-01-11,True
+PROD-0030,Hardware Standard v4,Hardware,Basic,180426.05,93812.66,48.0,False,2024-06-13,True
+PROD-0031,Hardware Premium v2,Hardware,Basic,248730.11,107198.77,56.9,False,2022-02-05,True
+PROD-0032,Support & Maintenance Premium v2,Support & Maintenance,Enterprise,190203.45,58204.15,69.4,True,2022-10-24,True
+PROD-0033,Data Analytics Standard v4,Data Analytics,Pro,227445.54,107994.9,52.5,False,2020-02-08,True
+PROD-0034,Professional Services Premium v3,Professional Services,Basic,68763.96,22286.38,67.6,False,2021-03-29,True
+PROD-0035,Training Premium v5,Training,Ultimate,55341.54,23703.97,57.2,False,2023-04-19,True
+PROD-0036,Training Premium v3,Training,Enterprise,135409.88,45107.15,66.7,False,2021-10-16,True
+PROD-0037,Security Suite Standard v5,Security Suite,Pro,38028.63,22750.27,40.2,False,2023-10-10,True
+PROD-0038,Data Analytics Premium v4,Data Analytics,Enterprise,8162.43,4877.13,40.2,False,2020-06-19,True
+PROD-0039,Training Standard v4,Training,Basic,76077.08,39998.59,47.4,False,2020-11-15,True
+PROD-0040,Professional Services Standard v1,Professional Services,Enterprise,156103.48,61748.93,60.4,False,2023-02-13,True
+PROD-0041,Support & Maintenance Standard v1,Support & Maintenance,Basic,93882.93,35352.67,62.3,True,2022-03-21,True
+PROD-0042,Cloud Platform Standard v4,Cloud Platform,Ultimate,142728.75,17887.26,87.5,True,2021-12-21,True
+PROD-0043,Data Analytics Premium v1,Data Analytics,Enterprise,225124.58,43983.93,80.5,False,2022-10-25,True
+PROD-0044,Data Analytics Premium v3,Data Analytics,Ultimate,56351.52,15964.67,71.7,False,2020-11-17,True
+PROD-0045,Professional Services Premium v4,Professional Services,Pro,100072.98,283.62,99.7,False,2023-10-31,True
+PROD-0046,Data Analytics Standard v2,Data Analytics,Basic,145081.02,42489.95,70.7,False,2023-06-21,True
+PROD-0047,Cloud Platform Premium v3,Cloud Platform,Pro,149931.69,76853.92,48.7,True,2020-12-06,True
+PROD-0048,Security Suite Standard v5,Security Suite,Ultimate,171122.01,114019.68,33.4,False,2023-02-04,True
+PROD-0049,Support & Maintenance Standard v2,Support & Maintenance,Pro,212592.07,24057.5,88.7,True,2022-08-25,True
+PROD-0050,Support & Maintenance Premium v2,Support & Maintenance,Ultimate,80748.1,16595.76,79.4,True,2022-07-29,True
+PROD-0051,Security Suite Premium v5,Security Suite,Basic,247429.35,138008.31,44.2,False,2024-07-03,True
+PROD-0052,Training Standard v1,Training,Basic,218034.03,138721.08,36.4,False,2024-03-13,False
+PROD-0053,Data Analytics Premium v1,Data Analytics,Ultimate,216778.84,151067.8,30.3,False,2025-05-15,True
+PROD-0054,Cloud Platform Premium v1,Cloud Platform,Ultimate,178976.85,76064.02,57.5,True,2022-09-11,True
+PROD-0055,Software License Premium v1,Software License,Enterprise,73310.76,20474.82,72.1,True,2022-03-29,True
+PROD-0056,Security Suite Standard v3,Security Suite,Basic,107203.7,9353.34,91.3,False,2024-01-18,True
+PROD-0057,Data Analytics Standard v4,Data Analytics,Pro,164168.25,16355.49,90.0,False,2021-06-25,False
+PROD-0058,Cloud Platform Premium v3,Cloud Platform,Enterprise,114614.14,56904.19,50.4,True,2021-08-27,True
+PROD-0059,Training Premium v5,Training,Basic,196864.54,96418.24,51.0,False,2024-04-08,True
+PROD-0060,Hardware Premium v3,Hardware,Enterprise,6581.55,4061.01,38.3,False,2025-04-18,True
+PROD-0061,Hardware Standard v2,Hardware,Pro,118873.16,36629.49,69.2,False,2023-05-29,True
+PROD-0062,Data Analytics Premium v5,Data Analytics,Enterprise,64399.97,10313.14,84.0,False,2020-10-30,True
+PROD-0063,Hardware Premium v5,Hardware,Ultimate,91103.4,32458.66,64.4,False,2022-09-03,True
+PROD-0064,Professional Services Premium v5,Professional Services,Enterprise,243103.56,109583.63,54.9,False,2022-12-07,True
+PROD-0065,Security Suite Standard v4,Security Suite,Ultimate,162128.94,98831.76,39.0,False,2020-01-30,True
+PROD-0066,Cloud Platform Standard v3,Cloud Platform,Basic,85656.85,18580.6,78.3,True,2023-08-24,True
+PROD-0067,Security Suite Premium v5,Security Suite,Pro,114883.96,73402.78,36.1,False,2024-02-27,True
+PROD-0068,Software License Standard v1,Software License,Enterprise,99682.36,6941.88,93.0,True,2023-02-07,True
+PROD-0069,Cloud Platform Premium v2,Cloud Platform,Pro,242612.23,9553.32,96.1,True,2021-06-08,True
+PROD-0070,Professional Services Standard v4,Professional Services,Pro,172455.48,78582.15,54.4,False,2020-03-23,True
+PROD-0071,Hardware Standard v1,Hardware,Pro,138038.27,8873.18,93.6,False,2022-12-06,True
+PROD-0072,Support & Maintenance Premium v4,Support & Maintenance,Basic,56973.03,23378.19,59.0,True,2023-01-04,True
+PROD-0073,Software License Standard v1,Software License,Ultimate,79782.02,35420.3,55.6,True,2020-06-19,True
+PROD-0074,Cloud Platform Standard v5,Cloud Platform,Basic,135637.51,20452.12,84.9,True,2023-04-06,True
+PROD-0075,Cloud Platform Premium v5,Cloud Platform,Ultimate,180023.09,55807.89,69.0,True,2020-01-02,True
+PROD-0076,Data Analytics Standard v5,Data Analytics,Ultimate,150378.0,51879.25,65.5,False,2022-11-19,True
+PROD-0077,Hardware Standard v5,Hardware,Enterprise,66122.82,24656.32,62.7,False,2023-07-05,True
+PROD-0078,Professional Services Premium v4,Professional Services,Ultimate,121945.84,27282.26,77.6,False,2020-11-30,True
+PROD-0079,Data Analytics Premium v3,Data Analytics,Pro,168276.42,11184.76,93.4,False,2021-01-31,True
+PROD-0080,Support & Maintenance Standard v5,Support & Maintenance,Ultimate,53382.0,18775.11,64.8,True,2020-07-29,True

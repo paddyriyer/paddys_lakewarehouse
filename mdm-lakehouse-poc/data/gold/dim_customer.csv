@@ -1,0 +1,501 @@
+customer_uid,full_name,email,phone,country,city,segment,industry,status,source_systems,match_score,lifetime_value,employee_count,annual_revenue,created_date,last_activity_date,is_current
+CUST-a841d6ae-3c0,Customer 1 Corp,contact@customer1.com,+1-783-740-3931,IN,Tokyo,Startup,Healthcare,Churned,SAP+Salesforce+Oracle,0.919,1406588.08,27998,44152918.57,2020-12-07,2025-12-20,True
+CUST-0610f1aa-6e8,Customer 2 Corp,contact@customer2.com,+1-611-616-6529,AU,London,Startup,Media,Active,Salesforce+Oracle,0.999,1690483.76,27033,38232799.96,2022-05-31,2025-12-29,True
+CUST-ef92d2b6-1b3,Customer 3 Corp,contact@customer3.com,+1-823-346-9939,US,Toronto,SMB,Media,At-Risk,SAP,0.849,1453994.99,18653,29828565.05,2022-11-26,2025-07-05,True
+CUST-534246d3-b1f,Customer 4 Corp,contact@customer4.com,+1-509-106-5920,US,Berlin,SMB,Technology,New,SAP+Salesforce+Oracle,0.98,1024986.62,37409,46303530.27,2020-11-12,2025-06-25,True
+CUST-692f940d-f4a,Customer 5 Corp,contact@customer5.com,+1-564-259-3267,UK,Mumbai,Mid-Market,Retail,Active,Salesforce+Oracle,0.773,802597.51,14259,36739871.1,2024-01-21,2025-08-23,True
+CUST-ef53c09d-517,Customer 6 Corp,contact@customer6.com,+1-377-599-2562,CA,Paris,Enterprise,Energy,At-Risk,SAP+Salesforce,0.98,672107.34,28472,20884433.46,2020-09-03,2026-01-09,True
+CUST-17773487-94a,Customer 7 Corp,contact@customer7.com,+1-965-768-1187,AU,Toronto,Enterprise,Manufacturing,At-Risk,Salesforce,,1082159.81,9812,16408898.22,2023-11-30,2025-07-27,True
+CUST-98bf01c5-9b8,Customer 8 Corp,contact@customer8.com,+1-889-849-7436,FR,Singapore,Enterprise,Retail,Active,SAP,,791673.2,8673,16874792.08,2022-09-01,2025-10-25,True
+CUST-40617c13-895,Customer 9 Corp,contact@customer9.com,+1-761-508-5301,US,Toronto,Startup,Finance,At-Risk,SAP+Oracle,0.8,793661.01,37452,9885355.09,2023-06-15,2025-12-06,True
+CUST-b1252551-933,Customer 10 Corp,contact@customer10.com,+1-448-173-5362,BR,Toronto,SMB,Healthcare,Active,SAP+Salesforce,0.856,699874.17,21029,17291792.98,2023-09-04,2025-06-07,True
+CUST-cfbc6445-48f,Customer 11 Corp,contact@customer11.com,+1-373-458-8245,CA,London,Startup,Technology,At-Risk,SAP+Oracle,,750772.48,49668,36451488.97,2020-06-24,2025-06-29,True
+CUST-aa93cc98-e0d,Customer 12 Corp,contact@customer12.com,+1-448-735-3419,SG,Paris,Enterprise,Media,At-Risk,SAP+Salesforce+Oracle,0.826,945024.66,21759,10529576.1,2023-01-06,2025-07-25,True
+CUST-473fc6c7-b66,Customer 13 Corp,contact@customer13.com,+1-735-868-5237,IN,Sydney,Mid-Market,Technology,Active,SAP,0.916,91746.6,11172,3099491.47,2021-02-15,2025-12-20,True
+CUST-adf8de6e-dbc,Customer 14 Corp,contact@customer14.com,+1-477-154-8617,AU,New York,Enterprise,Energy,Churned,SAP+Salesforce+Oracle,,1704905.47,43270,18074935.2,2020-08-08,2025-06-05,True
+CUST-5ee3dcd8-ff0,Customer 15 Corp,contact@customer15.com,+1-864-495-4787,DE,Tokyo,Enterprise,Media,Active,SAP,0.883,376902.69,32820,48342889.48,2023-02-22,2026-01-24,True
+CUST-b99d0711-3a1,Customer 16 Corp,contact@customer16.com,+1-240-353-9673,UK,Mumbai,Startup,Energy,At-Risk,SAP+Salesforce+Oracle,,696825.91,23072,17833368.85,2021-09-11,2025-07-31,True
+CUST-d66baa2b-e5a,Customer 17 Corp,contact@customer17.com,+1-713-382-2015,AU,Paris,Startup,Technology,New,Salesforce,0.806,686863.37,25755,32880894.77,2020-06-28,2025-12-04,True
+CUST-f1ba8b26-b09,Customer 18 Corp,contact@customer18.com,+1-894-727-4726,DE,Berlin,Mid-Market,Energy,Active,Salesforce+Oracle,0.832,1086756.33,13560,32658385.04,2023-04-04,2025-10-17,True
+CUST-578240f4-dfa,Customer 19 Corp,contact@customer19.com,+1-407-983-3262,UK,Tokyo,Mid-Market,Energy,Churned,SAP+Oracle,0.891,320305.59,4454,27911280.87,2024-01-13,2025-07-01,True
+CUST-f791c635-b67,Customer 20 Corp,contact@customer20.com,+1-349-844-1483,BR,Mumbai,Startup,Energy,Active,Salesforce+Oracle,0.983,1788789.54,48397,13762428.62,2024-05-14,2025-07-19,True
+CUST-3f719dcd-6fb,Customer 21 Corp,contact@customer21.com,+1-389-126-5372,CA,Singapore,Mid-Market,Retail,Active,SAP+Oracle,0.84,1377841.86,31244,6790922.71,2023-05-23,2025-09-29,True
+CUST-c3bd10b6-037,Customer 22 Corp,contact@customer22.com,+1-582-288-7348,FR,Sydney,Mid-Market,Finance,At-Risk,SAP+Oracle,,820135.37,993,46279210.65,2022-04-25,2025-07-27,True
+CUST-1fe7332f-300,Customer 23 Corp,contact@customer23.com,+1-407-875-4351,US,London,Startup,Education,At-Risk,SAP+Salesforce+Oracle,0.864,497333.76,26543,38833114.48,2023-05-30,2025-12-06,True
+CUST-ced85f6d-6aa,Customer 24 Corp,contact@customer24.com,+1-937-420-7457,CA,Singapore,Enterprise,Healthcare,At-Risk,SAP,0.969,1756170.98,16113,25983262.36,2022-03-21,2025-12-06,True
+CUST-9a7c4e3c-070,Customer 25 Corp,contact@customer25.com,+1-596-628-1807,US,Paris,Startup,Energy,Active,Salesforce+Oracle,0.821,337140.77,19305,30695400.53,2020-04-21,2025-11-24,True
+CUST-a9fb6d69-7fe,Customer 26 Corp,contact@customer26.com,+1-345-574-8400,US,Tokyo,Enterprise,Finance,Active,Salesforce,0.924,274936.82,27113,16240700.53,2020-02-21,2025-07-16,True
+CUST-6a9eb0a0-e8c,Customer 27 Corp,contact@customer27.com,+1-929-306-8449,US,Paris,SMB,Finance,Active,SAP+Salesforce+Oracle,0.773,1413922.29,41564,18210875.12,2022-12-08,2025-11-29,True
+CUST-2d36aa86-764,Customer 28 Corp,contact@customer28.com,+1-723-726-3619,DE,Tokyo,Startup,Technology,Active,SAP+Oracle,0.891,1320763.03,9846,8189992.41,2020-10-23,2025-07-16,True
+CUST-768c568c-8e1,Customer 29 Corp,contact@customer29.com,+1-252-529-6047,UK,Sydney,SMB,Finance,At-Risk,SAP+Salesforce,0.99,12048.13,16597,709167.46,2022-10-16,2026-01-05,True
+CUST-bd0f6507-5b0,Customer 30 Corp,contact@customer30.com,+1-205-722-9084,US,Berlin,Startup,Education,Active,SAP,0.9,18113.18,35880,13977835.59,2023-07-11,2025-10-21,True
+CUST-b1ddafab-ebd,Customer 31 Corp,contact@customer31.com,+1-412-150-4028,US,New York,SMB,Technology,At-Risk,SAP+Oracle,0.917,1676838.8,19568,16622443.28,2020-06-28,2025-06-13,True
+CUST-f2ccec53-7a0,Customer 32 Corp,contact@customer32.com,+1-382-265-5659,CA,Singapore,Mid-Market,Education,Active,SAP+Salesforce+Oracle,0.983,190786.94,19624,16208810.36,2022-02-15,2025-12-27,True
+CUST-b6d22172-c33,Customer 33 Corp,contact@customer33.com,+1-637-963-2063,UK,Sydney,Mid-Market,Healthcare,Active,SAP+Salesforce+Oracle,0.832,830447.03,13762,34821891.92,2023-06-07,2025-06-15,True
+CUST-d9fb38b6-235,Customer 34 Corp,contact@customer34.com,+1-947-744-9666,US,Sydney,SMB,Energy,Active,Salesforce,0.815,1152409.66,40854,17757281.88,2020-09-22,2025-11-05,True
+CUST-faa048b5-492,Customer 35 Corp,contact@customer35.com,+1-732-846-9154,FR,London,Mid-Market,Manufacturing,Active,SAP+Oracle,,52853.66,41000,39856954.41,2024-02-19,2026-01-04,True
+CUST-1c76bc59-2d9,Customer 36 Corp,contact@customer36.com,+1-830-524-7783,US,Mumbai,SMB,Retail,Active,SAP+Salesforce,0.923,512562.96,4455,15457850.21,2022-11-03,2025-10-19,True
+CUST-0a02b342-2e5,Customer 37 Corp,contact@customer37.com,+1-206-216-6460,UK,Toronto,Enterprise,Finance,Active,SAP+Oracle,0.834,1346583.55,31106,39882993.75,2023-08-15,2025-07-05,True
+CUST-5d5175f4-340,Customer 38 Corp,contact@customer38.com,+1-842-571-9797,UK,Sydney,Startup,Technology,Active,Salesforce,,1451303.49,20686,27803342.69,2020-02-08,2025-07-24,True
+CUST-3da17260-f1e,Customer 39 Corp,contact@customer39.com,+1-539-918-6793,US,London,SMB,Technology,Active,Salesforce+Oracle,0.907,1685599.52,37429,30323885.54,2021-01-18,2025-10-31,True
+CUST-4ce2a2d3-510,Customer 40 Corp,contact@customer40.com,+1-969-415-6152,JP,New York,SMB,Energy,Active,SAP+Salesforce,0.809,906553.13,19843,10885379.98,2021-09-11,2025-07-15,True
+CUST-eaec91df-c17,Customer 41 Corp,contact@customer41.com,+1-238-896-4311,US,Sydney,Enterprise,Education,Active,Salesforce,,683531.23,31694,36648809.23,2022-12-08,2025-08-19,True
+CUST-acdfc16c-9dd,Customer 42 Corp,contact@customer42.com,+1-346-887-2609,SG,Tokyo,Mid-Market,Retail,At-Risk,SAP+Salesforce+Oracle,,778238.49,34242,5880215.75,2021-09-28,2026-01-25,True
+CUST-97a39358-eac,Customer 43 Corp,contact@customer43.com,+1-808-992-2426,UK,Sydney,Enterprise,Healthcare,Active,Salesforce,0.936,49848.12,49718,15675930.63,2021-03-05,2025-08-22,True
+CUST-57793190-27a,Customer 44 Corp,contact@customer44.com,+1-493-383-9720,UK,Sydney,Enterprise,Manufacturing,Active,SAP+Oracle,,233348.49,40835,28025325.6,2020-07-28,2025-07-23,True
+CUST-c83f8fcd-502,Customer 45 Corp,contact@customer45.com,+1-762-426-5440,US,Paris,Mid-Market,Finance,Active,SAP+Salesforce,0.973,1083451.32,3334,6590692.7,2022-08-22,2026-01-18,True
+CUST-70806ef4-69e,Customer 46 Corp,contact@customer46.com,+1-308-492-1881,US,Toronto,Startup,Finance,Churned,SAP+Salesforce+Oracle,0.898,1673167.94,45843,22347229.65,2021-12-29,2025-08-19,True
+CUST-d9004099-e7e,Customer 47 Corp,contact@customer47.com,+1-402-830-9740,US,Sydney,Mid-Market,Healthcare,Active,SAP+Salesforce+Oracle,0.864,1370533.56,46554,38348025.42,2022-08-21,2025-07-30,True
+CUST-32db9794-505,Customer 48 Corp,contact@customer48.com,+1-347-981-5227,UK,Toronto,Mid-Market,Media,New,Salesforce+Oracle,0.758,953292.05,23042,23984739.08,2020-12-15,2025-08-12,True
+CUST-96b5edc3-0e2,Customer 49 Corp,contact@customer49.com,+1-818-688-3087,IN,San Francisco,Startup,Healthcare,At-Risk,Salesforce+Oracle,0.768,607725.66,30220,20100742.09,2022-04-26,2025-08-01,True
+CUST-7ac01d59-b94,Customer 50 Corp,contact@customer50.com,+1-761-262-8903,DE,San Francisco,SMB,Retail,Churned,SAP+Salesforce+Oracle,0.946,873530.65,22436,27271891.32,2021-04-28,2025-07-15,True
+CUST-6c100c7f-f75,Customer 51 Corp,contact@customer51.com,+1-279-857-8972,US,Singapore,Startup,Media,Churned,Salesforce,,893206.38,20197,47798583.97,2020-05-22,2025-11-01,True
+CUST-ea42bae6-aa1,Customer 52 Corp,contact@customer52.com,+1-810-889-7208,UK,Sydney,Enterprise,Healthcare,Active,SAP+Oracle,0.972,1806995.73,41699,40510984.46,2024-03-30,2025-07-08,True
+CUST-bfb09225-df5,Customer 53 Corp,contact@customer53.com,+1-663-644-5775,DE,Singapore,Startup,Retail,Churned,SAP+Oracle,0.829,1142701.43,44545,15297051.64,2022-06-09,2025-12-01,True
+CUST-999def90-3e3,Customer 54 Corp,contact@customer54.com,+1-552-191-1133,CA,Tokyo,Startup,Finance,New,Salesforce+Oracle,,1802646.01,3491,142081.37,2023-02-20,2025-12-28,True
+CUST-c95fe791-ba9,Customer 55 Corp,contact@customer55.com,+1-312-981-5623,SG,New York,Mid-Market,Energy,New,SAP+Salesforce+Oracle,0.906,1424988.44,26619,19140095.75,2023-01-21,2025-07-25,True
+CUST-09cc650b-19e,Customer 56 Corp,contact@customer56.com,+1-686-242-4083,IN,Toronto,SMB,Energy,Churned,SAP+Oracle,,1746107.7,8237,6800444.66,2020-05-26,2025-11-13,True
+CUST-efe586c5-a06,Customer 57 Corp,contact@customer57.com,+1-938-598-8155,US,San Francisco,Mid-Market,Energy,Active,SAP,0.924,1860970.47,40855,9071889.12,2022-11-09,2025-09-17,True
+CUST-6394cbe2-6bb,Customer 58 Corp,contact@customer58.com,+1-660-493-6821,US,London,Startup,Technology,Active,Salesforce,0.933,1425699.35,17655,20600806.9,2023-01-23,2025-10-26,True
+CUST-37d54725-534,Customer 59 Corp,contact@customer59.com,+1-238-681-8917,JP,Mumbai,Enterprise,Education,Active,SAP+Salesforce+Oracle,,1461720.01,34508,49180597.0,2024-03-17,2025-12-17,True
+CUST-114b61d6-25c,Customer 60 Corp,contact@customer60.com,+1-729-180-9574,CA,San Francisco,Mid-Market,Education,Active,SAP+Salesforce+Oracle,0.99,160773.43,41539,27005940.9,2023-04-02,2025-08-19,True
+CUST-8ac3ef71-438,Customer 61 Corp,contact@customer61.com,+1-551-647-1176,FR,Sydney,Startup,Media,Churned,SAP,0.994,592762.8,10987,1862779.38,2023-05-08,2025-12-09,True
+CUST-b7138a02-577,Customer 62 Corp,contact@customer62.com,+1-777-366-2006,AU,Sydney,Mid-Market,Technology,Active,SAP+Salesforce+Oracle,0.952,1250512.43,18806,24289533.39,2020-09-16,2025-10-08,True
+CUST-ac577f63-f5d,Customer 63 Corp,contact@customer63.com,+1-484-358-3171,CA,Paris,SMB,Manufacturing,Active,SAP+Salesforce,0.901,1820712.32,48438,7641667.11,2022-07-03,2025-09-03,True
+CUST-4b8933e2-8b5,Customer 64 Corp,contact@customer64.com,+1-467-901-4869,FR,London,Enterprise,Media,At-Risk,SAP+Salesforce,0.899,1644338.92,32512,37662788.71,2022-04-25,2025-12-15,True
+CUST-8935a17f-b4b,Customer 65 Corp,contact@customer65.com,+1-876-550-3740,US,Singapore,SMB,Technology,Active,SAP+Salesforce+Oracle,,1639964.36,3452,8463259.8,2022-03-27,2025-09-30,True
+CUST-ea21cbbb-314,Customer 66 Corp,contact@customer66.com,+1-964-870-9724,US,Toronto,Startup,Education,Active,Salesforce+Oracle,,1741204.08,787,14510731.89,2022-07-08,2025-09-06,True
+CUST-41ebcced-d67,Customer 67 Corp,contact@customer67.com,+1-742-799-1672,US,Tokyo,SMB,Energy,Churned,Salesforce,0.965,673259.98,17513,40135586.41,2021-06-06,2025-11-15,True
+CUST-05c8ffd9-f86,Customer 68 Corp,contact@customer68.com,+1-672-891-4961,JP,Singapore,Mid-Market,Media,Active,SAP+Salesforce+Oracle,0.795,1097487.05,44102,522960.72,2020-05-19,2025-06-04,True
+CUST-bba79d14-7c8,Customer 69 Corp,contact@customer69.com,+1-737-206-8306,UK,Berlin,SMB,Manufacturing,Active,SAP+Oracle,,1240697.46,3737,46931422.84,2023-09-06,2026-01-15,True
+CUST-02398403-f76,Customer 70 Corp,contact@customer70.com,+1-813-753-2995,JP,San Francisco,Enterprise,Finance,At-Risk,SAP,0.975,1134307.26,12118,44810481.35,2023-11-25,2025-07-18,True
+CUST-8227b815-fe6,Customer 71 Corp,contact@customer71.com,+1-678-776-2240,AU,Sydney,SMB,Energy,Active,SAP+Salesforce+Oracle,0.942,650191.23,10624,39058491.8,2021-07-21,2025-12-16,True
+CUST-0c7c3a56-96f,Customer 72 Corp,contact@customer72.com,+1-597-440-1984,UK,Paris,Mid-Market,Education,Active,SAP+Salesforce,0.982,1222552.26,11704,32309610.54,2020-08-10,2025-07-07,True
+CUST-28809b65-4fb,Customer 73 Corp,contact@customer73.com,+1-641-323-2740,FR,Paris,Enterprise,Technology,Active,SAP+Salesforce,,1456452.58,29231,1036363.18,2022-10-16,2025-07-09,True
+CUST-6c02e793-3cd,Customer 74 Corp,contact@customer74.com,+1-200-138-7397,UK,London,SMB,Energy,Churned,Salesforce,,1416673.28,32167,23959157.36,2022-04-07,2026-01-03,True
+CUST-5d2a1279-99e,Customer 75 Corp,contact@customer75.com,+1-271-653-4700,US,Toronto,Startup,Healthcare,At-Risk,Salesforce,0.998,670212.23,19856,20090678.44,2023-07-18,2025-11-13,True
+CUST-41db02bc-bb9,Customer 76 Corp,contact@customer76.com,+1-747-973-6571,US,Sydney,SMB,Retail,Active,SAP+Oracle,0.992,1323164.51,19596,34824525.7,2020-08-06,2025-11-09,True
+CUST-43b8d38a-396,Customer 77 Corp,contact@customer77.com,+1-698-186-8175,JP,Berlin,Mid-Market,Technology,Churned,SAP+Oracle,,1992785.2,15639,24512704.27,2020-05-09,2025-12-20,True
+CUST-17ad8adf-50e,Customer 78 Corp,contact@customer78.com,+1-515-611-9748,SG,Sydney,Enterprise,Technology,Active,Salesforce+Oracle,,1576618.17,2815,20334842.01,2021-03-09,2025-12-24,True
+CUST-1908dd2b-785,Customer 79 Corp,contact@customer79.com,+1-735-569-9791,US,Singapore,Mid-Market,Healthcare,Churned,SAP+Salesforce,0.872,43030.7,40535,2385504.51,2023-12-07,2025-11-14,True
+CUST-2f5b3c8a-dd4,Customer 80 Corp,contact@customer80.com,+1-376-747-1818,UK,San Francisco,Startup,Finance,Active,Salesforce,,1635853.44,7492,24907460.48,2023-06-14,2025-07-27,True
+CUST-0b742c96-f56,Customer 81 Corp,contact@customer81.com,+1-407-536-6527,BR,Toronto,SMB,Healthcare,Active,SAP+Salesforce+Oracle,0.784,1673672.05,13984,38234971.33,2023-04-29,2025-07-15,True
+CUST-f86d58e1-7e0,Customer 82 Corp,contact@customer82.com,+1-323-380-3314,BR,Toronto,Mid-Market,Media,Active,Salesforce,,491071.0,38151,2130874.83,2020-07-23,2025-12-20,True
+CUST-047a6587-3cc,Customer 83 Corp,contact@customer83.com,+1-827-485-3584,US,Sydney,Enterprise,Technology,At-Risk,SAP+Salesforce,,182836.77,42723,29727153.11,2021-08-04,2025-09-15,True
+CUST-5ea260e0-af0,Customer 84 Corp,contact@customer84.com,+1-991-587-3079,US,London,SMB,Education,Churned,SAP,,353225.13,45339,1977298.48,2021-01-03,2025-12-01,True
+CUST-f177a1e5-1bc,Customer 85 Corp,contact@customer85.com,+1-290-742-5934,UK,Toronto,Enterprise,Retail,Active,SAP+Oracle,,1062747.05,6280,30984154.9,2024-04-07,2025-10-17,True
+CUST-d0405bf6-977,Customer 86 Corp,contact@customer86.com,+1-675-888-4409,UK,New York,Mid-Market,Healthcare,Active,SAP+Oracle,0.992,951453.62,11565,8072003.72,2020-03-29,2025-06-14,True
+CUST-d123cb23-2d1,Customer 87 Corp,contact@customer87.com,+1-491-314-8121,UK,Mumbai,Startup,Technology,Churned,SAP+Salesforce,0.981,355895.78,1914,24304563.66,2020-08-25,2025-06-19,True
+CUST-0ef1d3cb-a92,Customer 88 Corp,contact@customer88.com,+1-938-555-6340,DE,Berlin,SMB,Retail,New,SAP+Salesforce,0.775,1476806.99,13114,18839066.16,2021-03-27,2025-06-19,True
+CUST-4b420f22-6ee,Customer 89 Corp,contact@customer89.com,+1-696-155-8141,US,Berlin,Startup,Finance,Active,SAP,0.864,392339.07,23510,48780238.98,2021-02-18,2025-08-25,True
+CUST-d182e8dd-d53,Customer 90 Corp,contact@customer90.com,+1-908-682-1977,UK,London,Enterprise,Education,Active,SAP,0.94,443607.86,19353,30221435.54,2023-07-30,2026-01-30,True
+CUST-37857b84-914,Customer 91 Corp,contact@customer91.com,+1-374-691-4763,US,Toronto,Startup,Retail,Churned,Salesforce,0.866,33935.19,28066,36835325.07,2021-05-20,2025-08-03,True
+CUST-bf9d7887-bbe,Customer 92 Corp,contact@customer92.com,+1-793-327-3440,CA,New York,Startup,Technology,Active,SAP+Salesforce,0.933,1010911.58,27908,26602974.14,2022-09-08,2025-12-25,True
+CUST-bdb8084f-c35,Customer 93 Corp,contact@customer93.com,+1-300-563-9114,US,San Francisco,Enterprise,Energy,At-Risk,SAP+Oracle,,595101.9,42453,49947687.8,2020-02-02,2025-10-01,True
+CUST-2ed4968a-cfe,Customer 94 Corp,contact@customer94.com,+1-365-820-8524,SG,Singapore,Enterprise,Education,Churned,SAP,0.969,813693.94,24285,31377866.73,2023-12-12,2025-11-10,True
+CUST-4f511782-bb3,Customer 95 Corp,contact@customer95.com,+1-842-172-7305,JP,Mumbai,Enterprise,Manufacturing,Active,SAP,0.925,1226939.97,37708,39744489.79,2024-06-01,2025-11-23,True
+CUST-4952acb8-e5b,Customer 96 Corp,contact@customer96.com,+1-543-853-1898,IN,Mumbai,Enterprise,Healthcare,Active,SAP,0.905,734314.43,11496,32443815.65,2023-12-14,2025-06-18,True
+CUST-dfca49e2-40c,Customer 97 Corp,contact@customer97.com,+1-992-309-3267,UK,Berlin,Enterprise,Education,Active,SAP+Salesforce+Oracle,0.895,1918411.94,13759,37683357.57,2024-04-07,2025-07-28,True
+CUST-92538f6b-6d1,Customer 98 Corp,contact@customer98.com,+1-473-615-7929,UK,New York,Enterprise,Media,Active,Salesforce+Oracle,0.875,1659971.85,30822,35520281.91,2023-10-21,2025-12-29,True
+CUST-6f95ef15-56a,Customer 99 Corp,contact@customer99.com,+1-499-562-7031,BR,San Francisco,Mid-Market,Education,Active,SAP+Salesforce,,1796401.99,18908,47916999.6,2020-06-06,2025-06-28,True
+CUST-a9ca2aea-b76,Customer 100 Corp,contact@customer100.com,+1-314-813-3424,FR,London,Mid-Market,Technology,Active,Salesforce+Oracle,0.921,1863784.34,31067,17400342.31,2022-06-28,2025-12-06,True
+CUST-9469be45-540,Customer 101 Corp,contact@customer101.com,+1-498-293-2031,US,Berlin,SMB,Energy,Churned,Salesforce,0.912,655981.3,38896,33326181.76,2022-12-21,2026-01-02,True
+CUST-85fa53cb-fe2,Customer 102 Corp,contact@customer102.com,+1-668-411-3161,BR,Paris,Mid-Market,Manufacturing,Active,SAP+Oracle,0.993,1540650.73,3111,7502082.94,2021-08-05,2025-09-25,True
+CUST-a353f075-89c,Customer 103 Corp,contact@customer103.com,+1-833-264-9770,UK,London,Mid-Market,Finance,New,SAP+Oracle,,87097.16,20760,28768806.03,2022-06-21,2025-08-06,True
+CUST-b4f7608c-f9d,Customer 104 Corp,contact@customer104.com,+1-410-675-1568,AU,Mumbai,SMB,Finance,Active,Salesforce+Oracle,0.994,1069617.7,7971,46029655.4,2022-04-08,2026-01-25,True
+CUST-2e0aaf5c-297,Customer 105 Corp,contact@customer105.com,+1-348-569-6246,US,New York,SMB,Manufacturing,Active,SAP,0.992,1509552.5,37609,33377697.8,2023-03-03,2025-12-04,True
+CUST-915c6a9c-9e7,Customer 106 Corp,contact@customer106.com,+1-652-446-2840,JP,Sydney,Enterprise,Finance,New,SAP+Salesforce+Oracle,0.827,806251.69,14451,22354037.29,2020-07-08,2025-08-23,True
+CUST-903169c3-758,Customer 107 Corp,contact@customer107.com,+1-856-299-9625,US,Paris,Mid-Market,Technology,Active,SAP+Salesforce,0.861,1344757.76,5736,48794391.4,2022-03-18,2025-07-20,True
+CUST-05bde016-c93,Customer 108 Corp,contact@customer108.com,+1-817-719-9381,US,Mumbai,Startup,Finance,Active,SAP+Salesforce+Oracle,0.842,748798.15,18664,17311518.64,2021-09-22,2025-09-23,True
+CUST-67049120-7b1,Customer 109 Corp,contact@customer109.com,+1-289-320-8278,JP,Toronto,Startup,Manufacturing,New,SAP+Oracle,0.993,850545.24,27154,7064427.58,2023-04-17,2025-11-01,True
+CUST-3f4693c6-824,Customer 110 Corp,contact@customer110.com,+1-412-410-8776,SG,Tokyo,SMB,Healthcare,Active,Salesforce,0.772,821873.97,17922,20784249.3,2023-02-12,2025-09-27,True
+CUST-84d22aad-efd,Customer 111 Corp,contact@customer111.com,+1-973-240-4264,US,Toronto,SMB,Education,At-Risk,SAP+Salesforce,0.825,1172490.47,32391,28008124.73,2022-08-07,2025-07-28,True
+CUST-99437142-1f0,Customer 112 Corp,contact@customer112.com,+1-202-257-5303,UK,Sydney,Enterprise,Manufacturing,Active,SAP,,1814052.43,42266,12313038.05,2020-09-01,2025-12-13,True
+CUST-7cc0374b-ad0,Customer 113 Corp,contact@customer113.com,+1-268-713-6927,CA,Sydney,Startup,Manufacturing,Active,SAP+Salesforce+Oracle,0.994,1637470.19,24468,25675040.88,2023-03-24,2025-06-05,True
+CUST-64d5099c-710,Customer 114 Corp,contact@customer114.com,+1-366-695-1958,US,Mumbai,Startup,Finance,At-Risk,Salesforce+Oracle,,548977.36,27503,31848732.04,2021-12-30,2025-06-13,True
+CUST-259c8fd1-21d,Customer 115 Corp,contact@customer115.com,+1-742-754-2258,IN,Berlin,Mid-Market,Healthcare,Active,Salesforce,0.886,1745524.05,44900,40013872.59,2021-07-09,2025-11-23,True
+CUST-bb5d248d-6b3,Customer 116 Corp,contact@customer116.com,+1-571-198-9755,CA,Mumbai,Mid-Market,Technology,Churned,SAP+Oracle,0.843,972373.55,22312,46053278.14,2020-11-29,2025-06-27,True
+CUST-731897f5-b44,Customer 117 Corp,contact@customer117.com,+1-715-326-4087,BR,Tokyo,Enterprise,Energy,Active,SAP,0.779,266808.15,1148,24027959.67,2021-09-30,2025-11-24,True
+CUST-56e76d38-ab0,Customer 118 Corp,contact@customer118.com,+1-652-711-9570,BR,Mumbai,Mid-Market,Manufacturing,Active,SAP+Salesforce,0.78,261785.38,45507,7203730.89,2021-04-09,2025-08-18,True
+CUST-ac9b9ea1-495,Customer 119 Corp,contact@customer119.com,+1-333-180-7960,JP,San Francisco,Enterprise,Technology,Active,SAP,0.761,220095.68,43249,25722611.71,2020-05-01,2025-09-29,True
+CUST-86c72cc8-760,Customer 120 Corp,contact@customer120.com,+1-459-144-2085,UK,New York,Enterprise,Healthcare,Active,Salesforce,,1802843.86,12119,33562972.33,2020-02-29,2025-06-24,True
+CUST-6a3d0d58-c4d,Customer 121 Corp,contact@customer121.com,+1-964-384-6698,UK,London,Mid-Market,Healthcare,Active,SAP+Salesforce,0.941,1060033.29,46921,9658221.26,2021-07-31,2025-07-14,True
+CUST-446319b4-0e4,Customer 122 Corp,contact@customer122.com,+1-750-104-2616,US,Tokyo,Startup,Media,New,SAP+Salesforce+Oracle,0.86,1915706.73,11862,41753633.48,2022-02-16,2025-09-17,True
+CUST-0ef1d2d2-8a6,Customer 123 Corp,contact@customer123.com,+1-433-517-2848,BR,Mumbai,Enterprise,Education,Active,SAP+Salesforce,0.874,725694.66,18902,27900892.93,2020-03-24,2025-06-22,True
+CUST-0dfeb2cf-4a6,Customer 124 Corp,contact@customer124.com,+1-318-494-5646,FR,Singapore,SMB,Education,Active,SAP+Oracle,0.823,1711454.51,12382,42853010.1,2022-09-01,2026-01-27,True
+CUST-2166b30a-9dd,Customer 125 Corp,contact@customer125.com,+1-383-113-9055,AU,San Francisco,Startup,Education,Churned,Salesforce,0.771,291018.29,26265,34782352.09,2020-07-27,2025-12-07,True
+CUST-ceec68ae-e8e,Customer 126 Corp,contact@customer126.com,+1-372-166-6959,US,Mumbai,Mid-Market,Energy,New,SAP+Salesforce,,852284.89,32719,13998064.78,2024-01-01,2025-12-14,True
+CUST-c2732649-e83,Customer 127 Corp,contact@customer127.com,+1-479-874-7557,UK,Sydney,Startup,Education,Active,Salesforce,,1537159.11,7090,6197284.0,2022-09-29,2025-10-06,True
+CUST-6ed8005d-f92,Customer 128 Corp,contact@customer128.com,+1-337-130-2631,JP,New York,Enterprise,Education,Active,SAP+Salesforce+Oracle,,362295.9,39632,33992297.67,2020-11-08,2025-08-17,True
+CUST-0b1142fb-45d,Customer 129 Corp,contact@customer129.com,+1-298-878-2253,AU,Tokyo,Startup,Education,Churned,SAP+Oracle,,998308.59,33092,13157097.16,2021-12-04,2025-12-25,True
+CUST-800538a4-8cc,Customer 130 Corp,contact@customer130.com,+1-759-118-1517,DE,San Francisco,Startup,Education,New,Salesforce+Oracle,0.861,76782.33,11601,27877660.87,2024-05-15,2025-08-17,True
+CUST-03ded41e-009,Customer 131 Corp,contact@customer131.com,+1-368-603-8056,US,Paris,Startup,Education,New,SAP+Salesforce,0.873,1109798.88,35359,28653290.65,2022-09-01,2025-10-22,True
+CUST-d5af6023-79e,Customer 132 Corp,contact@customer132.com,+1-718-157-7412,UK,Sydney,Startup,Media,New,Salesforce+Oracle,0.757,95011.31,24023,17508951.71,2024-02-28,2025-10-28,True
+CUST-5588d725-2c1,Customer 133 Corp,contact@customer133.com,+1-840-449-7235,US,Toronto,SMB,Media,Active,SAP,0.915,498989.79,42482,15673766.46,2020-06-22,2026-01-20,True
+CUST-cbd38259-4bf,Customer 134 Corp,contact@customer134.com,+1-512-217-6531,US,New York,SMB,Technology,Churned,SAP,0.856,1031945.85,27611,13404282.37,2023-11-26,2025-09-29,True
+CUST-826833f9-f7d,Customer 135 Corp,contact@customer135.com,+1-524-486-7394,UK,Singapore,Enterprise,Education,Active,SAP+Salesforce,0.801,995979.14,43747,17043017.3,2023-06-13,2025-08-16,True
+CUST-3ae8992a-62e,Customer 136 Corp,contact@customer136.com,+1-646-306-9142,AU,San Francisco,Mid-Market,Manufacturing,Active,Salesforce+Oracle,,1992474.25,26357,40249690.68,2023-07-03,2025-12-08,True
+CUST-cc0fe717-8fc,Customer 137 Corp,contact@customer137.com,+1-934-964-2552,CA,Mumbai,SMB,Healthcare,New,Salesforce,0.869,423429.62,5034,32611687.0,2021-09-10,2025-10-08,True
+CUST-16c2e879-5e9,Customer 138 Corp,contact@customer138.com,+1-643-779-9846,UK,Berlin,Startup,Energy,At-Risk,Salesforce+Oracle,0.863,1528067.22,11845,44056738.77,2023-07-09,2025-11-28,True
+CUST-904b28a7-115,Customer 139 Corp,contact@customer139.com,+1-391-690-9178,US,Sydney,SMB,Energy,Active,Salesforce,0.765,405292.81,30319,7472410.07,2020-11-04,2025-12-09,True
+CUST-a0d27acf-3a0,Customer 140 Corp,contact@customer140.com,+1-507-964-8133,DE,Mumbai,Enterprise,Retail,Churned,SAP,,577653.97,10534,12896687.08,2023-05-16,2025-07-31,True
+CUST-6eceff34-cb3,Customer 141 Corp,contact@customer141.com,+1-316-253-4144,US,Berlin,SMB,Education,Active,SAP,0.859,1295609.49,2435,10179326.39,2021-07-12,2025-07-05,True
+CUST-446c4188-541,Customer 142 Corp,contact@customer142.com,+1-484-774-3883,AU,New York,Startup,Technology,Active,SAP+Salesforce,0.771,1205191.48,4176,45038686.76,2022-04-13,2026-01-16,True
+CUST-d2ea54bd-e40,Customer 143 Corp,contact@customer143.com,+1-873-192-7502,SG,London,Mid-Market,Healthcare,Active,Salesforce,0.983,1046305.33,38048,47488757.57,2022-12-11,2025-08-04,True
+CUST-1ad97bb0-0b5,Customer 144 Corp,contact@customer144.com,+1-292-343-3003,BR,Mumbai,SMB,Energy,Active,SAP+Salesforce+Oracle,0.984,439926.73,7010,8840197.35,2021-07-16,2025-09-21,True
+CUST-573c8857-a33,Customer 145 Corp,contact@customer145.com,+1-803-157-9034,IN,Mumbai,Enterprise,Media,Active,Salesforce,0.921,1926814.1,9506,18213600.81,2024-01-05,2025-09-03,True
+CUST-e4b204e6-d47,Customer 146 Corp,contact@customer146.com,+1-221-760-1570,SG,New York,Mid-Market,Manufacturing,At-Risk,Salesforce,0.91,1402730.52,44918,6190483.06,2021-04-29,2026-01-06,True
+CUST-fe6c7ec9-d4e,Customer 147 Corp,contact@customer147.com,+1-208-502-5186,UK,San Francisco,Mid-Market,Manufacturing,Active,SAP+Oracle,0.79,880497.47,20796,43985415.65,2024-04-19,2025-11-12,True
+CUST-2aeb699d-f4b,Customer 148 Corp,contact@customer148.com,+1-234-380-2312,SG,Sydney,Startup,Energy,Active,Salesforce+Oracle,0.969,1641381.41,10518,34954261.16,2022-11-02,2025-06-17,True
+CUST-e87c4136-d87,Customer 149 Corp,contact@customer149.com,+1-816-846-9973,JP,Mumbai,Startup,Technology,Active,SAP+Salesforce,0.796,889592.92,42025,6891001.94,2022-03-31,2025-07-22,True
+CUST-bd84a0b7-212,Customer 150 Corp,contact@customer150.com,+1-521-689-2347,US,London,Mid-Market,Finance,Churned,Salesforce,0.948,642201.26,31360,43687941.6,2020-09-30,2025-08-06,True
+CUST-40b0aeed-879,Customer 151 Corp,contact@customer151.com,+1-807-946-6367,BR,Paris,Mid-Market,Healthcare,Active,SAP,0.848,757753.46,37391,11301907.96,2020-02-17,2026-01-23,True
+CUST-493115b8-ee1,Customer 152 Corp,contact@customer152.com,+1-826-741-4747,US,Sydney,Mid-Market,Manufacturing,Active,SAP+Salesforce+Oracle,0.762,1237918.08,39357,13081873.22,2020-07-01,2025-09-03,True
+CUST-7e988fe4-80e,Customer 153 Corp,contact@customer153.com,+1-780-220-1231,JP,Tokyo,Startup,Education,Active,SAP+Salesforce+Oracle,0.806,410275.0,17455,14469302.45,2022-10-09,2025-09-06,True
+CUST-484c06dd-63f,Customer 154 Corp,contact@customer154.com,+1-411-714-4531,SG,Paris,Mid-Market,Energy,Active,SAP+Oracle,0.786,583934.96,17167,11850732.71,2022-07-12,2026-01-19,True
+CUST-af651c25-c4d,Customer 155 Corp,contact@customer155.com,+1-796-800-8506,US,New York,Startup,Finance,Active,Salesforce+Oracle,0.849,428374.24,25142,35451813.02,2024-02-16,2025-10-31,True
+CUST-365cdb2b-449,Customer 156 Corp,contact@customer156.com,+1-297-670-1962,US,Mumbai,Mid-Market,Education,Active,Salesforce+Oracle,0.985,1934583.64,39215,35507341.68,2020-04-03,2025-06-02,True
+CUST-ca1419ee-885,Customer 157 Corp,contact@customer157.com,+1-834-490-5956,DE,Mumbai,Mid-Market,Technology,Active,Salesforce,,343883.66,32308,46523314.36,2022-08-16,2025-07-04,True
+CUST-e8a64366-271,Customer 158 Corp,contact@customer158.com,+1-927-643-8093,US,Paris,Enterprise,Media,Active,SAP+Salesforce,0.875,1946876.12,18425,37416386.05,2022-05-30,2025-08-12,True
+CUST-9e49cc63-000,Customer 159 Corp,contact@customer159.com,+1-469-727-5321,IN,Mumbai,Startup,Finance,New,Salesforce+Oracle,0.873,1900351.14,36426,42666379.7,2023-09-08,2025-11-10,True
+CUST-ec633d42-c1c,Customer 160 Corp,contact@customer160.com,+1-254-293-3435,US,Berlin,Mid-Market,Technology,At-Risk,SAP,,1413395.91,28611,5889599.95,2022-10-10,2025-06-11,True
+CUST-400a2b02-ba1,Customer 161 Corp,contact@customer161.com,+1-926-674-8949,FR,Sydney,Enterprise,Finance,Active,SAP+Salesforce,0.801,571812.31,11039,37521838.91,2021-07-12,2025-10-23,True
+CUST-74e2cae1-48e,Customer 162 Corp,contact@customer162.com,+1-799-317-1067,IN,Singapore,Mid-Market,Energy,New,SAP+Salesforce,,998731.0,6190,44379648.13,2020-02-23,2025-08-12,True
+CUST-0a583d13-660,Customer 163 Corp,contact@customer163.com,+1-896-224-7458,UK,Singapore,Enterprise,Media,Churned,SAP+Oracle,,923165.2,46390,33011012.23,2022-07-18,2025-11-08,True
+CUST-f164e563-4e1,Customer 164 Corp,contact@customer164.com,+1-808-773-1095,UK,New York,Startup,Media,New,SAP+Salesforce+Oracle,0.977,1595081.76,8485,10647206.37,2020-04-09,2025-12-23,True
+CUST-9c8a0fcb-b82,Customer 165 Corp,contact@customer165.com,+1-530-917-1909,JP,San Francisco,Startup,Healthcare,Churned,SAP,,483959.86,26153,4550496.55,2021-03-02,2025-07-12,True
+CUST-75acd35e-006,Customer 166 Corp,contact@customer166.com,+1-612-391-3525,US,Paris,Startup,Energy,Active,SAP+Salesforce+Oracle,0.828,1371499.07,8614,18016308.51,2020-07-15,2025-12-31,True
+CUST-5f0d53b2-d24,Customer 167 Corp,contact@customer167.com,+1-404-601-8298,DE,Sydney,SMB,Energy,Active,SAP+Salesforce,0.953,1229666.23,28459,31571244.2,2020-07-09,2025-06-11,True
+CUST-ed6703a5-5da,Customer 168 Corp,contact@customer168.com,+1-674-792-4673,AU,London,Startup,Healthcare,Active,Salesforce+Oracle,0.77,1604081.66,19696,7515466.28,2020-09-18,2025-11-23,True
+CUST-90cf8799-5be,Customer 169 Corp,contact@customer169.com,+1-454-635-8007,UK,Singapore,Enterprise,Healthcare,New,SAP+Salesforce,0.878,828973.71,30461,33076677.17,2023-03-10,2025-12-26,True
+CUST-1c6317a2-73f,Customer 170 Corp,contact@customer170.com,+1-460-699-2339,BR,Tokyo,Enterprise,Healthcare,Active,SAP+Salesforce+Oracle,0.795,368505.23,25762,2358409.95,2022-05-02,2026-01-11,True
+CUST-d7053f8f-df8,Customer 171 Corp,contact@customer171.com,+1-521-701-8454,BR,Sydney,SMB,Media,At-Risk,SAP+Oracle,,161049.96,39597,13039951.87,2023-10-11,2025-06-28,True
+CUST-ed45cbaf-846,Customer 172 Corp,contact@customer172.com,+1-218-105-7470,US,New York,Mid-Market,Education,Active,SAP,0.967,1931778.6,39455,36322979.1,2021-09-12,2025-11-06,True
+CUST-2c5f1c2e-450,Customer 173 Corp,contact@customer173.com,+1-831-469-7471,BR,Paris,Enterprise,Finance,At-Risk,SAP+Oracle,,228265.44,1051,34832018.85,2021-01-20,2026-01-06,True
+CUST-a7e77c0b-c43,Customer 174 Corp,contact@customer174.com,+1-692-764-3378,AU,Berlin,Startup,Retail,Active,SAP+Salesforce,0.866,950608.23,1439,5911295.1,2020-11-08,2025-12-07,True
+CUST-6aa5e838-44d,Customer 175 Corp,contact@customer175.com,+1-696-582-1321,SG,Sydney,Mid-Market,Retail,At-Risk,Salesforce+Oracle,0.958,106589.75,526,5222909.73,2023-12-31,2025-09-19,True
+CUST-1cc3db9a-0db,Customer 176 Corp,contact@customer176.com,+1-707-854-5764,US,Sydney,Startup,Education,New,Salesforce,0.903,1358942.49,31985,11672098.72,2020-05-04,2025-10-14,True
+CUST-ea44bec5-c1a,Customer 177 Corp,contact@customer177.com,+1-790-423-2040,UK,Toronto,Startup,Healthcare,Active,SAP,0.912,899409.16,28598,1138265.54,2021-08-12,2025-12-03,True
+CUST-080cb6a3-70c,Customer 178 Corp,contact@customer178.com,+1-552-548-4802,IN,Berlin,SMB,Education,Active,SAP+Oracle,0.931,783790.61,27329,41670729.22,2023-10-10,2025-11-15,True
+CUST-574a0e04-2da,Customer 179 Corp,contact@customer179.com,+1-683-918-3654,CA,Berlin,SMB,Healthcare,At-Risk,SAP+Salesforce+Oracle,0.793,316846.62,32265,5135095.91,2022-05-01,2026-01-28,True
+CUST-d81f3334-3a9,Customer 180 Corp,contact@customer180.com,+1-510-340-4431,IN,New York,Enterprise,Media,New,Salesforce+Oracle,0.79,1656757.63,33005,1695303.39,2020-05-10,2025-08-26,True
+CUST-fe116d18-a52,Customer 181 Corp,contact@customer181.com,+1-832-332-2977,IN,Berlin,Startup,Manufacturing,Active,Salesforce+Oracle,0.942,1541339.31,36515,13447812.65,2020-11-05,2026-01-05,True
+CUST-da6a3aaa-568,Customer 182 Corp,contact@customer182.com,+1-727-718-2706,JP,New York,Startup,Education,Churned,SAP+Salesforce,0.945,1221263.42,6686,41198150.38,2020-03-26,2025-10-08,True
+CUST-3bd2698d-559,Customer 183 Corp,contact@customer183.com,+1-845-220-4365,UK,London,SMB,Education,Active,Salesforce,0.968,312819.99,23847,16796915.51,2020-10-09,2025-07-02,True
+CUST-4d6a9866-d93,Customer 184 Corp,contact@customer184.com,+1-649-525-1107,US,Sydney,SMB,Manufacturing,At-Risk,Salesforce,,535701.18,46881,37766776.1,2022-01-08,2025-11-09,True
+CUST-b4daf0b0-1b0,Customer 185 Corp,contact@customer185.com,+1-355-871-9677,DE,Berlin,Mid-Market,Energy,Churned,SAP,0.975,1903921.88,33836,39750906.58,2022-01-10,2026-01-28,True
+CUST-245c07cb-43a,Customer 186 Corp,contact@customer186.com,+1-349-888-1162,JP,Tokyo,Enterprise,Healthcare,Active,Salesforce+Oracle,0.995,332827.74,4038,19723986.69,2020-03-16,2025-11-17,True
+CUST-4c34a1bc-07c,Customer 187 Corp,contact@customer187.com,+1-354-688-1947,AU,Tokyo,SMB,Energy,New,SAP,0.925,1747725.0,47297,37160605.35,2021-12-05,2025-06-03,True
+CUST-8865256c-3eb,Customer 188 Corp,contact@customer188.com,+1-740-725-3406,JP,Toronto,Startup,Retail,At-Risk,Salesforce,0.905,887076.92,22636,44394977.34,2024-05-19,2025-11-14,True
+CUST-7e696f2a-389,Customer 189 Corp,contact@customer189.com,+1-402-408-2380,US,Tokyo,SMB,Energy,Active,SAP+Salesforce+Oracle,0.97,1043337.06,35451,14268000.19,2020-07-09,2025-10-09,True
+CUST-de243259-9e4,Customer 190 Corp,contact@customer190.com,+1-733-448-3621,US,New York,SMB,Retail,Active,Salesforce+Oracle,0.997,225331.6,3938,42095013.71,2021-06-15,2025-11-08,True
+CUST-13de7c82-298,Customer 191 Corp,contact@customer191.com,+1-326-148-3043,FR,Paris,Enterprise,Education,Active,Salesforce+Oracle,0.951,1978055.16,37076,35760891.33,2023-07-09,2025-11-18,True
+CUST-83245f7b-bd8,Customer 192 Corp,contact@customer192.com,+1-809-339-6739,UK,Paris,Mid-Market,Energy,Active,Salesforce,0.776,1035321.39,12629,41159851.88,2022-01-09,2025-09-25,True
+CUST-ada2577a-f12,Customer 193 Corp,contact@customer193.com,+1-928-535-7751,US,San Francisco,Enterprise,Energy,Active,SAP+Oracle,0.862,741741.96,34498,20197410.01,2023-02-18,2025-10-11,True
+CUST-2dea9de5-bae,Customer 194 Corp,contact@customer194.com,+1-470-698-9172,AU,Toronto,Startup,Education,At-Risk,SAP+Salesforce+Oracle,0.956,292970.63,8341,24289743.68,2022-07-26,2025-07-04,True
+CUST-a12bdda6-f79,Customer 195 Corp,contact@customer195.com,+1-725-983-9669,US,Berlin,Startup,Education,New,SAP+Salesforce,0.986,741817.46,7793,30119850.67,2022-04-16,2025-06-29,True
+CUST-5aed78bc-aca,Customer 196 Corp,contact@customer196.com,+1-785-396-1659,IN,London,Enterprise,Media,Active,Salesforce+Oracle,0.826,974421.45,9373,7192776.31,2023-04-22,2025-09-16,True
+CUST-8d78e48c-a16,Customer 197 Corp,contact@customer197.com,+1-512-390-4532,US,Sydney,Enterprise,Healthcare,Active,Salesforce,0.968,838062.43,37566,15554123.77,2022-07-15,2026-01-17,True
+CUST-9ae0c43a-c81,Customer 198 Corp,contact@customer198.com,+1-586-586-3175,BR,London,Startup,Education,Active,SAP+Salesforce+Oracle,0.967,653806.49,40954,33258665.39,2022-04-18,2025-09-08,True
+CUST-1ad56bd6-47d,Customer 199 Corp,contact@customer199.com,+1-604-447-9863,US,Sydney,SMB,Healthcare,Active,SAP+Oracle,0.893,1593336.77,46370,15511519.18,2023-08-14,2025-07-02,True
+CUST-665df26d-e2c,Customer 200 Corp,contact@customer200.com,+1-287-297-9877,CA,New York,Mid-Market,Education,Churned,Salesforce,0.78,1872682.71,11789,48122600.63,2021-07-17,2025-12-19,True
+CUST-331e37f3-c99,Customer 201 Corp,contact@customer201.com,+1-922-959-8278,US,Tokyo,SMB,Energy,Active,Salesforce,,1724638.8,1534,17063832.1,2021-01-04,2025-09-15,True
+CUST-594fd32b-a33,Customer 202 Corp,contact@customer202.com,+1-740-424-7258,UK,San Francisco,Enterprise,Healthcare,Active,Salesforce,,292348.33,16758,38438404.1,2020-11-11,2025-08-18,True
+CUST-70e56663-50c,Customer 203 Corp,contact@customer203.com,+1-894-273-1965,CA,Mumbai,Mid-Market,Technology,New,SAP+Salesforce+Oracle,,782929.72,20984,7208781.47,2021-10-25,2025-08-06,True
+CUST-bc372dd6-ddf,Customer 204 Corp,contact@customer204.com,+1-323-153-4318,US,Singapore,Mid-Market,Education,Active,Salesforce,0.846,234587.34,3983,15984988.63,2023-02-06,2025-09-13,True
+CUST-6f04d3b7-3fc,Customer 205 Corp,contact@customer205.com,+1-229-517-4829,US,Paris,Enterprise,Retail,Active,Salesforce,0.781,1138650.05,29237,4287026.94,2023-07-26,2025-10-07,True
+CUST-a07df6ad-a49,Customer 206 Corp,contact@customer206.com,+1-345-482-9854,US,Berlin,Startup,Education,Active,SAP+Salesforce,,931980.85,40690,14533547.8,2020-12-08,2025-06-01,True
+CUST-562fb84b-e07,Customer 207 Corp,contact@customer207.com,+1-693-379-5110,SG,Toronto,SMB,Retail,Active,Salesforce,0.82,327025.53,35012,28197770.74,2021-09-07,2025-06-23,True
+CUST-26bdc882-571,Customer 208 Corp,contact@customer208.com,+1-325-950-3288,JP,Tokyo,SMB,Energy,Active,SAP+Oracle,0.989,640016.36,44712,47275882.45,2023-07-24,2025-08-06,True
+CUST-59a52c4d-18b,Customer 209 Corp,contact@customer209.com,+1-924-563-5473,US,Mumbai,SMB,Retail,New,SAP,0.832,1828466.39,8773,32357520.27,2020-01-05,2025-11-03,True
+CUST-1da583a0-e51,Customer 210 Corp,contact@customer210.com,+1-209-788-3843,DE,Tokyo,Startup,Energy,Active,Salesforce,,1754056.98,42691,3968403.5,2020-03-04,2026-01-15,True
+CUST-564f70ee-6c1,Customer 211 Corp,contact@customer211.com,+1-887-555-3022,UK,Toronto,SMB,Energy,At-Risk,SAP+Oracle,0.953,1967672.03,8186,23188357.33,2021-01-30,2025-09-22,True
+CUST-de9a1b7c-f3d,Customer 212 Corp,contact@customer212.com,+1-960-120-5606,AU,Mumbai,Mid-Market,Healthcare,Active,Salesforce,0.952,446189.62,32372,48368095.66,2020-03-16,2025-08-11,True
+CUST-22e02b18-0e3,Customer 213 Corp,contact@customer213.com,+1-920-823-4425,US,Berlin,Startup,Healthcare,Active,Salesforce+Oracle,0.874,1105811.45,43253,36966859.89,2023-10-08,2025-11-22,True
+CUST-ca310596-b83,Customer 214 Corp,contact@customer214.com,+1-379-166-3101,JP,San Francisco,Mid-Market,Manufacturing,Churned,Salesforce,0.97,1459153.24,17988,9673392.23,2023-10-20,2025-06-06,True
+CUST-8d38a16d-bfa,Customer 215 Corp,contact@customer215.com,+1-909-794-9731,CA,Paris,Startup,Technology,New,SAP,0.986,108466.28,21178,21684153.76,2022-04-13,2025-08-10,True
+CUST-f62ee966-748,Customer 216 Corp,contact@customer216.com,+1-730-577-9119,UK,Tokyo,Enterprise,Retail,Active,SAP+Salesforce,,843023.83,29426,15880474.04,2022-03-13,2025-07-20,True
+CUST-06edfd88-722,Customer 217 Corp,contact@customer217.com,+1-785-927-1415,JP,Berlin,Startup,Healthcare,Active,SAP+Oracle,,661803.14,4128,31337134.88,2020-07-17,2025-06-08,True
+CUST-6b495f96-84a,Customer 218 Corp,contact@customer218.com,+1-224-706-6477,SG,Paris,Mid-Market,Healthcare,Active,SAP,,684899.93,3577,41099526.42,2022-11-30,2025-12-21,True
+CUST-69809480-26e,Customer 219 Corp,contact@customer219.com,+1-274-894-8184,BR,San Francisco,Startup,Healthcare,Active,SAP+Salesforce,0.979,757903.29,45450,3344908.12,2020-09-18,2025-06-16,True
+CUST-2c1cf43e-4f8,Customer 220 Corp,contact@customer220.com,+1-652-156-5939,CA,Toronto,Enterprise,Healthcare,New,SAP+Salesforce+Oracle,,109145.27,25009,20143984.85,2023-06-18,2025-12-10,True
+CUST-589a1870-d43,Customer 221 Corp,contact@customer221.com,+1-813-906-1173,FR,Toronto,Startup,Energy,Active,Salesforce,0.835,1875481.78,1712,22758430.49,2021-11-03,2025-10-29,True
+CUST-c3bd156d-c50,Customer 222 Corp,contact@customer222.com,+1-305-112-2106,CA,Berlin,Mid-Market,Manufacturing,Active,Salesforce+Oracle,0.931,892025.51,15945,6969868.03,2020-03-31,2025-06-16,True
+CUST-6d175860-0b0,Customer 223 Corp,contact@customer223.com,+1-798-546-9407,AU,Mumbai,SMB,Finance,Active,SAP+Oracle,0.901,585672.57,539,25932261.43,2023-09-08,2025-11-21,True
+CUST-8ae7d29c-798,Customer 224 Corp,contact@customer224.com,+1-443-619-1894,DE,Mumbai,Mid-Market,Retail,Active,SAP+Salesforce+Oracle,0.946,686396.09,43778,23838680.49,2023-11-17,2025-09-28,True
+CUST-ebf180d5-5cf,Customer 225 Corp,contact@customer225.com,+1-539-972-6499,CA,Paris,Startup,Media,Active,SAP+Oracle,,1752830.43,2775,24846940.6,2020-01-08,2025-11-11,True
+CUST-b37b3a69-216,Customer 226 Corp,contact@customer226.com,+1-435-577-4492,US,Sydney,SMB,Energy,Active,SAP+Oracle,0.957,18417.15,658,3779184.73,2020-03-02,2025-10-21,True
+CUST-3d578b45-e00,Customer 227 Corp,contact@customer227.com,+1-497-550-4185,AU,Singapore,SMB,Technology,Active,SAP+Salesforce,,571781.26,14358,44280573.25,2024-01-12,2025-07-15,True
+CUST-ed1bb99c-47d,Customer 228 Corp,contact@customer228.com,+1-767-351-3925,US,New York,Mid-Market,Manufacturing,Active,SAP+Salesforce,,1356517.5,24843,32777972.94,2020-08-15,2025-08-26,True
+CUST-9f441677-ee0,Customer 229 Corp,contact@customer229.com,+1-512-567-4934,UK,Mumbai,Mid-Market,Energy,New,SAP+Salesforce+Oracle,,293142.33,8581,39765416.01,2021-01-27,2025-10-15,True
+CUST-a0164f99-a8c,Customer 230 Corp,contact@customer230.com,+1-583-425-8037,AU,Berlin,Enterprise,Retail,Active,Salesforce,,301391.0,16208,2757622.86,2021-07-27,2026-01-10,True
+CUST-4cfbeb7a-669,Customer 231 Corp,contact@customer231.com,+1-720-698-9011,US,San Francisco,Startup,Healthcare,Active,SAP+Oracle,0.938,1291917.77,33378,18775877.98,2022-11-28,2025-09-27,True
+CUST-14bc98e9-464,Customer 232 Corp,contact@customer232.com,+1-929-482-9609,JP,Sydney,Startup,Education,Active,Salesforce+Oracle,0.91,1582295.84,42591,1926563.95,2021-03-25,2026-01-16,True
+CUST-caa194d8-a82,Customer 233 Corp,contact@customer233.com,+1-440-505-4581,UK,Toronto,Startup,Finance,Active,Salesforce+Oracle,,174094.04,49268,4293004.65,2022-06-29,2025-10-11,True
+CUST-ef6224ef-c65,Customer 234 Corp,contact@customer234.com,+1-797-142-8622,IN,Singapore,SMB,Energy,Active,SAP,0.852,1609986.41,20786,13723671.34,2020-02-20,2025-07-16,True
+CUST-c08a714e-683,Customer 235 Corp,contact@customer235.com,+1-471-760-2243,UK,San Francisco,SMB,Healthcare,Active,Salesforce+Oracle,0.775,147340.61,2518,27346700.39,2021-11-14,2025-07-21,True
+CUST-e62d266f-c46,Customer 236 Corp,contact@customer236.com,+1-456-409-5496,US,Singapore,Mid-Market,Manufacturing,Churned,SAP+Salesforce,0.82,696531.56,26474,47296168.87,2023-04-02,2025-12-11,True
+CUST-24f18ab4-425,Customer 237 Corp,contact@customer237.com,+1-683-769-9399,BR,London,Startup,Retail,Churned,SAP+Oracle,0.802,471277.76,38479,39320134.95,2024-03-31,2025-09-28,True
+CUST-a0a32e91-6a8,Customer 238 Corp,contact@customer238.com,+1-672-448-2406,UK,Berlin,Startup,Energy,At-Risk,SAP+Oracle,0.963,65057.63,9116,28917671.59,2020-09-19,2025-08-18,True
+CUST-e724fa81-c57,Customer 239 Corp,contact@customer239.com,+1-209-611-6810,UK,Berlin,Startup,Energy,New,SAP+Salesforce+Oracle,0.941,1382584.62,19647,16371367.77,2020-02-17,2025-10-24,True
+CUST-9b9c180c-c8e,Customer 240 Corp,contact@customer240.com,+1-342-257-6410,CA,Singapore,Startup,Energy,At-Risk,SAP+Oracle,0.766,775935.51,31125,5521053.97,2023-03-12,2025-09-24,True
+CUST-c9c5a41d-623,Customer 241 Corp,contact@customer241.com,+1-511-195-3808,US,Tokyo,Mid-Market,Technology,Churned,SAP+Salesforce+Oracle,0.757,402002.48,25299,14262499.27,2021-04-22,2025-08-14,True
+CUST-91462099-060,Customer 242 Corp,contact@customer242.com,+1-271-565-1941,UK,Tokyo,Enterprise,Finance,Churned,Salesforce+Oracle,0.853,318285.73,7267,6543969.68,2022-05-06,2025-10-01,True
+CUST-0ec5fc52-0a2,Customer 243 Corp,contact@customer243.com,+1-598-986-4382,US,Berlin,SMB,Energy,At-Risk,SAP+Salesforce+Oracle,0.79,1152307.31,20346,29415848.47,2022-10-26,2025-12-01,True
+CUST-11bb25be-512,Customer 244 Corp,contact@customer244.com,+1-482-306-1121,US,Sydney,Enterprise,Energy,Churned,Salesforce,0.881,1821053.57,32185,23064207.55,2023-03-25,2025-06-11,True
+CUST-b15336a7-6a6,Customer 245 Corp,contact@customer245.com,+1-494-761-8476,UK,Paris,Startup,Finance,At-Risk,SAP,,1800429.42,48063,21660623.04,2022-02-26,2026-01-20,True
+CUST-f5226893-88d,Customer 246 Corp,contact@customer246.com,+1-915-682-2565,DE,New York,Mid-Market,Finance,Churned,Salesforce+Oracle,0.884,1334980.6,4384,34932395.23,2024-01-19,2026-01-17,True
+CUST-5eb42553-b9a,Customer 247 Corp,contact@customer247.com,+1-705-521-2986,UK,San Francisco,Enterprise,Media,Active,SAP,0.813,1014598.82,30298,1433222.18,2023-08-01,2025-11-25,True
+CUST-22ac73c3-cec,Customer 248 Corp,contact@customer248.com,+1-672-490-6630,JP,Toronto,Mid-Market,Energy,Churned,SAP+Salesforce,,233792.02,8954,16422807.09,2024-03-13,2025-09-27,True
+CUST-6adb28f2-10d,Customer 249 Corp,contact@customer249.com,+1-269-184-9985,AU,Berlin,Startup,Finance,Active,SAP,0.96,345325.25,1193,30388729.02,2020-12-28,2025-08-15,True
+CUST-06bc49bc-f2a,Customer 250 Corp,contact@customer250.com,+1-959-500-3759,US,New York,SMB,Finance,Active,SAP,0.804,73717.47,44249,26661710.37,2022-06-24,2025-11-26,True
+CUST-ee331fcd-d36,Customer 251 Corp,contact@customer251.com,+1-850-930-9566,AU,San Francisco,Startup,Manufacturing,Active,SAP,,14308.14,24742,38379000.5,2021-05-26,2025-09-04,True
+CUST-7675f8f1-a4b,Customer 252 Corp,contact@customer252.com,+1-404-193-1262,DE,New York,Enterprise,Media,New,SAP+Oracle,0.766,1917696.78,6340,39866515.84,2023-09-22,2025-07-13,True
+CUST-692f97ba-124,Customer 253 Corp,contact@customer253.com,+1-245-525-9396,US,Mumbai,SMB,Retail,At-Risk,Salesforce,,1085696.79,28051,6128117.67,2021-03-13,2025-06-28,True
+CUST-bb2d9f63-265,Customer 254 Corp,contact@customer254.com,+1-377-115-7588,AU,Mumbai,Enterprise,Energy,Active,SAP+Oracle,0.767,1631094.36,42604,31233078.77,2020-03-30,2025-06-18,True
+CUST-23444603-428,Customer 255 Corp,contact@customer255.com,+1-620-408-9185,US,Tokyo,Mid-Market,Manufacturing,New,SAP+Salesforce,0.995,1394149.16,44436,46235214.74,2024-04-28,2025-11-25,True
+CUST-5f28f039-dfd,Customer 256 Corp,contact@customer256.com,+1-379-750-6209,SG,Sydney,Enterprise,Media,Active,SAP+Salesforce,0.896,767830.94,41991,37116514.72,2022-10-28,2025-10-29,True
+CUST-d33c78a8-ae0,Customer 257 Corp,contact@customer257.com,+1-213-338-1347,CA,San Francisco,SMB,Retail,At-Risk,SAP+Salesforce+Oracle,0.811,163382.33,9024,18788729.06,2021-08-30,2025-07-22,True
+CUST-0bbd426a-cd3,Customer 258 Corp,contact@customer258.com,+1-409-757-1621,US,Singapore,Startup,Media,Active,SAP+Oracle,,1288986.13,49849,2076413.08,2022-04-29,2025-11-13,True
+CUST-0a70a54a-d43,Customer 259 Corp,contact@customer259.com,+1-968-124-4752,SG,Mumbai,SMB,Retail,At-Risk,SAP+Oracle,0.977,1331687.01,16285,40092445.19,2023-11-26,2025-12-02,True
+CUST-403eb560-9e5,Customer 260 Corp,contact@customer260.com,+1-590-633-6269,US,Sydney,Enterprise,Healthcare,Active,SAP,,388968.57,41583,49601427.19,2021-02-22,2025-07-03,True
+CUST-871e72d1-22c,Customer 261 Corp,contact@customer261.com,+1-806-662-4348,US,Tokyo,Enterprise,Energy,Active,SAP+Salesforce+Oracle,0.791,399084.84,27798,8904131.69,2021-05-24,2025-08-17,True
+CUST-a21f5ee4-b49,Customer 262 Corp,contact@customer262.com,+1-659-750-4299,UK,Sydney,Enterprise,Media,Active,SAP,0.868,848281.03,39947,36772912.42,2024-04-06,2025-07-10,True
+CUST-a5c446ce-a3a,Customer 263 Corp,contact@customer263.com,+1-693-120-7249,DE,San Francisco,SMB,Finance,At-Risk,Salesforce,0.814,929984.21,29737,14232964.81,2023-02-25,2025-11-03,True
+CUST-7368f80c-0e8,Customer 264 Corp,contact@customer264.com,+1-541-239-8688,US,London,Mid-Market,Technology,Active,SAP+Salesforce,0.933,751644.34,26522,46291984.46,2022-03-19,2025-12-08,True
+CUST-92a97cfe-bf6,Customer 265 Corp,contact@customer265.com,+1-701-415-2167,DE,New York,Enterprise,Energy,Active,Salesforce,,1527086.96,16738,38586391.9,2024-03-19,2025-12-02,True
+CUST-eabf417b-d65,Customer 266 Corp,contact@customer266.com,+1-926-600-7032,JP,New York,Startup,Energy,Active,SAP+Salesforce+Oracle,,958062.49,23695,31584540.41,2023-10-17,2025-06-08,True
+CUST-55fe3f83-697,Customer 267 Corp,contact@customer267.com,+1-860-251-5281,CA,Sydney,Mid-Market,Manufacturing,Churned,SAP+Oracle,0.988,1683824.22,818,5924859.12,2020-07-08,2025-11-12,True
+CUST-1ab06b55-b28,Customer 268 Corp,contact@customer268.com,+1-593-507-2316,IN,Berlin,Startup,Finance,At-Risk,SAP,,607928.03,34953,32958454.39,2022-02-22,2025-10-29,True
+CUST-360a8d5c-e1f,Customer 269 Corp,contact@customer269.com,+1-621-870-2456,US,Singapore,SMB,Finance,Active,Salesforce+Oracle,0.983,798950.59,20201,420373.31,2020-12-10,2025-12-26,True
+CUST-daa2c9ed-41a,Customer 270 Corp,contact@customer270.com,+1-299-171-7845,IN,Toronto,SMB,Energy,Active,SAP+Oracle,,376868.08,8813,9981224.39,2021-01-07,2025-10-07,True
+CUST-a6d12536-681,Customer 271 Corp,contact@customer271.com,+1-661-680-4482,US,Berlin,Enterprise,Finance,New,SAP+Oracle,,1805035.21,26800,22092449.44,2023-07-02,2025-06-28,True
+CUST-fa2f5d93-a21,Customer 272 Corp,contact@customer272.com,+1-370-181-5802,US,Toronto,Enterprise,Manufacturing,New,SAP+Salesforce,0.896,958404.75,44102,38050626.36,2020-01-20,2025-06-16,True
+CUST-bfa30759-a46,Customer 273 Corp,contact@customer273.com,+1-207-781-1685,US,Berlin,Enterprise,Energy,Active,Salesforce,0.991,535342.42,31855,23714265.98,2021-11-21,2025-11-02,True
+CUST-b1d4f983-28b,Customer 274 Corp,contact@customer274.com,+1-579-798-6620,UK,Berlin,SMB,Energy,Active,SAP,0.994,1746789.48,6575,253924.68,2023-12-01,2025-09-11,True
+CUST-0c8142db-80c,Customer 275 Corp,contact@customer275.com,+1-342-126-3013,SG,Tokyo,SMB,Retail,At-Risk,Salesforce+Oracle,0.922,1740356.87,33755,20715016.98,2021-01-19,2025-06-01,True
+CUST-7a47be44-1f1,Customer 276 Corp,contact@customer276.com,+1-529-117-6901,SG,New York,SMB,Education,New,SAP+Oracle,0.85,1227121.73,5342,17481864.5,2022-09-02,2025-11-16,True
+CUST-21c270b5-930,Customer 277 Corp,contact@customer277.com,+1-302-851-7305,UK,Singapore,Mid-Market,Finance,New,Salesforce,0.946,1434747.93,2090,6480281.59,2020-06-27,2025-08-17,True
+CUST-fbda80fd-b7d,Customer 278 Corp,contact@customer278.com,+1-761-995-8648,US,Sydney,Enterprise,Education,At-Risk,SAP+Salesforce+Oracle,0.811,345013.86,43247,35025459.21,2020-08-04,2025-09-20,True
+CUST-c297073b-4ca,Customer 279 Corp,contact@customer279.com,+1-229-264-6349,DE,Paris,Mid-Market,Manufacturing,New,SAP+Salesforce+Oracle,0.974,250580.73,8906,46144535.72,2023-07-21,2025-12-03,True
+CUST-6624e187-46e,Customer 280 Corp,contact@customer280.com,+1-908-440-4666,CA,Singapore,Enterprise,Media,Active,SAP,0.936,1451431.03,42865,32140899.91,2023-02-24,2026-01-06,True
+CUST-90035eb3-282,Customer 281 Corp,contact@customer281.com,+1-438-328-5244,US,Paris,Enterprise,Healthcare,Active,SAP+Salesforce,0.898,380371.96,7619,28684666.58,2020-09-17,2026-01-05,True
+CUST-c5519d10-f21,Customer 282 Corp,contact@customer282.com,+1-589-690-1027,UK,New York,Mid-Market,Energy,Active,SAP,0.841,1360207.83,8287,26035593.98,2023-05-17,2025-10-30,True
+CUST-402fdf75-7d2,Customer 283 Corp,contact@customer283.com,+1-604-109-9819,SG,Sydney,SMB,Finance,Active,Salesforce+Oracle,0.875,914290.14,39427,14241301.98,2024-03-09,2025-11-18,True
+CUST-f0d68f15-33d,Customer 284 Corp,contact@customer284.com,+1-919-135-6245,UK,Tokyo,Enterprise,Manufacturing,At-Risk,SAP+Salesforce+Oracle,0.908,435331.6,19113,35236609.78,2022-02-10,2025-06-16,True
+CUST-21d27249-010,Customer 285 Corp,contact@customer285.com,+1-541-256-4450,SG,Berlin,Enterprise,Finance,New,SAP,0.825,1630949.26,10442,49554054.43,2023-01-27,2025-09-09,True
+CUST-e64f9164-c70,Customer 286 Corp,contact@customer286.com,+1-894-584-6706,BR,Toronto,Startup,Healthcare,Active,Salesforce,0.821,1846512.25,45957,42826985.77,2022-03-17,2025-06-25,True
+CUST-54a0a09f-c8a,Customer 287 Corp,contact@customer287.com,+1-970-910-1886,SG,Paris,Startup,Finance,Active,Salesforce,,1393431.27,19086,44871182.54,2021-03-05,2025-07-26,True
+CUST-56b8cf3c-01f,Customer 288 Corp,contact@customer288.com,+1-400-852-1149,UK,Singapore,Enterprise,Finance,At-Risk,SAP,0.857,1684111.88,3701,4892781.82,2022-08-28,2025-07-16,True
+CUST-0228a715-182,Customer 289 Corp,contact@customer289.com,+1-320-627-6545,CA,Toronto,Mid-Market,Energy,New,SAP+Oracle,,485506.57,32032,15204211.52,2023-05-05,2026-01-31,True
+CUST-b030545e-9ee,Customer 290 Corp,contact@customer290.com,+1-963-484-2468,BR,Sydney,Startup,Manufacturing,Active,SAP+Salesforce+Oracle,0.842,244400.77,5425,6190373.0,2023-08-06,2025-11-19,True
+CUST-3c376951-8ef,Customer 291 Corp,contact@customer291.com,+1-430-123-8856,UK,San Francisco,Mid-Market,Energy,New,SAP,0.926,600234.88,8217,5062118.63,2020-05-10,2025-11-30,True
+CUST-e661ac59-e21,Customer 292 Corp,contact@customer292.com,+1-750-289-7640,SG,New York,Startup,Education,New,SAP+Salesforce,0.896,1428929.5,42719,6292057.5,2024-03-22,2025-07-24,True
+CUST-c9885b12-c05,Customer 293 Corp,contact@customer293.com,+1-320-285-3948,US,Tokyo,Startup,Media,New,SAP+Salesforce,,1152286.65,42781,8144392.07,2023-02-25,2025-08-05,True
+CUST-bcd94da9-aa0,Customer 294 Corp,contact@customer294.com,+1-235-186-3043,IN,Paris,SMB,Finance,New,SAP,0.915,500432.48,3035,47316109.33,2022-11-29,2026-01-18,True
+CUST-fb9146fa-aa8,Customer 295 Corp,contact@customer295.com,+1-874-646-8289,US,Singapore,Startup,Media,At-Risk,Salesforce,0.999,1214313.41,33472,10570991.33,2020-07-21,2025-11-17,True
+CUST-2aa34a30-2db,Customer 296 Corp,contact@customer296.com,+1-442-137-4081,US,Paris,Mid-Market,Finance,At-Risk,Salesforce,0.898,558404.46,47792,31153405.86,2020-06-01,2025-10-19,True
+CUST-d3ebb857-e9c,Customer 297 Corp,contact@customer297.com,+1-590-765-3675,DE,Sydney,Enterprise,Manufacturing,Active,SAP+Salesforce+Oracle,0.924,1074129.12,4634,31515453.29,2021-07-05,2025-11-10,True
+CUST-7be31018-d1b,Customer 298 Corp,contact@customer298.com,+1-397-831-7097,CA,Tokyo,Mid-Market,Energy,Churned,SAP+Oracle,0.947,760989.09,39568,12450134.52,2021-07-07,2025-07-02,True
+CUST-29f8bf15-7d6,Customer 299 Corp,contact@customer299.com,+1-900-661-7664,US,Mumbai,Enterprise,Media,Active,Salesforce+Oracle,0.787,1597204.25,17943,592180.3,2022-02-11,2025-07-27,True
+CUST-a28074bb-b58,Customer 300 Corp,contact@customer300.com,+1-307-901-3023,US,Tokyo,SMB,Education,Active,SAP+Salesforce,0.925,1731469.71,36155,13625592.95,2020-07-21,2026-01-16,True
+CUST-19ae1001-e25,Customer 301 Corp,contact@customer301.com,+1-525-869-7382,US,Mumbai,Startup,Education,Active,Salesforce,,23947.45,33667,35689810.8,2023-09-08,2025-07-03,True
+CUST-189062a7-4e5,Customer 302 Corp,contact@customer302.com,+1-781-853-5380,US,Mumbai,Mid-Market,Energy,Active,SAP+Salesforce+Oracle,0.86,711232.83,30724,25161239.36,2021-07-18,2026-01-30,True
+CUST-605656b8-4c3,Customer 303 Corp,contact@customer303.com,+1-935-933-4748,UK,San Francisco,SMB,Energy,Active,Salesforce+Oracle,0.909,158002.96,15741,47248860.73,2020-12-04,2025-10-26,True
+CUST-fc62779a-9d8,Customer 304 Corp,contact@customer304.com,+1-961-392-9074,BR,New York,Startup,Finance,Active,SAP,0.921,1355164.46,34901,34924309.45,2022-04-10,2025-06-04,True
+CUST-44c25e91-de9,Customer 305 Corp,contact@customer305.com,+1-963-107-7962,JP,Tokyo,SMB,Retail,Churned,SAP+Salesforce+Oracle,0.98,1998340.0,34620,34235497.28,2020-03-27,2025-11-03,True
+CUST-c251573f-bce,Customer 306 Corp,contact@customer306.com,+1-372-790-9577,US,London,Enterprise,Media,Active,SAP+Oracle,0.988,848330.93,24854,8607149.83,2020-08-19,2025-08-26,True
+CUST-fb129323-cd6,Customer 307 Corp,contact@customer307.com,+1-455-951-9832,SG,San Francisco,SMB,Manufacturing,New,SAP,,430066.56,48377,31595705.03,2022-03-17,2025-07-26,True
+CUST-ac07d899-50a,Customer 308 Corp,contact@customer308.com,+1-858-627-1580,FR,Singapore,Startup,Technology,New,Salesforce+Oracle,,923405.98,19562,17759247.94,2020-01-11,2025-08-29,True
+CUST-93913795-8c9,Customer 309 Corp,contact@customer309.com,+1-390-511-6808,US,San Francisco,Startup,Education,New,SAP+Oracle,,1031065.61,10083,20594880.74,2022-09-25,2025-06-02,True
+CUST-fcd4c8fe-d9a,Customer 310 Corp,contact@customer310.com,+1-872-356-4704,FR,Toronto,SMB,Manufacturing,Active,Salesforce+Oracle,0.796,1624029.99,7133,49469525.41,2023-09-06,2026-01-01,True
+CUST-ebe541ed-b72,Customer 311 Corp,contact@customer311.com,+1-343-462-8110,US,Mumbai,Mid-Market,Healthcare,Active,SAP+Oracle,,271692.26,27604,37221806.95,2020-03-05,2025-07-12,True
+CUST-ae2bd571-856,Customer 312 Corp,contact@customer312.com,+1-690-781-5354,US,Toronto,Startup,Education,Churned,SAP+Salesforce+Oracle,0.831,1529963.46,26216,25142743.27,2024-02-28,2026-01-02,True
+CUST-9c9abb14-e51,Customer 313 Corp,contact@customer313.com,+1-334-212-2767,BR,New York,Mid-Market,Finance,At-Risk,Salesforce+Oracle,0.942,476827.35,44463,41508804.43,2022-05-29,2025-10-31,True
+CUST-ef0b44de-508,Customer 314 Corp,contact@customer314.com,+1-644-591-5742,UK,Sydney,Enterprise,Energy,At-Risk,SAP+Oracle,0.932,377786.17,18434,38359707.48,2021-06-23,2025-11-27,True
+CUST-a2f72411-d5e,Customer 315 Corp,contact@customer315.com,+1-639-303-8764,JP,San Francisco,Mid-Market,Retail,Active,Salesforce,0.787,245320.07,26308,2014484.93,2021-01-28,2026-01-24,True
+CUST-908293f4-be0,Customer 316 Corp,contact@customer316.com,+1-218-731-4270,US,New York,Startup,Energy,Active,Salesforce,0.908,466698.16,22041,21361185.26,2020-05-05,2025-10-09,True
+CUST-cf18da3a-313,Customer 317 Corp,contact@customer317.com,+1-252-411-2803,UK,Mumbai,SMB,Media,Active,SAP+Salesforce+Oracle,0.83,99875.01,2689,126742.81,2023-09-14,2025-12-08,True
+CUST-64f735c2-3c1,Customer 318 Corp,contact@customer318.com,+1-492-583-5590,CA,San Francisco,Startup,Finance,Active,Salesforce+Oracle,0.841,612191.61,6359,33480482.26,2023-10-30,2025-10-20,True
+CUST-0a868d2a-e40,Customer 319 Corp,contact@customer319.com,+1-333-439-6907,JP,Mumbai,SMB,Retail,At-Risk,SAP+Salesforce+Oracle,,1170732.8,5726,44370970.61,2020-09-24,2025-11-09,True
+CUST-bfa7760d-b96,Customer 320 Corp,contact@customer320.com,+1-323-142-4120,US,Sydney,Enterprise,Healthcare,At-Risk,Salesforce,0.825,951026.05,49882,10179755.94,2024-01-16,2025-07-10,True
+CUST-afc474a1-bd6,Customer 321 Corp,contact@customer321.com,+1-396-528-5137,BR,Tokyo,SMB,Media,Active,SAP,0.779,875070.9,31652,21008307.64,2022-10-28,2025-12-20,True
+CUST-0d60e632-1a6,Customer 322 Corp,contact@customer322.com,+1-813-380-3112,UK,New York,Enterprise,Retail,Active,SAP+Salesforce+Oracle,0.874,1067277.36,33661,48579767.04,2020-12-04,2025-09-21,True
+CUST-55fc7f57-59e,Customer 323 Corp,contact@customer323.com,+1-593-675-7393,DE,Singapore,SMB,Retail,At-Risk,SAP+Oracle,,1145936.47,38814,34866415.2,2022-11-16,2025-09-25,True
+CUST-96d6e802-c4f,Customer 324 Corp,contact@customer324.com,+1-937-637-5240,UK,Berlin,SMB,Manufacturing,Active,Salesforce,,451739.25,34977,11987017.07,2020-03-21,2025-11-11,True
+CUST-50e3c112-6e8,Customer 325 Corp,contact@customer325.com,+1-484-236-5430,SG,New York,Mid-Market,Retail,Active,Salesforce,,1299047.77,41473,30297460.84,2022-01-25,2025-08-23,True
+CUST-892d4f1f-93a,Customer 326 Corp,contact@customer326.com,+1-922-662-5326,JP,London,Startup,Manufacturing,Active,Salesforce+Oracle,0.906,25764.34,23306,11042051.68,2021-07-26,2025-07-16,True
+CUST-8bab851b-eb7,Customer 327 Corp,contact@customer327.com,+1-216-650-2743,JP,Toronto,SMB,Retail,Active,SAP,,541243.04,38129,31527052.98,2024-03-21,2025-09-10,True
+CUST-fd80d87d-486,Customer 328 Corp,contact@customer328.com,+1-437-847-8109,UK,London,Startup,Healthcare,Active,SAP,,374130.91,11551,9524110.08,2022-10-01,2026-01-28,True
+CUST-07c85a9e-26b,Customer 329 Corp,contact@customer329.com,+1-863-388-1344,UK,London,Mid-Market,Energy,At-Risk,SAP+Salesforce+Oracle,0.767,148737.14,16082,22805705.57,2023-08-14,2025-09-12,True
+CUST-e4319f5f-158,Customer 330 Corp,contact@customer330.com,+1-739-240-1193,CA,San Francisco,Startup,Energy,Active,SAP+Salesforce,,32036.36,42246,46740418.99,2020-09-27,2025-08-03,True
+CUST-caacfc5e-9aa,Customer 331 Corp,contact@customer331.com,+1-474-246-1221,BR,New York,Enterprise,Media,At-Risk,SAP+Salesforce+Oracle,,282764.05,49795,28186276.6,2022-06-28,2025-12-26,True
+CUST-9b51c8d0-d71,Customer 332 Corp,contact@customer332.com,+1-539-590-3531,US,New York,SMB,Healthcare,Active,SAP+Salesforce,0.776,596993.29,33534,44334197.73,2022-04-30,2025-07-07,True
+CUST-e6972ab5-a4f,Customer 333 Corp,contact@customer333.com,+1-429-124-4713,DE,Toronto,Mid-Market,Media,Active,SAP+Salesforce+Oracle,,1843773.38,44863,19298715.99,2024-01-04,2025-12-28,True
+CUST-f2b46941-722,Customer 334 Corp,contact@customer334.com,+1-703-273-2804,US,San Francisco,SMB,Media,New,SAP+Salesforce,0.78,1847022.62,5567,44789765.9,2023-05-23,2025-07-09,True
+CUST-4df3a7c1-edf,Customer 335 Corp,contact@customer335.com,+1-743-442-3971,AU,Toronto,Mid-Market,Manufacturing,Active,Salesforce,0.837,212325.51,32728,33120412.59,2021-06-27,2025-12-25,True
+CUST-61ba41f9-4f4,Customer 336 Corp,contact@customer336.com,+1-278-907-1035,SG,London,Mid-Market,Media,New,SAP+Oracle,0.93,1572164.46,31364,40751023.09,2020-08-19,2025-10-26,True
+CUST-0fbf53d7-14e,Customer 337 Corp,contact@customer337.com,+1-944-385-3370,US,Mumbai,Mid-Market,Finance,Active,SAP,0.874,965170.66,27138,30126981.46,2023-07-27,2025-08-25,True
+CUST-252dc5e3-e80,Customer 338 Corp,contact@customer338.com,+1-869-351-7278,DE,Tokyo,Startup,Education,Active,Salesforce,0.808,171817.35,46863,21149853.98,2023-03-29,2025-12-16,True
+CUST-196ea758-17f,Customer 339 Corp,contact@customer339.com,+1-966-324-2429,US,Mumbai,Enterprise,Retail,Churned,SAP+Salesforce,0.868,271517.4,7229,3072911.76,2021-12-16,2025-09-01,True
+CUST-d6bf634f-b47,Customer 340 Corp,contact@customer340.com,+1-997-938-3283,UK,Sydney,Mid-Market,Energy,At-Risk,SAP+Oracle,,453051.45,48965,6976285.51,2023-11-25,2025-11-28,True
+CUST-98d7b5dc-542,Customer 341 Corp,contact@customer341.com,+1-950-126-7958,UK,New York,Enterprise,Healthcare,Active,SAP,0.968,65220.53,23946,7149746.88,2021-05-16,2025-06-20,True
+CUST-6f4d2791-0ce,Customer 342 Corp,contact@customer342.com,+1-626-253-3988,FR,London,SMB,Education,Active,SAP,0.861,1291470.07,875,14409776.62,2020-11-15,2025-06-16,True
+CUST-bfd48af8-2b5,Customer 343 Corp,contact@customer343.com,+1-232-718-3843,IN,London,Enterprise,Energy,New,SAP,0.969,1110541.06,16921,45965596.48,2022-10-24,2025-08-18,True
+CUST-4fb61a56-1f4,Customer 344 Corp,contact@customer344.com,+1-633-260-5453,US,Tokyo,Startup,Finance,At-Risk,SAP+Salesforce+Oracle,,1239992.3,14356,19675318.84,2024-03-07,2025-10-22,True
+CUST-a9b7852b-4bc,Customer 345 Corp,contact@customer345.com,+1-279-936-8674,FR,Mumbai,Startup,Energy,Churned,SAP+Oracle,,746098.88,27811,9817056.41,2020-08-10,2025-06-27,True
+CUST-1ff4beb5-49d,Customer 346 Corp,contact@customer346.com,+1-817-897-6496,US,Berlin,SMB,Finance,Active,Salesforce,,427760.34,729,37850419.87,2021-09-25,2025-07-19,True
+CUST-24ccc710-f8f,Customer 347 Corp,contact@customer347.com,+1-853-133-4937,UK,San Francisco,Enterprise,Education,Active,SAP+Salesforce,,190955.82,20234,523088.67,2021-12-31,2025-12-10,True
+CUST-ec41e7c9-3e1,Customer 348 Corp,contact@customer348.com,+1-607-612-4192,UK,Toronto,SMB,Finance,Active,SAP+Salesforce+Oracle,0.833,1793539.8,33012,5140043.87,2024-05-06,2025-07-09,True
+CUST-e5311600-445,Customer 349 Corp,contact@customer349.com,+1-591-588-1612,UK,London,Mid-Market,Education,Active,SAP+Salesforce,0.773,1438333.1,14142,40393054.09,2023-09-01,2025-07-07,True
+CUST-9c839185-979,Customer 350 Corp,contact@customer350.com,+1-364-613-9459,JP,Singapore,SMB,Education,At-Risk,SAP+Oracle,0.84,1712625.34,28249,2096643.84,2023-12-30,2025-12-16,True
+CUST-8b2d7133-030,Customer 351 Corp,contact@customer351.com,+1-444-313-2228,US,Singapore,Startup,Healthcare,Churned,SAP+Salesforce,,1741562.67,35867,43389930.44,2024-05-19,2026-01-16,True
+CUST-5404d270-36e,Customer 352 Corp,contact@customer352.com,+1-296-565-6139,US,Paris,Mid-Market,Healthcare,Active,Salesforce+Oracle,0.838,146912.17,46583,38619831.47,2021-06-12,2025-09-30,True
+CUST-fbc02cd9-033,Customer 353 Corp,contact@customer353.com,+1-981-997-8242,AU,London,Enterprise,Education,New,SAP+Salesforce,0.822,821021.29,40621,45865291.81,2020-09-21,2025-09-21,True
+CUST-186a8ac0-f92,Customer 354 Corp,contact@customer354.com,+1-839-421-7122,US,Toronto,Startup,Manufacturing,Active,SAP+Salesforce+Oracle,,1954976.12,3749,37078023.76,2021-05-16,2025-11-27,True
+CUST-363bac99-c50,Customer 355 Corp,contact@customer355.com,+1-208-258-2725,UK,Toronto,Mid-Market,Energy,At-Risk,SAP+Salesforce,,1748946.98,43863,4765805.7,2022-08-12,2025-09-28,True
+CUST-26b4deb4-6bf,Customer 356 Corp,contact@customer356.com,+1-676-211-2406,US,San Francisco,Startup,Energy,Churned,SAP+Oracle,0.766,688134.97,39617,24366121.31,2023-12-09,2025-12-07,True
+CUST-b6d34722-2d2,Customer 357 Corp,contact@customer357.com,+1-485-565-1627,IN,London,Startup,Finance,Active,SAP+Salesforce+Oracle,,1138572.11,39402,38732855.63,2020-05-07,2026-01-26,True
+CUST-7250eea4-ac6,Customer 358 Corp,contact@customer358.com,+1-640-584-4496,US,Berlin,Enterprise,Energy,At-Risk,Salesforce+Oracle,,356330.71,9298,3556026.57,2022-04-09,2025-06-21,True
+CUST-61ec52ae-e77,Customer 359 Corp,contact@customer359.com,+1-929-562-7876,IN,Berlin,SMB,Finance,Active,SAP+Salesforce,,1803775.27,22424,48171951.87,2021-08-31,2025-07-13,True
+CUST-b8f416fa-17c,Customer 360 Corp,contact@customer360.com,+1-629-593-8790,IN,London,Startup,Media,Active,SAP+Salesforce+Oracle,0.956,1124012.34,39143,10008142.89,2024-01-20,2025-11-18,True
+CUST-71bfa6f3-6fb,Customer 361 Corp,contact@customer361.com,+1-348-431-6185,US,London,Startup,Finance,Active,SAP,0.778,1940102.37,26642,13213854.44,2024-01-19,2025-06-01,True
+CUST-1c030213-4e9,Customer 362 Corp,contact@customer362.com,+1-328-749-8361,AU,Singapore,Enterprise,Technology,New,SAP+Oracle,0.797,1394409.94,10895,30087073.64,2021-03-18,2025-08-29,True
+CUST-148193ef-27c,Customer 363 Corp,contact@customer363.com,+1-395-795-1235,UK,Mumbai,Enterprise,Manufacturing,Active,Salesforce+Oracle,0.967,1400137.71,42537,49952503.65,2022-04-27,2025-09-14,True
+CUST-42b302a7-adc,Customer 364 Corp,contact@customer364.com,+1-755-536-9571,BR,Mumbai,Enterprise,Finance,Active,SAP,0.794,1191809.16,35580,21850220.57,2021-08-06,2026-01-03,True
+CUST-313b9f47-376,Customer 365 Corp,contact@customer365.com,+1-896-547-5640,JP,Singapore,Enterprise,Healthcare,Churned,SAP+Salesforce,,37770.85,26963,5273397.57,2024-03-15,2025-12-10,True
+CUST-3dfae9e6-911,Customer 366 Corp,contact@customer366.com,+1-757-202-8276,IN,Singapore,Enterprise,Manufacturing,Churned,SAP,,1554876.1,36158,19115883.57,2021-02-04,2026-01-06,True
+CUST-cb2bec17-f14,Customer 367 Corp,contact@customer367.com,+1-327-459-8601,DE,Toronto,Enterprise,Media,Active,SAP+Oracle,0.817,1319070.27,20155,41940360.32,2022-04-29,2025-11-20,True
+CUST-9b4bd5cb-c15,Customer 368 Corp,contact@customer368.com,+1-624-133-1254,US,London,SMB,Media,Active,Salesforce+Oracle,,1146513.95,28191,12167372.54,2022-03-12,2025-07-20,True
+CUST-b3d15d6d-9a9,Customer 369 Corp,contact@customer369.com,+1-602-948-1845,BR,Singapore,Startup,Finance,Churned,SAP+Salesforce+Oracle,0.932,809222.44,20858,25912126.19,2022-06-14,2025-07-30,True
+CUST-d4de3018-783,Customer 370 Corp,contact@customer370.com,+1-329-616-2939,AU,Singapore,Startup,Manufacturing,Active,Salesforce,,648197.24,6121,4753943.81,2022-06-14,2025-06-03,True
+CUST-d1e9985c-ec9,Customer 371 Corp,contact@customer371.com,+1-807-256-1455,CA,Tokyo,Enterprise,Energy,Churned,SAP+Salesforce,0.783,910143.99,41396,38901728.45,2021-01-17,2025-08-01,True
+CUST-dbdbd1bc-994,Customer 372 Corp,contact@customer372.com,+1-427-404-4175,IN,Berlin,Startup,Manufacturing,Churned,SAP+Salesforce+Oracle,,170511.92,9432,31409156.65,2023-07-31,2025-10-27,True
+CUST-d82eb551-86e,Customer 373 Corp,contact@customer373.com,+1-313-570-3010,US,London,SMB,Manufacturing,New,SAP+Oracle,,991018.88,23694,45644684.55,2021-03-01,2025-09-09,True
+CUST-fec9b2d9-c48,Customer 374 Corp,contact@customer374.com,+1-222-523-2205,FR,San Francisco,Mid-Market,Energy,Active,SAP,0.908,904502.67,10568,9072341.15,2020-01-21,2026-01-18,True
+CUST-9c37c04e-819,Customer 375 Corp,contact@customer375.com,+1-780-746-1515,US,Mumbai,SMB,Education,Active,Salesforce,0.751,1045888.37,16688,46336500.64,2021-01-29,2025-11-03,True
+CUST-26902db8-7ab,Customer 376 Corp,contact@customer376.com,+1-223-630-9384,BR,London,Mid-Market,Media,Active,SAP+Salesforce,0.757,281437.22,5478,36414420.56,2020-09-16,2025-08-08,True
+CUST-ad6b5cd6-4ce,Customer 377 Corp,contact@customer377.com,+1-404-194-6710,JP,Tokyo,SMB,Education,Active,SAP+Salesforce+Oracle,0.859,1892959.62,12662,12579648.11,2021-02-09,2025-11-23,True
+CUST-a9edc757-6af,Customer 378 Corp,contact@customer378.com,+1-934-387-7436,US,Singapore,SMB,Finance,At-Risk,SAP+Oracle,0.872,1766300.38,27780,29856856.22,2021-07-10,2025-12-26,True
+CUST-834738ec-b33,Customer 379 Corp,contact@customer379.com,+1-310-721-7275,DE,Berlin,SMB,Media,Active,SAP+Salesforce+Oracle,0.862,1779452.12,33522,12727876.67,2022-04-19,2025-08-15,True
+CUST-c7162a09-6ff,Customer 380 Corp,contact@customer380.com,+1-860-643-6771,DE,New York,Enterprise,Finance,Churned,Salesforce+Oracle,0.796,494409.7,14112,32882035.12,2022-01-31,2025-07-08,True
+CUST-4de273be-049,Customer 381 Corp,contact@customer381.com,+1-325-109-6219,JP,New York,SMB,Retail,At-Risk,SAP,0.83,469134.24,4350,19340985.07,2023-05-17,2025-07-25,True
+CUST-e30880b8-4d2,Customer 382 Corp,contact@customer382.com,+1-305-674-5555,JP,Singapore,Enterprise,Energy,Active,SAP+Salesforce+Oracle,0.829,643642.21,12928,2578021.15,2022-10-08,2025-10-06,True
+CUST-518036af-7f6,Customer 383 Corp,contact@customer383.com,+1-481-531-2953,US,Sydney,Mid-Market,Media,Active,Salesforce,0.894,573648.64,42193,39186951.26,2023-03-25,2025-06-02,True
+CUST-0d3632ae-f9b,Customer 384 Corp,contact@customer384.com,+1-491-234-7599,US,Tokyo,Enterprise,Media,New,SAP+Salesforce+Oracle,,942437.24,27212,36190358.11,2021-07-16,2025-08-21,True
+CUST-e370c53b-13c,Customer 385 Corp,contact@customer385.com,+1-609-181-6131,FR,Singapore,Enterprise,Energy,At-Risk,Salesforce+Oracle,0.864,1698101.26,7966,42169474.6,2023-06-19,2025-06-27,True
+CUST-c3531c04-b71,Customer 386 Corp,contact@customer386.com,+1-248-945-1170,US,San Francisco,SMB,Energy,Active,SAP+Oracle,,386363.59,24184,40825766.1,2023-01-05,2025-06-02,True
+CUST-9f9e8472-654,Customer 387 Corp,contact@customer387.com,+1-253-365-1705,US,New York,SMB,Healthcare,New,Salesforce+Oracle,0.903,1625908.63,17698,34963375.04,2020-10-09,2025-10-28,True
+CUST-900e6221-204,Customer 388 Corp,contact@customer388.com,+1-329-426-3424,BR,Singapore,Startup,Education,Active,SAP+Salesforce+Oracle,,1057539.91,37882,23948548.22,2022-09-30,2025-08-11,True
+CUST-5f6cff2c-668,Customer 389 Corp,contact@customer389.com,+1-948-594-4700,US,Paris,SMB,Healthcare,Active,Salesforce+Oracle,0.968,1320664.15,48196,42807587.44,2023-11-24,2025-06-20,True
+CUST-a8a3d99e-bae,Customer 390 Corp,contact@customer390.com,+1-706-161-4481,US,Berlin,Startup,Energy,Active,SAP+Oracle,0.835,1628920.86,49922,26429467.44,2021-10-03,2025-12-12,True
+CUST-c84b0e73-9c3,Customer 391 Corp,contact@customer391.com,+1-925-564-3523,SG,Tokyo,Enterprise,Finance,New,SAP+Oracle,0.846,907601.63,40673,25721855.72,2024-05-16,2025-09-11,True
+CUST-da8f3c3c-31c,Customer 392 Corp,contact@customer392.com,+1-484-533-3690,AU,Paris,Enterprise,Finance,Active,SAP,0.936,484922.11,30212,9432785.33,2020-02-28,2025-09-30,True
+CUST-7fafbaff-fb8,Customer 393 Corp,contact@customer393.com,+1-663-460-5351,US,Tokyo,Enterprise,Media,Churned,SAP,,796871.36,28246,25445548.53,2020-04-18,2025-09-21,True
+CUST-641aaea9-1ee,Customer 394 Corp,contact@customer394.com,+1-300-150-7267,JP,Toronto,Mid-Market,Manufacturing,Active,SAP+Oracle,0.899,1061477.69,32359,25979061.17,2020-08-11,2025-11-22,True
+CUST-a3b7a647-86d,Customer 395 Corp,contact@customer395.com,+1-454-213-4597,US,New York,Enterprise,Manufacturing,Active,SAP+Oracle,,206558.82,14851,44141754.46,2023-12-03,2025-12-01,True
+CUST-a72f2004-490,Customer 396 Corp,contact@customer396.com,+1-602-203-4602,JP,Paris,Startup,Retail,Active,SAP+Oracle,0.837,579545.14,39089,14470133.75,2020-01-07,2025-06-25,True
+CUST-7b81f205-2da,Customer 397 Corp,contact@customer397.com,+1-917-737-8811,JP,Paris,Mid-Market,Finance,Active,Salesforce+Oracle,0.792,667649.86,29843,7177499.4,2020-01-27,2025-11-18,True
+CUST-82f17a5b-25a,Customer 398 Corp,contact@customer398.com,+1-542-121-3908,UK,San Francisco,Mid-Market,Technology,Active,Salesforce,0.868,7007.91,16230,23681155.4,2020-04-02,2025-12-27,True
+CUST-47e97e68-aef,Customer 399 Corp,contact@customer399.com,+1-896-397-4740,IN,Tokyo,Mid-Market,Finance,Active,SAP+Salesforce,,1608765.77,22008,22685555.99,2024-02-13,2025-08-29,True
+CUST-8604bf54-2b4,Customer 400 Corp,contact@customer400.com,+1-463-779-8970,UK,Mumbai,Startup,Technology,New,Salesforce+Oracle,0.833,1038072.96,43521,42862112.41,2023-05-05,2025-10-02,True
+CUST-22536f2e-d6a,Customer 401 Corp,contact@customer401.com,+1-902-631-1339,US,Toronto,Mid-Market,Finance,Active,Salesforce+Oracle,0.811,1483319.8,28237,18035054.43,2024-03-04,2025-06-23,True
+CUST-a8d949d1-7b5,Customer 402 Corp,contact@customer402.com,+1-586-754-2768,UK,Tokyo,Startup,Finance,Active,Salesforce+Oracle,0.837,665735.36,38620,20922984.86,2021-07-19,2025-08-19,True
+CUST-177d4808-f1d,Customer 403 Corp,contact@customer403.com,+1-793-632-6624,SG,Singapore,Enterprise,Energy,Active,SAP,0.948,697260.64,7231,48476547.51,2022-10-18,2026-01-24,True
+CUST-6fe23896-d10,Customer 404 Corp,contact@customer404.com,+1-677-797-3461,IN,Paris,Mid-Market,Manufacturing,Churned,SAP,,1600571.2,1031,22747523.29,2021-03-21,2025-08-12,True
+CUST-7cd830a1-d9e,Customer 405 Corp,contact@customer405.com,+1-326-154-9001,UK,New York,Startup,Media,At-Risk,SAP+Salesforce+Oracle,0.762,279748.97,18574,39284638.61,2022-10-25,2025-11-18,True
+CUST-f673977c-ead,Customer 406 Corp,contact@customer406.com,+1-774-258-2409,JP,Paris,Mid-Market,Retail,New,SAP,0.77,441621.24,31020,46653444.71,2021-05-24,2025-12-25,True
+CUST-691ce7aa-a1a,Customer 407 Corp,contact@customer407.com,+1-595-532-7539,US,Paris,SMB,Manufacturing,Churned,SAP+Oracle,0.92,648347.4,37900,7044900.31,2024-04-21,2025-07-22,True
+CUST-ba8d7fd7-cbb,Customer 408 Corp,contact@customer408.com,+1-626-667-4268,UK,Paris,Enterprise,Manufacturing,Active,Salesforce,0.865,370827.48,28642,4892510.71,2022-12-14,2025-09-22,True
+CUST-52650a91-249,Customer 409 Corp,contact@customer409.com,+1-715-801-6858,FR,Mumbai,Startup,Education,Churned,SAP,0.865,1825553.79,1741,47878838.51,2022-05-12,2025-06-23,True
+CUST-ade758e7-fbf,Customer 410 Corp,contact@customer410.com,+1-829-409-4975,CA,Tokyo,SMB,Finance,At-Risk,Salesforce,0.891,590219.66,49511,42270856.38,2020-09-14,2025-09-12,True
+CUST-4d27bd11-4cb,Customer 411 Corp,contact@customer411.com,+1-673-926-9487,FR,New York,Enterprise,Technology,Churned,Salesforce+Oracle,0.912,670299.49,6393,41114812.67,2023-03-04,2025-10-02,True
+CUST-5eb4b032-8f5,Customer 412 Corp,contact@customer412.com,+1-262-224-9369,JP,New York,Mid-Market,Finance,Churned,Salesforce,0.874,450969.45,44291,32019439.6,2020-11-12,2025-08-17,True
+CUST-b0343217-34f,Customer 413 Corp,contact@customer413.com,+1-936-106-8945,CA,Berlin,Enterprise,Healthcare,Churned,SAP+Salesforce,,1760398.63,34077,4933495.47,2021-02-22,2025-06-27,True
+CUST-f0b06466-3ec,Customer 414 Corp,contact@customer414.com,+1-717-554-7401,US,San Francisco,SMB,Energy,Active,SAP,0.955,1684233.0,35839,13087549.12,2023-06-08,2025-11-22,True
+CUST-da14a00f-c5c,Customer 415 Corp,contact@customer415.com,+1-873-731-3018,DE,London,Enterprise,Finance,Active,SAP+Oracle,0.914,345697.11,48615,35011470.27,2021-02-14,2025-09-30,True
+CUST-a167e706-e06,Customer 416 Corp,contact@customer416.com,+1-496-783-2638,CA,Sydney,SMB,Manufacturing,Active,SAP,0.95,930607.58,27851,7493509.85,2021-08-03,2025-09-26,True
+CUST-8d186e37-72a,Customer 417 Corp,contact@customer417.com,+1-598-111-5960,US,Singapore,Startup,Technology,Active,Salesforce+Oracle,0.867,1447515.21,18157,555091.09,2020-11-20,2025-08-31,True
+CUST-09a51ccf-570,Customer 418 Corp,contact@customer418.com,+1-715-315-6715,JP,Tokyo,Startup,Healthcare,Active,SAP+Oracle,0.838,1439822.17,22245,23028139.02,2024-05-30,2025-07-06,True
+CUST-f1677dc2-63f,Customer 419 Corp,contact@customer419.com,+1-980-774-5963,DE,San Francisco,Startup,Energy,Active,SAP,0.795,1418457.87,33235,38792360.13,2022-12-12,2025-08-06,True
+CUST-c37571f3-bc7,Customer 420 Corp,contact@customer420.com,+1-531-702-6703,CA,Singapore,Startup,Healthcare,Active,SAP+Salesforce,,1467090.62,15194,4917368.01,2020-08-05,2025-10-06,True
+CUST-7753bde9-830,Customer 421 Corp,contact@customer421.com,+1-687-431-4793,BR,Berlin,Enterprise,Finance,New,SAP+Salesforce+Oracle,0.939,843012.03,4228,3190139.59,2021-05-27,2025-06-30,True
+CUST-5b008db6-3a5,Customer 422 Corp,contact@customer422.com,+1-967-174-8234,BR,Mumbai,Enterprise,Finance,Active,Salesforce+Oracle,,901771.71,8740,49444656.11,2023-03-21,2025-10-21,True
+CUST-8eeb9582-87b,Customer 423 Corp,contact@customer423.com,+1-458-602-8168,AU,Paris,Mid-Market,Retail,Active,SAP+Salesforce+Oracle,,1628606.29,12612,4392313.09,2020-02-19,2025-11-09,True
+CUST-f8b1e729-dc1,Customer 424 Corp,contact@customer424.com,+1-298-308-1544,BR,London,Enterprise,Media,New,SAP,0.966,684719.07,44729,36525858.07,2024-01-31,2025-11-12,True
+CUST-07b21692-838,Customer 425 Corp,contact@customer425.com,+1-394-952-4399,CA,Sydney,SMB,Media,Active,Salesforce,0.963,1604183.8,28772,21432836.27,2022-02-09,2026-01-10,True
+CUST-1338f3a3-8d1,Customer 426 Corp,contact@customer426.com,+1-280-230-9474,UK,San Francisco,Enterprise,Education,Active,SAP+Oracle,,1083373.36,1487,11278659.12,2021-08-16,2026-01-23,True
+CUST-55ddeb1f-3af,Customer 427 Corp,contact@customer427.com,+1-599-820-6863,US,London,SMB,Healthcare,At-Risk,Salesforce,0.963,1863959.05,32781,15680742.17,2023-06-20,2025-06-15,True
+CUST-f25c12c9-8d9,Customer 428 Corp,contact@customer428.com,+1-313-696-8716,UK,New York,Enterprise,Media,Active,SAP,,672409.78,3902,7050502.54,2023-01-25,2025-12-27,True
+CUST-a496e0e2-938,Customer 429 Corp,contact@customer429.com,+1-975-779-2021,US,Sydney,Enterprise,Technology,At-Risk,Salesforce+Oracle,0.987,1198304.52,40146,46475242.97,2023-02-03,2025-10-01,True
+CUST-0b9e8c23-fc9,Customer 430 Corp,contact@customer430.com,+1-477-840-1683,US,New York,Startup,Retail,New,SAP+Salesforce+Oracle,0.869,1564175.97,14936,1170018.78,2020-04-23,2025-06-07,True
+CUST-5c3c92e1-890,Customer 431 Corp,contact@customer431.com,+1-400-647-7215,AU,New York,Startup,Technology,At-Risk,SAP,0.924,862288.7,27982,27522291.71,2020-08-24,2025-09-21,True
+CUST-86670354-620,Customer 432 Corp,contact@customer432.com,+1-830-476-6763,US,Mumbai,Startup,Technology,Active,SAP+Oracle,,1179291.86,14894,20711967.64,2024-03-21,2026-01-14,True
+CUST-4de54c0b-ff6,Customer 433 Corp,contact@customer433.com,+1-749-681-1750,BR,New York,Mid-Market,Technology,At-Risk,SAP+Salesforce,,879918.99,18530,2281599.46,2021-12-17,2025-11-02,True
+CUST-e7676df9-da9,Customer 434 Corp,contact@customer434.com,+1-450-399-3125,CA,Toronto,Startup,Healthcare,Churned,SAP+Salesforce+Oracle,,504146.72,35638,10372461.96,2023-12-15,2025-12-06,True
+CUST-8be48cfc-d73,Customer 435 Corp,contact@customer435.com,+1-425-554-5959,UK,Tokyo,SMB,Retail,At-Risk,Salesforce,0.83,1085131.25,6850,2794476.95,2022-04-21,2025-11-28,True
+CUST-93eeb27a-e87,Customer 436 Corp,contact@customer436.com,+1-697-386-2285,US,London,Mid-Market,Manufacturing,New,SAP+Salesforce+Oracle,0.781,1451196.96,9313,1889797.03,2021-04-26,2025-11-26,True
+CUST-53c5f7f3-7f0,Customer 437 Corp,contact@customer437.com,+1-982-564-2871,US,Sydney,Enterprise,Manufacturing,Active,Salesforce+Oracle,0.825,1930367.47,3923,14026714.86,2023-06-02,2025-09-07,True
+CUST-4127b57d-f71,Customer 438 Corp,contact@customer438.com,+1-591-493-8274,US,Berlin,Mid-Market,Energy,Active,SAP+Oracle,0.883,1322502.9,2061,27123303.42,2021-12-13,2026-01-26,True
+CUST-77d4dd95-2c4,Customer 439 Corp,contact@customer439.com,+1-823-872-6508,SG,Paris,Mid-Market,Technology,Active,Salesforce+Oracle,0.905,1732155.87,47800,46435467.16,2024-03-20,2025-06-15,True
+CUST-09120f89-904,Customer 440 Corp,contact@customer440.com,+1-766-497-5709,SG,Tokyo,Startup,Energy,At-Risk,Salesforce,0.942,523900.91,24998,23419890.4,2021-05-02,2025-07-04,True
+CUST-c5aa1c34-c6d,Customer 441 Corp,contact@customer441.com,+1-487-918-5495,US,Berlin,SMB,Media,New,Salesforce,0.904,726581.26,43213,12600612.49,2023-08-30,2025-12-25,True
+CUST-85c12104-f37,Customer 442 Corp,contact@customer442.com,+1-212-227-6028,CA,Mumbai,SMB,Finance,At-Risk,SAP,0.86,935546.8,23519,24062374.71,2023-02-13,2025-07-26,True
+CUST-25053634-a20,Customer 443 Corp,contact@customer443.com,+1-793-181-5529,CA,Tokyo,SMB,Healthcare,Active,SAP,,1533123.78,18107,13051086.06,2022-10-10,2025-07-03,True
+CUST-e7e6619f-22a,Customer 444 Corp,contact@customer444.com,+1-378-250-1812,US,San Francisco,Enterprise,Finance,Active,SAP+Salesforce+Oracle,0.86,638082.2,36278,35896149.07,2020-05-04,2026-01-30,True
+CUST-1634b138-bd6,Customer 445 Corp,contact@customer445.com,+1-465-363-1264,AU,Mumbai,Enterprise,Retail,At-Risk,Salesforce+Oracle,,1016341.19,7427,25600672.32,2021-04-30,2025-07-23,True
+CUST-c9395ef1-fdf,Customer 446 Corp,contact@customer446.com,+1-580-949-7815,US,Toronto,SMB,Finance,Active,SAP+Salesforce,0.947,673296.64,26757,44879872.06,2022-02-06,2025-09-29,True
+CUST-aa075e9f-6ea,Customer 447 Corp,contact@customer447.com,+1-501-736-1510,US,Mumbai,Enterprise,Manufacturing,New,SAP+Oracle,0.756,1220031.1,20529,25588727.51,2024-05-18,2025-12-07,True
+CUST-3c4c9a44-c61,Customer 448 Corp,contact@customer448.com,+1-795-829-6636,US,Toronto,Enterprise,Finance,Active,SAP,0.912,1910582.8,14728,28313579.01,2023-03-22,2025-11-09,True
+CUST-11dfc352-a9f,Customer 449 Corp,contact@customer449.com,+1-628-651-2986,SG,Tokyo,Enterprise,Education,Active,SAP+Salesforce+Oracle,0.86,542019.53,37709,14723958.91,2021-05-14,2025-08-24,True
+CUST-1567b895-2af,Customer 450 Corp,contact@customer450.com,+1-986-470-4782,FR,Mumbai,Enterprise,Retail,Active,SAP,0.97,726952.91,23077,28066810.74,2020-06-05,2026-01-21,True
+CUST-cf68fb35-9d9,Customer 451 Corp,contact@customer451.com,+1-695-719-4774,FR,Toronto,Mid-Market,Finance,Active,Salesforce,,1818985.15,44188,29279291.28,2020-10-09,2025-11-03,True
+CUST-c96885cf-6e2,Customer 452 Corp,contact@customer452.com,+1-493-449-6142,US,San Francisco,Startup,Energy,Active,Salesforce,0.894,1267096.38,12992,45003636.17,2022-07-18,2025-06-04,True
+CUST-a3d72718-c03,Customer 453 Corp,contact@customer453.com,+1-628-369-8698,JP,San Francisco,Mid-Market,Technology,Active,SAP,,338036.6,4795,6705649.97,2022-12-20,2026-01-22,True
+CUST-b76b8d11-aba,Customer 454 Corp,contact@customer454.com,+1-632-462-3088,DE,Tokyo,Mid-Market,Manufacturing,Active,SAP+Salesforce,0.956,676597.76,39905,30869816.73,2024-01-19,2025-06-12,True
+CUST-5b0e782b-bde,Customer 455 Corp,contact@customer455.com,+1-563-559-7699,AU,Sydney,Startup,Manufacturing,Active,SAP,0.933,1448796.39,38647,45825458.18,2022-11-09,2025-06-22,True
+CUST-e0229c94-a4e,Customer 456 Corp,contact@customer456.com,+1-207-707-7060,AU,Sydney,Startup,Media,Active,SAP,,1446453.71,18314,47243928.15,2020-07-17,2025-07-30,True
+CUST-628fb745-c4a,Customer 457 Corp,contact@customer457.com,+1-549-149-9481,IN,Singapore,Startup,Manufacturing,Active,Salesforce+Oracle,0.939,1907259.77,2758,40717960.29,2024-02-13,2026-01-12,True
+CUST-a083e7a6-001,Customer 458 Corp,contact@customer458.com,+1-415-540-9505,UK,Singapore,SMB,Healthcare,New,Salesforce+Oracle,,241509.4,17956,24383122.7,2021-04-03,2026-01-13,True
+CUST-635be9b4-343,Customer 459 Corp,contact@customer459.com,+1-465-720-2738,US,Paris,Mid-Market,Healthcare,Active,SAP+Oracle,0.877,341860.58,39226,45136810.99,2023-01-10,2025-10-16,True
+CUST-62590212-825,Customer 460 Corp,contact@customer460.com,+1-206-600-1422,UK,Berlin,SMB,Energy,At-Risk,SAP+Salesforce+Oracle,0.782,910429.51,7193,35840920.37,2020-09-02,2025-09-22,True
+CUST-2f1feacb-fda,Customer 461 Corp,contact@customer461.com,+1-705-369-2423,SG,London,SMB,Healthcare,New,Salesforce+Oracle,0.936,448771.34,4882,16423074.21,2022-11-04,2025-08-25,True
+CUST-7cce3624-d1d,Customer 462 Corp,contact@customer462.com,+1-845-853-9402,AU,San Francisco,SMB,Technology,Active,SAP,,1411681.85,34173,15944607.22,2023-02-17,2025-11-17,True
+CUST-e54fcbf1-9b6,Customer 463 Corp,contact@customer463.com,+1-841-136-1130,US,London,Startup,Retail,At-Risk,SAP+Salesforce+Oracle,,942880.24,31762,40712055.71,2024-02-11,2025-10-06,True
+CUST-a1d2fddc-227,Customer 464 Corp,contact@customer464.com,+1-403-750-2453,IN,Berlin,Enterprise,Energy,Active,SAP+Salesforce,0.903,1421431.07,2553,20966151.49,2021-06-22,2025-11-05,True
+CUST-aa72d9c7-396,Customer 465 Corp,contact@customer465.com,+1-797-340-6713,FR,Tokyo,Mid-Market,Manufacturing,Active,SAP+Oracle,0.917,982992.84,41299,19671281.79,2022-01-01,2025-10-18,True
+CUST-280f71dc-0bc,Customer 466 Corp,contact@customer466.com,+1-298-324-2841,BR,Paris,Startup,Education,Active,Salesforce+Oracle,,852606.24,11557,23290323.02,2021-10-15,2025-11-17,True
+CUST-49e45577-c8a,Customer 467 Corp,contact@customer467.com,+1-913-507-3098,BR,Sydney,Startup,Energy,Active,SAP+Salesforce+Oracle,,585405.82,33268,10833798.06,2024-05-22,2025-09-13,True
+CUST-a03c0b4f-910,Customer 468 Corp,contact@customer468.com,+1-990-430-5286,AU,Mumbai,Startup,Energy,Active,SAP,0.815,113993.57,31828,36436523.69,2021-11-26,2025-11-10,True
+CUST-9ad890f0-444,Customer 469 Corp,contact@customer469.com,+1-515-558-7714,US,Singapore,Mid-Market,Retail,At-Risk,SAP+Salesforce+Oracle,,1936670.2,40036,16551240.41,2023-05-23,2025-10-17,True
+CUST-c9046edf-6af,Customer 470 Corp,contact@customer470.com,+1-939-121-7212,US,Mumbai,SMB,Healthcare,Active,SAP+Salesforce+Oracle,,424874.47,35102,10002146.72,2020-11-17,2026-01-01,True
+CUST-5a71365a-603,Customer 471 Corp,contact@customer471.com,+1-935-334-5754,BR,London,SMB,Media,Active,SAP,,1468002.03,903,1900141.13,2020-02-11,2025-12-11,True
+CUST-b65fdd0b-f57,Customer 472 Corp,contact@customer472.com,+1-304-613-7519,BR,Sydney,Enterprise,Finance,New,Salesforce+Oracle,0.808,1545961.21,16217,1785522.89,2024-03-15,2025-07-02,True
+CUST-dbf007a6-50d,Customer 473 Corp,contact@customer473.com,+1-586-771-7565,US,Paris,Enterprise,Healthcare,At-Risk,SAP+Salesforce,0.926,1466614.47,1330,835615.02,2023-01-14,2025-11-02,True
+CUST-2da4339f-752,Customer 474 Corp,contact@customer474.com,+1-297-853-7408,US,Singapore,SMB,Media,New,SAP,0.756,551729.23,13291,5073993.01,2023-09-05,2025-10-26,True
+CUST-c747ac4b-365,Customer 475 Corp,contact@customer475.com,+1-498-539-2524,US,Toronto,SMB,Education,Active,Salesforce+Oracle,0.883,493005.01,1138,49658382.39,2024-01-30,2025-09-09,True
+CUST-7a0fa067-748,Customer 476 Corp,contact@customer476.com,+1-981-659-2774,FR,Berlin,Enterprise,Energy,New,SAP+Oracle,0.869,222352.16,20366,16688530.2,2023-07-14,2025-06-22,True
+CUST-d0ed37d5-850,Customer 477 Corp,contact@customer477.com,+1-373-312-9025,CA,Berlin,Enterprise,Finance,Active,SAP,0.868,1447449.67,37145,38053021.81,2020-04-30,2025-12-14,True
+CUST-247cbfb3-bd1,Customer 478 Corp,contact@customer478.com,+1-621-418-6535,SG,London,Enterprise,Media,Active,SAP+Salesforce+Oracle,0.852,16115.68,45255,10540286.46,2023-02-25,2025-12-21,True
+CUST-92398674-025,Customer 479 Corp,contact@customer479.com,+1-711-420-4862,UK,Sydney,Startup,Healthcare,Active,SAP+Salesforce,0.769,258928.55,902,8188446.4,2024-03-12,2025-07-02,True
+CUST-228d2458-8f5,Customer 480 Corp,contact@customer480.com,+1-648-990-2862,US,Toronto,Startup,Finance,Active,SAP+Salesforce+Oracle,0.872,1499241.9,35863,20965552.44,2020-01-19,2025-08-15,True
+CUST-07d9df3f-a50,Customer 481 Corp,contact@customer481.com,+1-501-837-5441,IN,Mumbai,SMB,Finance,Active,SAP+Oracle,,1371622.63,40249,47604568.62,2022-01-30,2025-10-11,True
+CUST-6a73c86d-537,Customer 482 Corp,contact@customer482.com,+1-683-573-4450,UK,London,Mid-Market,Education,Churned,SAP+Salesforce,0.795,943634.41,377,15660841.43,2021-01-19,2025-07-22,True
+CUST-3a279168-4a1,Customer 483 Corp,contact@customer483.com,+1-750-569-6423,US,New York,Startup,Finance,Churned,SAP+Salesforce,0.89,455928.87,41220,805061.51,2021-01-29,2025-08-10,True
+CUST-a0ba2600-aa6,Customer 484 Corp,contact@customer484.com,+1-636-698-6009,UK,Singapore,Startup,Manufacturing,Active,Salesforce,0.915,159564.87,9999,5238516.52,2021-03-19,2025-08-11,True
+CUST-d3df5e17-a2f,Customer 485 Corp,contact@customer485.com,+1-777-204-3075,BR,Tokyo,Startup,Media,Active,Salesforce,0.898,558088.82,48327,43579695.54,2023-10-01,2026-01-19,True
+CUST-1c3ee2c1-a40,Customer 486 Corp,contact@customer486.com,+1-372-102-4798,US,San Francisco,Mid-Market,Finance,Active,SAP+Oracle,0.75,160185.92,3430,6935048.86,2022-06-19,2025-09-17,True
+CUST-0bb4ee19-718,Customer 487 Corp,contact@customer487.com,+1-534-409-9198,BR,San Francisco,Mid-Market,Energy,Churned,SAP,0.927,713208.31,34218,15916899.03,2020-06-09,2026-01-13,True
+CUST-09e50c1c-cff,Customer 488 Corp,contact@customer488.com,+1-419-270-5550,JP,London,Startup,Education,Churned,SAP,0.813,244878.4,28545,32639396.99,2020-12-30,2025-06-07,True
+CUST-74195977-cdd,Customer 489 Corp,contact@customer489.com,+1-677-889-6668,JP,Toronto,Mid-Market,Retail,New,SAP,0.983,1990899.65,12844,22159820.32,2022-12-13,2025-07-20,True
+CUST-d0dd3530-ce2,Customer 490 Corp,contact@customer490.com,+1-517-436-2541,UK,Paris,Enterprise,Manufacturing,Active,SAP+Salesforce,0.91,799596.53,45590,35242797.86,2021-07-15,2025-11-08,True
+CUST-318f99d2-fd7,Customer 491 Corp,contact@customer491.com,+1-785-943-1498,SG,Sydney,Startup,Education,Active,SAP+Oracle,0.969,1502419.77,6818,2005860.33,2020-02-29,2025-11-04,True
+CUST-f7c7b71a-07d,Customer 492 Corp,contact@customer492.com,+1-356-822-3898,SG,London,Enterprise,Energy,New,SAP+Salesforce,,1276768.92,4094,15780403.96,2023-01-19,2025-08-11,True
+CUST-44fbf01f-918,Customer 493 Corp,contact@customer493.com,+1-398-770-1273,UK,Mumbai,Mid-Market,Media,New,Salesforce,,1330668.2,27297,41902062.02,2023-10-03,2025-06-16,True
+CUST-4d01f251-767,Customer 494 Corp,contact@customer494.com,+1-979-613-3416,JP,Paris,Enterprise,Finance,Active,SAP,,1219015.41,45145,25322744.96,2020-12-20,2025-11-10,True
+CUST-2562baf2-e43,Customer 495 Corp,contact@customer495.com,+1-203-418-5485,IN,Mumbai,Enterprise,Media,At-Risk,SAP,0.924,1134547.63,30353,4499281.49,2020-07-04,2025-07-17,True
+CUST-c6b4d1f3-cb2,Customer 496 Corp,contact@customer496.com,+1-390-425-1329,BR,London,Enterprise,Retail,At-Risk,SAP+Salesforce+Oracle,0.77,1449932.15,16179,15458337.82,2023-10-26,2025-11-12,True
+CUST-e5daeb8b-2cb,Customer 497 Corp,contact@customer497.com,+1-395-865-3174,UK,New York,Startup,Manufacturing,New,SAP+Oracle,,1132254.72,27140,11375422.97,2021-01-20,2025-08-09,True
+CUST-90655b74-c33,Customer 498 Corp,contact@customer498.com,+1-381-402-5249,JP,Sydney,SMB,Healthcare,New,SAP,0.841,1545879.24,34288,22538689.92,2023-07-16,2025-11-23,True
+CUST-42bf8ae9-0a8,Customer 499 Corp,contact@customer499.com,+1-237-954-7318,US,Tokyo,Mid-Market,Energy,At-Risk,Salesforce+Oracle,0.921,580934.56,22435,35012725.94,2022-10-28,2025-10-20,True
+CUST-3cfe95bd-4d9,Customer 500 Corp,contact@customer500.com,+1-475-192-9409,BR,Berlin,SMB,Retail,At-Risk,SAP,,1844229.16,33894,32950775.84,2021-01-16,2025-09-30,True
