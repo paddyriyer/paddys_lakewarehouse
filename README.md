@@ -277,7 +277,7 @@ python src/data_generation/generate_all.py
 
 ## 📝 License
 
-This is a demonstration POC by **Simultaneous**. All code samples are for educational and demonstration purposes.
+This is a demonstration POC by **Paddy Iyer**. All code samples are for educational and demonstration purposes.
 
 ---
 
